@@ -1,0 +1,3842 @@
+{
+ "320 /": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 1021
+  }
+ },
+ "320 /products": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "پذیرایی پاییزیمهمانی‌های"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 359
+  }
+ },
+ "320 /products/mazafati-dates": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 430
+  }
+ },
+ "320 /mazeh-trays": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 6556
+     },
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 1923
+     }
+    ]
+   },
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "سینی خودت را بساز"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 753
+  }
+ },
+ "320 /mazeh-trays/build": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 490
+  }
+ },
+ "320 /gifts": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-16 md:py",
+      "h": 1866
+     }
+    ]
+   },
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "مشاهده هدایای شخصی"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "هدایای شخصیجعبه‌های آماد"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 680
+  }
+ },
+ "320 /gifts/corporate": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 4638
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 326
+  }
+ },
+ "320 /cart": {
+  "vw": 320,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "h-overflow",
+    "value": 51,
+    "culprits": [
+     {
+      "tag": "a",
+      "cls": "sr-only focus:not-sr-only focus:fixed focus:top-2 focus:star",
+      "left": 370,
+      "right": 371,
+      "text": "پرش به محتوای اصلی"
+     },
+     {
+      "tag": "header",
+      "cls": "sticky top-0 z-50 transition-all duration-500 bg-surface bor",
+      "left": 50,
+      "right": 370,
+      "text": "خانهمحصولاتمهمانی و مزه "
+     },
+     {
+      "tag": "div",
+      "cls": "container-x flex items-center gap-3 sm:gap-6 transition-all ",
+      "left": 50,
+      "right": 370,
+      "text": "خانهمحصولاتمهمانی و مزه "
+     },
+     {
+      "tag": "button",
+      "cls": "xl:hidden size-10 shrink-0 grid place-items-center rounded-f",
+      "left": 310,
+      "right": 350,
+      "text": ""
+     },
+     {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "left": 318,
+      "right": 342,
+      "text": ""
+     },
+     {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "left": 322,
+      "right": 338,
+      "text": ""
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 51,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "320 /checkout": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "320 /login": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "ورود به هلسا"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "320 /register": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1244,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "320 /track": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1244,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "320 /wholesale": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 298
+  }
+ },
+ "320 /blog": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "IMG"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "دستورهای غذایی"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "320 /about": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3471
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 639
+  }
+ },
+ "320 /contact": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "واتس‌اپ09379105133پاسخ س"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "تماس تلفنی02156130858شنب"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1244,
+   "headerH": 80,
+   "footerH": 1243,
+   "heroH": 954
+  }
+ },
+ "320 /faq": {
+  "vw": 320,
+  "vh": 700,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1243,
+   "headerH": 80,
+   "footerH": 1243
+  }
+ },
+ "360 /": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 1041
+  }
+ },
+ "360 /products": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 359
+  }
+ },
+ "360 /products/mazafati-dates": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 430
+  }
+ },
+ "360 /mazeh-trays": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 6752
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 783
+  }
+ },
+ "360 /mazeh-trays/build": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 560
+  }
+ },
+ "360 /gifts": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "هدایای سازمانیپکیج‌های ش"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "جعبه‌های آماده‌ی هلسا با"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 680
+  }
+ },
+ "360 /gifts/corporate": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 4730
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 298
+  }
+ },
+ "360 /cart": {
+  "vw": 360,
+  "vh": 825,
+  "problems": [
+   {
+    "type": "h-overflow",
+    "value": 12,
+    "culprits": [
+     {
+      "tag": "a",
+      "cls": "sr-only focus:not-sr-only focus:fixed focus:top-2 focus:star",
+      "left": 370,
+      "right": 371,
+      "text": "پرش به محتوای اصلی"
+     },
+     {
+      "tag": "header",
+      "cls": "sticky top-0 z-50 transition-all duration-500 bg-surface bor",
+      "left": 10,
+      "right": 370,
+      "text": "خانهمحصولاتمهمانی و مزه "
+     },
+     {
+      "tag": "div",
+      "cls": "container-x flex items-center gap-3 sm:gap-6 transition-all ",
+      "left": 10,
+      "right": 370,
+      "text": "خانهمحصولاتمهمانی و مزه "
+     },
+     {
+      "tag": "div",
+      "cls": "grid grid-cols-5",
+      "left": -12,
+      "right": 360,
+      "text": "خانهدسته‌بندیجستجوسبدحسا"
+     },
+     {
+      "tag": "a",
+      "cls": "relative",
+      "left": -12,
+      "right": 62,
+      "text": "حساب"
+     },
+     {
+      "tag": "span",
+      "cls": "flex flex-col items-center gap-1 py-2.5 text-[10px] font-bol",
+      "left": -12,
+      "right": 62,
+      "text": "حساب"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 12,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "360 /checkout": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "360 /login": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "360 /register": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "360 /track": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "360 /wholesale": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 270
+  }
+ },
+ "360 /blog": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "خواص خرماخواص خرما؛ چرا "
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "360 /about": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3587
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 607
+  }
+ },
+ "360 /contact": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "09379105133"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "تماس تلفنی02156130858شنب"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 954
+  }
+ },
+ "360 /faq": {
+  "vw": 360,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 1048
+  }
+ },
+ "375 /products": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 359
+  }
+ },
+ "375 /products/mazafati-dates": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 430
+  }
+ },
+ "375 /mazeh-trays": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 6881
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 794
+  }
+ },
+ "375 /mazeh-trays/build": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 568
+  }
+ },
+ "375 /gifts": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "هدایای سازمانیپکیج‌های ش"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "جعبه‌های آماده‌ی هلسا با"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 680
+  }
+ },
+ "375 /gifts/corporate": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 4788
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 270
+  }
+ },
+ "375 /cart": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /checkout": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /login": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /register": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /track": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /wholesale": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 242
+  }
+ },
+ "375 /blog": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "خواص خرماخواص خرما؛ چرا "
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "375 /about": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3623
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 571
+  }
+ },
+ "375 /contact": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "پاسخ سریع در ساعات کاری"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "تماس تلفنی02156130858شنب"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 954
+  }
+ },
+ "375 /faq": {
+  "vw": 375,
+  "vh": 812,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "چگونه سفارش خود را پیگیر"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 1079
+  }
+ },
+ "390 /products": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 359
+  }
+ },
+ "390 /products/mazafati-dates": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 430
+  }
+ },
+ "390 /mazeh-trays": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 6990
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 805
+  }
+ },
+ "390 /mazeh-trays/build": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 591
+  }
+ },
+ "390 /gifts": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "هدایای سازمانیپکیج‌های ش"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "هدایای شخصیجعبه‌های آماد"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 680
+  }
+ },
+ "390 /gifts/corporate": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 4878
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 270
+  }
+ },
+ "390 /cart": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /checkout": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /login": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "ورود به هلسا"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /register": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "INPUT"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /track": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /wholesale": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 242
+  }
+ },
+ "390 /blog": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "خواص خرما"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "390 /about": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3690
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 571
+  }
+ },
+ "390 /contact": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "واتس‌اپ09379105133پاسخ س"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "واتس‌اپ09379105133پاسخ س"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 954
+  }
+ },
+ "390 /faq": {
+  "vw": 390,
+  "vh": 844,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "چگونه سفارش خود را پیگیر"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 1056
+  }
+ },
+ "412 /products": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 319
+  }
+ },
+ "412 /products/mazafati-dates": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 430
+  }
+ },
+ "412 /mazeh-trays": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 7217
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 790
+  }
+ },
+ "412 /mazeh-trays/build": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 641
+  }
+ },
+ "412 /gifts": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "پکیج‌های شرکتی، تیراژ با"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "هدایای سازمانیپکیج‌های ش"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 680
+  }
+ },
+ "412 /gifts/corporate": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 5010
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 270
+  }
+ },
+ "412 /cart": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /checkout": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /login": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /register": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "ایجاد حساب هلسا"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /track": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /wholesale": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 242
+  }
+ },
+ "412 /blog": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "خواص خرما؛ چرا ایرانیان "
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "412 /about": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3757
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 539
+  }
+ },
+ "412 /contact": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "ایمیلHelsairanianfood@gm"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "واتس‌اپ"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 954
+  }
+ },
+ "412 /faq": {
+  "vw": 412,
+  "vh": 915,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "محصولات چگونه بسته‌بندی "
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 1040
+  }
+ },
+ "430 /products": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 319
+  }
+ },
+ "430 /products/mazafati-dates": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 430
+  }
+ },
+ "430 /mazeh-trays": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 7400
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 803
+  }
+ },
+ "430 /mazeh-trays/build": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 652
+  }
+ },
+ "430 /gifts": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "پکیج‌های شرکتی، تیراژ با"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "هدایای سازمانیپکیج‌های ش"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 680
+  }
+ },
+ "430 /gifts/corporate": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 4766
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 242
+  }
+ },
+ "430 /cart": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /checkout": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /login": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /register": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "ایجاد حساب هلسا"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /track": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /wholesale": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 242
+  }
+ },
+ "430 /blog": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "از فیبر و پتاسیم تا آنتی"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "430 /about": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3806
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 539
+  }
+ },
+ "430 /contact": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "ایمیلHelsairanianfood@gm"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "واتس‌اپ"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 954
+  }
+ },
+ "430 /faq": {
+  "vw": 430,
+  "vh": 932,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "محصولات چگونه بسته‌بندی "
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 1023
+  }
+ },
+ "480 /products": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 319
+  }
+ },
+ "480 /products/mazafati-dates": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 81,
+   "footerH": 1199,
+   "heroH": 430
+  }
+ },
+ "480 /mazeh-trays": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "container-x py-16 md:py-24",
+      "h": 7942
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 781
+  }
+ },
+ "480 /mazeh-trays/build": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 630
+  }
+ },
+ "480 /gifts": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "پکیج‌های شرکتی، تیراژ با"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "هدایای سازمانیپکیج‌های ش"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 648
+  }
+ },
+ "480 /gifts/corporate": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-14 md:py",
+      "h": 5066
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 242
+  }
+ },
+ "480 /cart": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /checkout": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /login": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /register": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /track": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /wholesale": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 214
+  }
+ },
+ "480 /blog": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "خواص خرما؛ چرا ایرانیان "
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "480 /about": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "tall-section",
+    "items": [
+     {
+      "cls": "bg-surface2/70 border-y border-line/60 py-20 md:py",
+      "h": 3999
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1199,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 503
+  }
+ },
+ "480 /contact": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "ایمیلHelsairanianfood@gm"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "09379105133"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199,
+   "heroH": 954
+  }
+ },
+ "480 /faq": {
+  "vw": 480,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "محصولات چگونه بسته‌بندی "
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 1198,
+   "headerH": 80,
+   "footerH": 1199
+  }
+ },
+ "768 /": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 1134
+  }
+ },
+ "768 /products": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 323
+  }
+ },
+ "768 /products/mazafati-dates": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 283
+  }
+ },
+ "768 /mazeh-trays": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 1034
+  }
+ },
+ "768 /mazeh-trays/build": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 717
+  }
+ },
+ "768 /gifts": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 434
+  }
+ },
+ "768 /gifts/corporate": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 186
+  }
+ },
+ "768 /cart": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "768 /checkout": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "768 /login": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "768 /register": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 752,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "768 /track": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "768 /wholesale": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 186
+  }
+ },
+ "768 /blog": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-0 inset-x-0 z-[70] lg:hidde",
+      "covers": "خواص خرماخواص خرما؛ چرا "
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "768 /about": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 567
+  }
+ },
+ "768 /contact": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751,
+   "heroH": 589
+  }
+ },
+ "768 /faq": {
+  "vw": 768,
+  "vh": 1024,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "محصولات چگونه بسته‌بندی "
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 751,
+   "headerH": 80,
+   "footerH": 751
+  }
+ },
+ "1024 /": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 952
+  }
+ },
+ "1024 /products": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "سازنده سینی"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 154
+  }
+ },
+ "1024 /products/mazafati-dates": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 135
+  }
+ },
+ "1024 /mazeh-trays": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 477
+  }
+ },
+ "1024 /mazeh-trays/build": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 538
+  }
+ },
+ "1024 /gifts": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "هدایای شخصیجعبه‌های آماد"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "هدایای شخصیجعبه‌های آماد"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 434
+  }
+ },
+ "1024 /gifts/corporate": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1024 /cart": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1024 /checkout": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1024 /login": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1024 /register": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 720,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1024 /track": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1024 /wholesale": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1024 /blog": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "IMG"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1024 /about": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 487
+  }
+ },
+ "1024 /contact": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "تماس تلفنی02156130858شنب"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "09379105133"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 391
+  }
+ },
+ "1024 /faq": {
+  "vw": 1024,
+  "vh": 768,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "کشف سینی مزه"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 783
+  }
+ },
+ "1280 /products": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "همه"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "سینی خودتان را خودتان بس"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 154
+  }
+ },
+ "1280 /products/mazafati-dates": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 135
+  }
+ },
+ "1280 /mazeh-trays": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 531
+  }
+ },
+ "1280 /mazeh-trays/build": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 560
+  }
+ },
+ "1280 /gifts": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "هدایای شخصیجعبه‌های آماد"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "جعبه‌های آماده‌ی هلسا با"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 402
+  }
+ },
+ "1280 /gifts/corporate": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1280 /cart": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /checkout": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /login": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /register": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /track": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /wholesale": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1280 /blog": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "IMG"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1280 /about": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 487
+  }
+ },
+ "1280 /contact": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "تماس تلفنی02156130858شنب"
+     },
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "واتس‌اپ09379105133پاسخ س"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 391
+  }
+ },
+ "1280 /faq": {
+  "vw": 1280,
+  "vh": 800,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "helsa-support fixed start-4 z-[74] lg:bo",
+      "covers": "چگونه سفارش خود را پیگیر"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1440 /": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 702
+  }
+ },
+ "1440 /products": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 154
+  }
+ },
+ "1440 /products/mazafati-dates": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 135
+  }
+ },
+ "1440 /mazeh-trays": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 543
+  }
+ },
+ "1440 /mazeh-trays/build": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 630
+  }
+ },
+ "1440 /gifts": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 402
+  }
+ },
+ "1440 /gifts/corporate": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1440 /cart": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 79,
+   "footerH": 719
+  }
+ },
+ "1440 /checkout": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1440 /login": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1440 /register": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1440 /track": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1440 /wholesale": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1440 /blog": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "IMG"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1440 /about": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 487
+  }
+ },
+ "1440 /contact": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 391
+  }
+ },
+ "1440 /faq": {
+  "vw": 1440,
+  "vh": 900,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "چگونه سفارش خود را پیگیر"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1920 /": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 842
+  }
+ },
+ "1920 /products": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 154
+  }
+ },
+ "1920 /products/mazafati-dates": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "BUTTON"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 135
+  }
+ },
+ "1920 /mazeh-trays": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 543
+  }
+ },
+ "1920 /mazeh-trays/build": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 756
+  }
+ },
+ "1920 /gifts": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 402
+  }
+ },
+ "1920 /gifts/corporate": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "همه پکیج‌ها"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1920 /cart": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1920 /checkout": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1920 /login": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1920 /register": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1920 /track": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 81,
+   "footerH": 719
+  }
+ },
+ "1920 /wholesale": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 158
+  }
+ },
+ "1920 /blog": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "1920 /about": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 487
+  }
+ },
+ "1920 /contact": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "INPUT"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719,
+   "heroH": 391
+  }
+ },
+ "1920 /faq": {
+  "vw": 1920,
+  "vh": 1080,
+  "problems": [
+   {
+    "type": "fixed-covers-interactive",
+    "items": [
+     {
+      "cls": "fixed bottom-[calc(5rem+env(safe-area-in",
+      "covers": "شرایط نگهداری خرما چیست؟"
+     }
+    ]
+   }
+  ],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 719,
+   "headerH": 80,
+   "footerH": 719
+  }
+ },
+ "390-landscape /": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 805
+  }
+ },
+ "390-landscape /products": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 323
+  }
+ },
+ "390-landscape /products/mazafati-dates": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 283
+  }
+ },
+ "390-landscape /mazeh-trays": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 1091
+  }
+ },
+ "390-landscape /mazeh-trays/build": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 79,
+   "footerH": 735,
+   "heroH": 404
+  }
+ },
+ "390-landscape /gifts": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 434
+  }
+ },
+ "390-landscape /gifts/corporate": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 186
+  }
+ },
+ "390-landscape /cart": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "390-landscape /checkout": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "390-landscape /login": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "390-landscape /register": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "390-landscape /track": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "390-landscape /wholesale": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 158
+  }
+ },
+ "390-landscape /blog": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "390-landscape /about": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 531
+  }
+ },
+ "390-landscape /contact": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 589
+  }
+ },
+ "390-landscape /faq": {
+  "vw": 844,
+  "vh": 390,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 825
+  }
+ },
+ "430-landscape /products": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 323
+  }
+ },
+ "430-landscape /products/mazafati-dates": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 283
+  }
+ },
+ "430-landscape /mazeh-trays": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 1157
+  }
+ },
+ "430-landscape /mazeh-trays/build": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 404
+  }
+ },
+ "430-landscape /gifts": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 434
+  }
+ },
+ "430-landscape /gifts/corporate": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 186
+  }
+ },
+ "430-landscape /cart": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /checkout": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /login": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /register": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 736,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /track": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /wholesale": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 158
+  }
+ },
+ "430-landscape /blog": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ },
+ "430-landscape /about": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 531
+  }
+ },
+ "430-landscape /contact": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735,
+   "heroH": 589
+  }
+ },
+ "430-landscape /faq": {
+  "vw": 932,
+  "vh": 430,
+  "problems": [],
+  "metrics": {
+   "hOverflow": 0,
+   "footerTopFromDocBottom": 735,
+   "headerH": 80,
+   "footerH": 735
+  }
+ }
+}

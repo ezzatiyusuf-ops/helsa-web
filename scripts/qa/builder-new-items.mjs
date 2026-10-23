@@ -1,0 +1,23 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch();
+const page = await (await browser.newContext({ viewport: { width: 1280, height: 900 } })).newPage();
+await page.goto("http://localhost:3000/mazeh-trays/build", { waitUntil: "networkidle" });
+await page.waitForTimeout(1500);
+// به گام ۲ (اقلام) برو — دسته‌ها فقط آنجا رندر می‌شوند
+const next1 = page.getByRole("button", { name: /مرحله بعد|ادامه|بعدی/ }).first();
+await next1.click().catch(() => {});
+await page.waitForTimeout(1500);
+const html = await page.content();
+const hasPastryCat = html.includes("کیک و شیرینی");
+const hasJamCat = html.includes("مربا");
+const hasTiramisu = html.includes("تیرامیسو هلسا");
+const hasQuince = html.includes("مربای به");
+const step2desc = html.includes("دوازده دسته");
+console.log(`✓ دستهٔ «کیک و شیرینی»: ${hasPastryCat}`);
+console.log(`✓ دستهٔ «مربا»: ${hasJamCat}`);
+console.log(`✓ آیتم تیرامیسو: ${hasTiramisu}`);
+console.log(`✓ آیتم مربای به: ${hasQuince}`);
+console.log(`✓ متن «دوازده دسته»: ${step2desc}`);
+await page.screenshot({ path: "qa-shots/new-tray-builder.jpg", fullPage: false, animations: "disabled", timeout: 10000 }).catch(()=>{});
+await browser.close();
+process.exit(hasPastryCat && hasJamCat && hasTiramisu && hasQuince ? 0 : 1);

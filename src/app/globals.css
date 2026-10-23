@@ -1,0 +1,293 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", "Vazir", "Segoe UI", Tahoma, sans-serif;
+
+  /* brand — derived from HELSA logo */
+  --color-brand-50: #f2f7f3;
+  --color-brand-100: #e0ede3;
+  --color-brand-200: #c2d9c8;
+  --color-brand-300: #97bda4;
+  --color-brand-400: #659c7c;
+  --color-brand-500: #3f7f5d;
+  --color-brand-600: #0b5f3b;
+  --color-brand-700: #0a5236;
+  --color-brand-800: #08422c;
+  --color-brand-900: #063323;
+  --color-brand-950: #04241a;
+
+  --color-accent-300: #ffb877;
+  --color-accent-400: #ff9433;
+  --color-accent-500: #e06a00;
+  --color-accent-600: #b35500; /* #c25c00 روی canvas ۴٫۲۸:۱ بود (کمتر از AA) → ۴٫۹۰:۱ با همان رنگ‌مایه */
+  --color-accent-700: #9d4a00;
+
+  --color-gold-50: #faf6ea;
+  --color-gold-300: #e2cf94;
+  --color-gold-400: #cbb063;
+  --color-gold-500: #b3922f;
+  --color-gold-600: #8f7423;
+  --color-gold-700: #6d5817;
+
+  --color-olive-500: #3d7230;
+  --color-olive-600: #2e5a23;
+  --color-olive-700: #234619;
+
+  --color-brown-500: #86654c;
+  --color-brown-600: #6b4f3a;
+  --color-brown-700: #54402f;
+
+  /* ink-950 — عمیق‌ترین جوهر برای پوشش‌های روی تصویر (چیپ/اورلی هیرو، گالری، کارت‌ها).
+     در هر دو تم تیره می‌ماند چون همیشه روی عکس/ویدیو می‌نشیند (RFC خوانایی §۶۹).
+     پیش از این توکن تعریف نشده بود و همهٔ bg-ink-950/* بی‌اثر بودند. */
+  --color-ink-950: #171613;
+
+  /* semantic (theme-aware) */
+  --color-canvas: #fffdf9;
+  --color-surface: #ffffff;
+  --color-surface2: #faf7f0;
+  --color-line: #e6ddcb;
+  --color-line-soft: #f3eee3;
+  --color-inverse: #fffdf9;
+  --color-heading: #201f1b;
+  --color-body: #403d36;
+  --color-muted: #6e6a60;
+  --color-faint: #767065; /* AA on white (4.9:1) */
+
+  /* گردی کارت — یک مقدار برای همهٔ کارت‌ها (پیش‌تر ۱۲px/۱۶px/۲۰px دلبخواه بود) */
+  --radius-card: 20px;
+  --radius-card-inner: 14px;
+
+  --shadow-soft: 0 6px 24px -10px rgb(32 31 27 / 0.10);
+  --shadow-lift: 0 18px 44px -18px rgb(6 51 35 / 0.18);
+  --shadow-glow: 0 0 0 1px rgb(179 146 47 / 0.18), 0 14px 40px -16px rgb(6 51 35 / 0.28);
+
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-float: float 8s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+  --animate-pulse-soft: pulseSoft 3s ease-in-out infinite;
+}
+
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(50%); } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@keyframes pulseSoft { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .75; transform: scale(.97); } }
+
+/* brand tokens */
+:root {
+  --brand-primary: #0b5f3b;
+  --brand-primary-dark: #08422c;
+  --brand-secondary: #2e5a23;
+  --brand-accent: #e06a00;
+  --brand-gold: #b3922f;
+  --brand-cream: #faf7f0;
+  --brand-background: #fffdf9;
+  --brand-surface: #ffffff;
+  --brand-text: #201f1b;
+  --brand-muted: #6e6a60;
+  --brand-border: #e6ddcb;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-canvas);
+  color: var(--color-heading);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection { background: var(--color-brand-600); color: var(--color-inverse); }
+
+*:focus-visible { outline: 2px solid var(--color-brand-600); outline-offset: 3px; border-radius: 4px; }
+
+/* a11y (بریف G5): در تم تیره، متن/آیکون brand-600 باید روشن‌تر شود تا کنتراست AA متن (۴.۵:۱) برقرار شود؛
+   خودِ توکن قدمی تیره می‌ماند چون پس‌زمینهٔ دکمه‌هاست (متن سفز روی آن ✓ 4.71:1). */
+:root[data-theme="dark"] .text-brand-600 { color: var(--color-brand-500); }
+:root[data-theme="dark"] .text-brand-700 { color: var(--color-brand-500); }
+
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-surface2); }
+::-webkit-scrollbar-thumb { background: var(--color-brand-300); border-radius: 8px; border: 2px solid var(--color-surface2); }
+
+/* Never let the support concierge compete with the privacy notice. */
+html[data-consent-open] .helsa-support {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.container-x { width: 100%; max-width: 82rem; margin-inline: auto; padding-inline: 1.25rem; }
+@media (min-width: 768px) { .container-x { padding-inline: 2.5rem; } }
+
+.pattern-persian {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='%230b5f3b' stroke-opacity='0.08' stroke-width='1'%3E%3Cpath d='M48 6l10 16 18-5-5 18 16 10-16 10 5 18-18-5-10 16-10-16-18 5 5-18-16-10 16-10-5-18 18 5z'/%3E%3Ccircle cx='48' cy='48' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 96px 96px;
+}
+.pattern-persian-light {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='%23faf7f0' stroke-opacity='0.07' stroke-width='1'%3E%3Cpath d='M48 6l10 16 18-5-5 18 16 10-16 10 5 18-18-5-10 16-10-16-18 5 5-18-16-10 16-10-5-18 18 5z'/%3E%3Ccircle cx='48' cy='48' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 96px 96px;
+}
+
+/* Price numerals: deep brand green on light, lifted green on dark — always distinct from titles */
+.text-price { color: #0a5236; }
+:root[data-theme="dark"] .text-price { color: #6bd598; }
+
+.rule-gold { height: 1px; background: linear-gradient(to left, transparent, rgb(179 146 47 / .5), transparent); }
+
+.text-gradient-gold {
+  background: linear-gradient(100deg, #b3922f, #8f7423 55%, #cbb063);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+
+/* ——— Premium accordion (product page) — smooth height without JS measurement ——— */
+.acc-panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .45s cubic-bezier(.22,1,.36,1); }
+.acc-panel[data-open="true"] { grid-template-rows: 1fr; }
+.acc-panel > div { overflow: hidden; }
+.acc-panel[data-open="false"] > div { visibility: hidden; }
+.acc-panel[data-open="true"] > div { visibility: visible; }
+
+/* ——— Premium card hover (image + actions lift) ——— */
+.prem-card { transition: transform .4s cubic-bezier(.22,1,.36,1), box-shadow .4s cubic-bezier(.22,1,.36,1), border-color .4s; }
+.prem-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); }
+
+/* ——— Luxury hairline ring on hover ——— */
+.ring-hover:hover { box-shadow: 0 0 0 1px rgb(6 51 35 / 0.10), var(--shadow-soft); }
+
+.card-hover { transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s cubic-bezier(.22,1,.36,1), border-color .35s; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: var(--shadow-soft); }
+
+/* ——— خانوادهٔ کارت (منبع واحد) ———
+   هر کارتی در سایت یکی از این دو را می‌گیرد تا فاصله‌ها/گردی/بالا‌آمدن یکسان بماند:
+   .card-framed  قاب‌دار با حاشیه + پدینگ (گیفت‌باکس، سینی، پیشنهاد سبد، خرید مکمل)
+   .card-lift    فقط حرکت و سایه در hover — برای کارت‌های عکس‌محورِ بدون قاب
+   پیش از این: rounded-2xl/rounded-[20px] و translate 0/0.5/1/-4/-6px در ۶ فایل تکرار شده بود. */
+.card-framed {
+  border-radius: var(--radius-card);
+  border: 1px solid color-mix(in oklab, var(--color-line) 70%, transparent);
+  background: var(--color-surface);
+  transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s cubic-bezier(.22,1,.36,1), border-color .35s;
+}
+.card-framed:hover { border-color: var(--color-brand-200); }
+.card-lift { transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s cubic-bezier(.22,1,.36,1), border-color .35s; }
+.card-lift:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+@media (prefers-reduced-motion: reduce) {
+  .card-lift:hover, .card-framed:hover, .prem-card:hover { transform: none; }
+}
+
+.img-zoom img { transition: transform .5s cubic-bezier(.22,1,.36,1); }
+.img-zoom:hover img { transform: scale(1.03); }
+
+.line-clamp-2-fa { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/*
+ * Progressive enhancement: when client JS is blocked or fails (e.g. sandboxed
+ * preview iframes), Reveal-wrapped content must stay visible. The inline script
+ * in <head> adds the `js` class; without it the entrance animation's inline
+ * opacity:0 is overridden so content renders normally.
+ */
+html:not(.js) .rvl { opacity: 1 !important; transform: none !important; }
+
+/* theme-aware brand link — AA contrast in light (#1e7a50 on white) and dark (#97bda4 on #17271f) */
+.text-brand-link { color: var(--color-brand-700); }
+[data-theme="dark"] .text-brand-link { color: #97bda4; }
+[data-theme="dark"] .text-brand-link:hover { color: #c4dcc9; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.skeleton { background: linear-gradient(90deg, #ede8dd 25%, #f8f5ee 50%, #ede8dd 75%); background-size: 200% 100%; animation: shimmer 1.6s linear infinite; }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+/* ————————————— DARK THEME — designed, not inverted —————————————
+   Background  #0D1712 · Secondary #122018 · Cards #17271F · Borders #294136
+   Text        #F5F1E8 · Secondary #C8D0C9 · Muted    #9DAAA1
+   Brand green buttons with warm ivory text; muted gold / copper accents. */
+:root[data-theme="dark"] {
+  --color-canvas: #0d1712;
+  --color-surface: #17271f;
+  --color-surface2: #122018;
+  --color-line: #294136;
+  --color-line-soft: #21342a;
+
+  --color-inverse: #f5f1e8;
+  --color-heading: #f5f1e8;
+  --color-body: #c8d0c9;
+  --color-muted: #9daaa1;
+  --color-faint: #8a988f; /* ۴٫۳۷:۱ روی surface تیره بود → ۵٫۱۸:۱ (AA) با همان ته‌مایه */
+
+  --color-cream-50: #f5f1e8;   /* stays light: used as text on green surfaces */
+  --color-cream-100: #122018;
+  --color-cream-200: #17271f;
+  --color-cream-300: #294136;
+  --color-cream-400: #35503f;
+
+  --color-ink-900: #f5f1e8;
+  --color-ink-700: #c8d0c9;
+  --color-ink-500: #9daaa1;
+  --color-ink-300: #7d8b82;
+  --color-ink-950: #0d0f0c; /* اورلی تصویری — در تم تیره هم تیره (متمایز از ramp متنِ ink) */
+
+  /* HELSA green, lifted for contrast on dark surfaces */
+  --color-brand-50: #16281e;
+  --color-brand-100: #1b3126;
+  --color-brand-200: #234030;
+  --color-brand-300: #2c503c;
+  --color-brand-400: #35624a;
+  --color-brand-500: #2f9d68;
+  --color-brand-600: #1e7a50;
+  --color-brand-700: #1e7a50;
+  --color-brand-800: #249060;
+
+  --color-gold-50: #2c2718;
+  --color-gold-300: #e6d3a0;
+  --color-gold-400: #d3b878;
+  --color-gold-500: #c2a45c;
+  --color-gold-600: #d3b878;
+  --color-gold-700: #e6d3a0;
+
+  --color-accent-500: #e07a2a;
+  --color-accent-600: #f0954d;
+  --color-accent-700: #f7ab6b;
+
+  --shadow-soft: 0 6px 24px -10px rgb(0 0 0 / 0.55);
+  --shadow-lift: 0 18px 44px -18px rgb(0 0 0 / 0.65);
+}
+
+/* Smooth, flash-free theme swap: brief global colour transition only while switching */
+@media (prefers-reduced-motion: no-preference) {
+  html.theming,
+  html.theming *,
+  html.theming *::before,
+  html.theming *::after {
+    transition:
+      background-color 0.28s ease,
+      color 0.28s ease,
+      border-color 0.28s ease,
+      fill 0.28s ease,
+      stroke 0.28s ease !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* پیشروی استوری فعال — ۵ ثانیه تا پرشدن کامل نوار */
+@keyframes helsa-story-progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+.story-progress {
+  animation: helsa-story-progress 5s linear forwards;
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "helsa",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-17",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+
+  // ── اختیاری: Hyperdrive برای pooling اتصال PostgreSQL ──
+  // اگر Hyperdrive ساختید (wrangler hyperdrive create helsa-db --connection-string=...):
+  // ۱) بلوک زیر را از حالت کامنت خارج کنید و id را بگذارید
+  // ۲) نیازی به DATABASE_URL نیست؛ db/index.ts خودش از binding می‌خواند
+  //
+  // "hyperdrive": [{ "binding": "HYPERDRIVE", "id": "<HYPERDRIVE_ID>" }]
+
+  // ── اختیاری: کش ISR روی R2 (برای revalidate صفحات) ──
+  // بدون این، صفحات ISR به‌صورت dynamic رندر می‌شوند (درست کار می‌کند، فقط کش نمی‌شود)
+  // ۱) یک R2 bucket بسازید و binding با نام NEXT_INC_CACHE_R2 بدهید
+  // ۲) در open-next.config.ts مقدار incrementalCache را فعال کنید (نمونه کامنت‌شده آنجاست)
+}

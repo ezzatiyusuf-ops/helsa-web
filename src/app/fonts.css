@@ -1,0 +1,9 @@
+/* Vazirmatn Variable — میزبانی محلی (فاز Performance؛ حذف وابستگی CDN خارجی)
+   یک فایل ۱۱۱KB به‌جای ۹ فایل ~۵۱KB؛ پوشش وزن ۱۰۰ تا ۹۰۰ */
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("/fonts/Vazirmatn-Variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- §30 امنیت: فقط HTTPS در تولید؛ استثنای توسعهٔ debug برای سرور لوکال شبیه‌ساز -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

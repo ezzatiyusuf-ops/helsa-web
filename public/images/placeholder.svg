@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="تصویر هلسا">
+  <rect width="1200" height="900" fill="#0D1712"/>
+  <circle cx="600" cy="420" r="150" fill="none" stroke="#294136" stroke-width="3"/>
+  <path d="M600 340 l24 52 56 8 -40 40 10 56 -50 -26 -50 26 10 -56 -40 -40 56 -8 z" fill="#47962b" opacity="0.85"/>
+  <text x="600" y="640" text-anchor="middle" font-family="Vazirmatn, sans-serif" font-size="42" fill="#9DAAA1">هلسا ایرانیان</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Vazirmatn, sans-serif" font-size="26" fill="#5d6b62">تصویر به‌زودی</text>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- §30: نشست/توکن از backup حذف می‌شود -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="helsa_secure_session.xml" />
+</full-backup-content>

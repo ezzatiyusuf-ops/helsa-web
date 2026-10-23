@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>کتابچهٔ راهنمای سایت هلسا ایرانیان</title>
+<style>
+  @font-face {
+    font-family: "Vazirmatn";
+    src: url("../public/fonts/Vazirmatn-Variable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+  }
+  @page { size: A4 landscape; margin: 14mm 16mm 16mm; }
+  @page cover { size: A4 landscape; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Vazirmatn", Tahoma, sans-serif;
+    color: #1d2b24;
+    font-size: 11pt;
+    line-height: 2;
+    background: #fff;
+  }
+  /* ── جلد ─────────────────────────── */
+  .cover {
+    page: cover;
+    page-break-after: always;
+    background: linear-gradient(160deg, #0b5f3b 0%, #08422b 55%, #06301f 100%);
+    color: #fffdf9;
+    margin: 0;
+    width: 100%;
+    min-height: 210mm;
+    padding: 26mm 34mm 16mm;
+    position: relative;
+  }
+  .cover .brand { font-size: 14pt; font-weight: 800; letter-spacing: .12em; color: #d4af6a; }
+  .cover h1 { font-size: 26pt; font-weight: 900; margin: 10mm 0 3mm; line-height: 1.5; }
+  .cover .sub { font-size: 12pt; color: #ffffffcc; font-weight: 300; }
+  .cover .chips { margin-top: 12mm; display: flex; flex-wrap: wrap; gap: 3mm; }
+  .cover .chip {
+    border: 1px solid #d4af6a66; border-radius: 99px;
+    padding: 1.6mm 5mm; font-size: 9pt; font-weight: 700; color: #e8ce9a;
+  }
+  .cover .meta { position: absolute; bottom: 14mm; right: 34mm; left: 34mm;
+    display: flex; justify-content: space-between; font-size: 9.5pt; color: #ffffff99; border-top: 1px solid #ffffff22; padding-top: 4mm; }
+  /* ── سرفصل‌ها ─────────────────────── */
+  .chapter { page-break-before: always; }
+  h2.ch {
+    display: flex; align-items: center; gap: 4mm;
+    font-size: 17pt; font-weight: 900; color: #0b5f3b;
+    border-bottom: .8mm solid #0b5f3b; padding-bottom: 3mm; margin: 0 0 6mm;
+  }
+  h2.ch .num {
+    background: #0b5f3b; color: #fff; border-radius: 3mm;
+    min-width: 11mm; height: 11mm; display: inline-flex; align-items: center; justify-content: center;
+    font-size: 13pt; flex-shrink: 0;
+  }
+  h3 { font-size: 12.5pt; font-weight: 800; color: #08422b; margin: 7mm 0 3mm; }
+  h3::before { content: "◈ "; color: #d4af6a; }
+  p { margin: 0 0 3mm; text-align: justify; }
+  strong { color: #08422b; }
+  /* ── جدول‌ها ─────────────────────── */
+  table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; font-size: 9.5pt; }
+  th { background: #0b5f3b; color: #fff; font-weight: 800; padding: 2.4mm 3mm; text-align: right; }
+  td { border: .25mm solid #d9e4dd; padding: 2.2mm 3mm; vertical-align: top; }
+  tr:nth-child(even) td { background: #f6faf7; }
+  code, .cmd {
+    font-family: Consolas, "Courier New", monospace;
+    direction: ltr; unicode-bidi: embed;
+    background: #f0f4f1; border: .25mm solid #d9e4dd; border-radius: 1.4mm;
+    padding: .4mm 2mm; font-size: 9pt; color: #08422b;
+    overflow-wrap: break-word; word-break: break-word;
+  }
+  td, th { overflow-wrap: break-word; }
+  .cmd { display: block; padding: 2.6mm 4mm; margin: 2mm 0 4mm; white-space: pre-wrap; }
+  /* ── جعبه‌ها ─────────────────────── */
+  .box { border-radius: 3mm; padding: 3.5mm 5mm; margin: 3mm 0 5mm; page-break-inside: avoid; }
+  .tip  { background: #f2faf5; border-right: 1.4mm solid #0b5f3b; }
+  .warn { background: #fdf6ec; border-right: 1.4mm solid #d4af6a; }
+  .dang { background: #fdf1f0; border-right: 1.4mm solid #b3402f; }
+  .box b { display: block; margin-bottom: 1mm; }
+  .tip b { color: #0b5f3b; } .warn b { color: #9a7b2f; } .dang b { color: #b3402f; }
+  /* ── فهرست ─────────────────────── */
+  .toc { page-break-after: always; }
+  .toc h2 { font-size: 17pt; font-weight: 900; color: #0b5f3b; margin: 0 0 6mm; }
+  .toc ol { list-style: none; padding: 0; margin: 0; counter-reset: toc; }
+  .toc li {
+    counter-increment: toc; display: flex; align-items: baseline; gap: 4mm;
+    padding: 2.8mm 0; border-bottom: .25mm dashed #cfe0d6; font-weight: 700; font-size: 11pt;
+  }
+  .toc li::before {
+    content: counter(toc, decimal); background: #0b5f3b; color: #fff;
+    min-width: 8mm; height: 8mm; border-radius: 2mm; display: inline-flex;
+    align-items: center; justify-content: center; font-size: 10pt; flex-shrink: 0; align-self: center;
+  }
+  .toc li span { color: #6b7d73; font-weight: 400; font-size: 9pt; margin-right: auto; }
+  ul.clean { margin: 0 0 3mm; padding-right: 6mm; }
+  ul.clean li { margin-bottom: 1.2mm; }
+  .footer-note { margin-top: 8mm; padding-top: 3mm; border-top: .25mm solid #d9e4dd; color: #8a978f; font-size: 8.5pt; text-align: center; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ جلد ═══════════ -->
+<div class="cover">
+  <div class="brand">هلسـا ایــرانیـان · HELSA</div>
+  <h1>کتابچهٔ راهنمای سایت</h1>
+  <div class="sub">راهنمای جامع راه‌اندازی، مدیریت و نگهداشت فروشگاه اینترنتی هلسا</div>
+  <div class="chips">
+    <span class="chip">راه‌اندازی محلی</span>
+    <span class="chip">پنل مدیریت</span>
+    <span class="chip">پرداخت و سفارش</span>
+    <span class="chip">دیپلوی و دامنه</span>
+    <span class="chip">PWA و اپ موبایل</span>
+    <span class="chip">عیب‌یابی</span>
+  </div>
+  <div class="meta">
+    <span>نسخهٔ سند: v3 — شهریور ۱۴۰۵</span>
+    <span>سازگار با نسخهٔ v3 پروژه (جلسهٔ ۱۳)</span>
+  </div>
+</div>
+
+<!-- ═══════════ فهرست ═══════════ -->
+<div class="toc">
+  <h2>فهرست مطالب</h2>
+  <ol>
+    <li>معرفی پروژه و معماری <span>فناوری‌ها · ساختار پوشه‌ها</span></li>
+    <li>راه‌اندازی محلی در ویندوز <span>گام‌به‌گام · متغیرهای محیطی</span></li>
+    <li>دیتابیس <span>جدول‌ها · بکاپ و بازیابی</span></li>
+    <li>پنل مدیریت <span>۱۲ بخش · ورود ادمین</span></li>
+    <li>مدیریت محتوا <span>محصولات · مقالات · پادکست · اینستاگرام</span></li>
+    <li>پرداخت و سفارش <span>درگاه‌ها · تست · جریان خرید</span></li>
+    <li>PWA و اپ موبایل <span>نصب اندروید و iOS</span></li>
+    <li>استقرار آنلاین <span>GitHub · Netlify · دامنه</span></li>
+    <li>امنیت و نگهداشت <span>رازها · بکاپ منظم · گاردها</span></li>
+    <li>عیب‌یابی رایج <span>۹ مشکل شناخته‌شده با راه‌حل</span></li>
+    <li>چک‌لیست و کارت دستورات سریع <span>هفتگی · ماهانه</span></li>
+  </ol>
+</div>
+
+<!-- ═══════════ ۱ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۱</span>معرفی پروژه و معماری</h2>
+  <p>سایت هلسا ایرانیان، فروشگاه آنلاین محصولات طبیعی (خرما، شکلات دست‌ساز خرما، آجیل، خشکبار، مربا و دمنوش‌ها) به‌همراه «مرکز سلامت» (مقالات، راهنمای محصولات، پادکست و ویدیاکست) است. سایت همزمان یک <strong>PWA</strong> (وب‌اپ قابل نصب روی موبایل) کامل است.</p>
+
+  <h3>فناوری‌های اصلی</h3>
+  <table>
+    <tr><th>لایه</th><th>فناوری</th><th>توضیح</th></tr>
+    <tr><td>فریم‌ورک</td><td>Next.js 16 (App Router)</td><td>صفحات SSR/ایستا + API Routes در یک پروژه</td></tr>
+    <tr><td>زبان و UI</td><td>TypeScript · Tailwind CSS · framer-motion</td><td>هویت بصری برند (سبز #0b5f3b و طلایی) کاملاً سفارشی</td></tr>
+    <tr><td>دیتابیس</td><td>PostgreSQL + Drizzle ORM</td><td>محصولات، سفارش‌ها، مشتریان، پست‌های اینستاگرام</td></tr>
+    <tr><td>احراز هویت</td><td>NextAuth (ورود با OTP پیامکی + گوگل + اپل)</td><td>دسترسی ادمین فقط از طریق ADMIN_EMAILS</td></tr>
+    <tr><td>پرداخت</td><td>دیجی‌پی · زرین‌پال (قرارداد واقعی) + شبیه‌ساز تست</td><td>فعال‌سازی صرفاً با متغیر محیطی — بدون تغییر کد</td></tr>
+    <tr><td>PWA</td><td>Service Worker (helsa-v3) + Manifest</td><td>آفلاین، نصب روی موبایل، به‌روزرسانی خودکار</td></tr>
+    <tr><td>فونت</td><td>وزیرمتن (متغیر، محلی)</td><td>بدون وابستگی به CDN — بارگذاری سریع</td></tr>
+  </table>
+
+  <h3>ساختار پوشه‌ها</h3>
+  <table>
+    <tr><th>مسیر</th><th>محتوا</th></tr>
+    <tr><td><code>src/app/</code></td><td>صفحات سایت (خانه، محصولات، سینی مزه، مرکز سلامت، پادکست، ادمین و…)</td></tr>
+    <tr><td><code>src/components/</code></td><td>کامپوننت‌های UI (هدر، فوتر، هیرو، کارت محصول و…)</td></tr>
+    <tr><td><code>src/config/site.ts</code></td><td>تنظیمات سایت و <strong>منوی هدر</strong> (دسکتاپ و موبایل)</td></tr>
+    <tr><td><code>src/data/</code></td><td>محتوای استاتیک: مقالات، راهنماها، پادکست، سینی‌ها، هدایا</td></tr>
+    <tr><td><code>src/db/</code> + <code>src/services/</code></td><td>اسکیمای دیتابیس و سرویس‌های کاتالوگ/اینستاگرام</td></tr>
+    <tr><td><code>src/lib/payments/</code></td><td>درگاه‌های دیجی‌پی، زرین‌پال، اسنپ‌پی و شبیه‌ساز</td></tr>
+    <tr><td><code>public/images/opt/</code></td><td>۱۲۶۹ تصویر بهینه‌شده (AVIF/WebP) — قلب سرعت سایت</td></tr>
+    <tr><td><code>public/fonts/</code></td><td>فونت وزیرمتن متغیر</td></tr>
+    <tr><td><code>scripts/</code></td><td>ابزارها: بکاپ/بازیابی DB، بستهٔ دانلود، push گیت، تست‌های QA</td></tr>
+    <tr><td><code>docs/</code></td><td>همین کتابچه + راهنماهای اجرا و دیپلوی</td></tr>
+  </table>
+
+  <h3>آمار فعلی محتوا</h3>
+  <ul class="clean">
+    <li><strong>۱۸۴ محصول</strong> فعال در ۱۶ صفحهٔ فروشگاه (۱۲ محصول در هر صفحه)</li>
+    <li><strong>۲۷ مقالهٔ وبلاگ/سلامت</strong> · <strong>۷ راهنمای محصول</strong> · مرکز سلامت با ۱۰ قلمرو + هاب سلامت روان</li>
+    <li>پادکست (قسمت صفر — به‌زودی) · ویدیاکست · صفحهٔ بنیان‌گذار</li>
+    <li>۶ کانال اجتماعی در صفحهٔ اصلی: اینستاگرام، تلگرام، واتس‌اپ، لینکدین، یوتیوب، پادکست</li>
+  </ul>
+</section>
+
+<!-- ═══════════ ۲ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۲</span>راه‌اندازی محلی در ویندوز</h2>
+
+  <h3>پیش‌نیازها (یک‌بار نصب می‌شوند)</h3>
+  <table>
+    <tr><th>نرم‌افزار</th><th>نسخه</th><th>دانلود از</th></tr>
+    <tr><td>Node.js</td><td>20 LTS</td><td>nodejs.org</td></tr>
+    <tr><td>PostgreSQL</td><td>17</td><td>postgresql.org/download/windows</td></tr>
+    <tr><td>Git</td><td>آخرین نسخه (اختیاری)</td><td>git-scm.com</td></tr>
+  </table>
+
+  <h3>گام‌به‌گام</h3>
+  <p><strong>گام ۱ —</strong> پکیج کامل را Extract کنید (مثلاً در <code>D:\helsa</code>).</p>
+  <p><strong>گام ۲ —</strong> نصب وابستگی‌ها در PowerShell (داخل پوشهٔ پروژه):</p>
+  <span class="cmd">npm install</span>
+  <p><strong>گام ۳ —</strong> ساخت دیتابیس (در SQL Shell پستگرس — پسورد نصب را وارد کنید):</p>
+  <span class="cmd">CREATE USER helsa WITH PASSWORD 'helsa_dev_pw';
+CREATE DATABASE helsa_db OWNER helsa;
+\q</span>
+  <p><strong>گام ۴ —</strong> بازیابی داده‌ها از فایل دامپ (در PowerShell معمولی):</p>
+  <span class="cmd">$env:PGPASSWORD='postgres'
+psql -U postgres -h localhost -d helsa_db -f "D:\helsa\helsa-db-backup.sql"</span>
+  <p><strong>گام ۵ —</strong> ساخت فایل <code>.env</code>: از <code>.env.example</code> کپی بگیرید و حداقل این‌ها را ست کنید:</p>
+  <span class="cmd">DATABASE_URL=postgresql://helsa:helsa_dev_pw@localhost:5432/helsa_db
+NEXT_PUBLIC_SITE_URL=http://localhost:3000</span>
+  <p><strong>گام ۶ —</strong> اجرا:</p>
+  <span class="cmd">npm run dev      ← حالت توسعه (تغییرات فوری دیده می‌شود)
+:: یا پروداکشن محلی:
+npm run build
+npm start</span>
+
+  <div class="tip"><b>✔ تست موفقیت</b> صفحهٔ اصلی باز شود، بخش «هلسا در شبکه‌های اجتماعی» پست‌ها را نشان دهد و صفحهٔ محصولات <strong>۱۶ صفحه و ۱۸۴ محصول</strong> داشته باشد = همه‌چیز درست است.</div>
+  <div class="warn"><b>⚠ مهم‌ترین نکتهٔ این فصل</b> تقریباً همهٔ مشکلات رایج (محصولات ۳ صفحه‌ای، خالی‌بودن بخش سوشال) به یک علت برمی‌گردد: <strong>دیتابیس روشن نبودن</strong>. قبل از اجرا مطمئن شوید سرویس PostgreSQL ویندوز در حال اجراست (services.msc → postgresql-x64-17).</div>
+</section>
+
+<!-- ═══════════ ۳ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۳</span>دیتابیس</h2>
+
+  <h3>جدول‌های مهم</h3>
+  <table>
+    <tr><th>جدول</th><th>محتوا</th></tr>
+    <tr><td><code>products</code></td><td>۱۸۴ محصول (نام، قیمت، موجودی، تصویر، سئو و…)</td></tr>
+    <tr><td><code>product_variants</code></td><td>واریانت‌های هر محصول (وزن/طعم/بسته‌بندی)</td></tr>
+    <tr><td><code>categories</code></td><td>دسته‌بندی فروشگاه</td></tr>
+    <tr><td><code>orders</code> + اقلام</td><td>سفارش‌ها و وضعیت پرداخت آن‌ها</td></tr>
+    <tr><td><code>instagram_posts</code></td><td>پست‌ها و استوری‌های منتخب اینستاگرام (فید صفحهٔ اصلی)</td></tr>
+    <tr><td>سایر (~۳۹ جدول)</td><td>مشتریان، کوپن‌ها، استعلام‌ها، سینی‌ها و… — همه داخل فایل دامپ هستند</td></tr>
+  </table>
+
+  <h3>بکاپ‌گیری (قبل از هر تغییر مهم)</h3>
+  <span class="cmd">$env:PGPASSWORD='helsa_dev_pw'
+pg_dump -U helsa -h localhost -d helsa_db -f "C:\Backups\helsa-%DATE%.sql"</span>
+
+  <h3>بازیابی</h3>
+  <span class="cmd">$env:PGPASSWORD='postgres'
+psql -U postgres -h localhost -d helsa_db -f "C:\Backups\helsa-backup.sql"</span>
+
+  <div class="dang"><b>⛔ هرگز</b> فایل دامپ را در گیت commit نکنید اگر دادهٔ مشتری واقعی دارد؛ و همیشه قبل از بازیابی روی دیتابیس پر، یک بکاپ تازه بگیرید.</div>
+  <div class="tip"><b>✔ دادهٔ نمونه در برابر دادهٔ اصلی</b> فایل <code>src/data/products.ts</code> فقط ۳۷ محصول «نمونه» برای حالت اضطراری است. دادهٔ اصلی همیشه در PostgreSQL است — مدیریت محصولات را از پنل ادمین انجام دهید، نه با ویرایش این فایل.</div>
+</section>
+
+<!-- ═══════════ ۴ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۴</span>پنل مدیریت</h2>
+
+  <h3>ورود</h3>
+  <p>آدرس <code>/admin</code> — ورود با ایمینی که در متغیر <code>ADMIN_EMAILS</code> فایل <code>.env</code> ثبت شده است (کد تأیید OTP پیامکی؛ برای محلی بدون سرویس پیامک، حالت تست در <code>.env.example</code> توضیح داده شده). هیچ‌کس جز ایمیل‌های این لیست به پنل دسترسی ندارد.</p>
+
+  <h3>بخش‌های پنل (۱۲ بخش)</h3>
+  <table>
+    <tr><th>بخش</th><th>کاربرد</th></tr>
+    <tr><td>سفارش‌ها (Orders)</td><td>مشاهده، تغییر وضعیت، پیگیری و مدیریت سفارش‌ها</td></tr>
+    <tr><td>محصولات (Products)</td><td>افزودن/ویرایش محصول، قیمت، موجودی، تصاویر و سئو</td></tr>
+    <tr><td>دسته‌ها (Categories)</td><td>مدیریت دسته‌بندی‌های فروشگاه</td></tr>
+    <tr><td>انبار (Inventory)</td><td>موجودی، هشدار اتمام، ارزش انبار</td></tr>
+    <tr><td>مشتریان (Customers)</td><td>پروفایل و تاریخچهٔ خرید مشتریان</td></tr>
+    <tr><td>حسابداری (Accounting)</td><td>گزارش‌های مالی و درآمد</td></tr>
+    <tr><td>استعلام‌ها (Inquiries)</td><td>درخواست‌های تماس/همکاری فرم‌های سایت</td></tr>
+    <tr><td>اینستاگرام (Instagram)</td><td>اتصال Graph API و مدیریت پست‌های منتخب صفحهٔ اصلی</td></tr>
+    <tr><td>سینی‌های مزه (Trays)</td><td>مدیریت سینی‌های پذیرایی سفارشی</td></tr>
+    <tr><td>سفارش عمده (Wholesale)</td><td>درخواست‌های همکاری تجاری و قیمت پلکانی</td></tr>
+    <tr><td>تنظیمات (Settings)</td><td>پیکربندی کلی فروشگاه</td></tr>
+    <tr><td>جستجو (Search)</td><td>جستجوی سراسری برای ادمین</td></tr>
+  </table>
+</section>
+
+<!-- ═══════════ ۵ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۵</span>مدیریت محتوا</h2>
+
+  <h3>محتوای داینامیک (از پنل ادمین — بدون کدنویسی)</h3>
+  <ul class="clean">
+    <li><strong>محصولات و دسته‌ها:</strong> کاملاً از پنل /admin — تغییر فوری روی سایت</li>
+    <li><strong>پست‌های اینستاگرام صفحهٔ اصلی:</strong> از پنل (بخش اینستاگرام) یا اتصال رسمی Graph API</li>
+    <li><strong>سفارش‌ها، موجودی، مشتریان:</strong> همه از پنل</li>
+  </ul>
+
+  <h3>محتوای استاتیک (با ویرایش فایل + بیلد مجدد)</h3>
+  <table>
+    <tr><th>محتوا</th><th>فایل</th></tr>
+    <tr><td>مقالات وبلاگ</td><td><code>src/data/content.ts</code></td></tr>
+    <tr><td>مقالات مرکز سلامت (۱۰ قلمرو + سلامت روان)</td><td><code>src/data/health-content.ts</code></td></tr>
+    <tr><td>راهنمای محصولات (۷ راهنما)</td><td><code>src/data/product-guides.ts</code></td></tr>
+    <tr><td>قسمت‌های پادکست</td><td><code>src/data/podcast.ts</code></td></tr>
+    <tr><td>سینی‌های مزه و هدایا</td><td><code>src/data/trays.ts</code> · <code>src/data/gifts.ts</code></td></tr>
+    <tr><td>منوی هدر و تنظیمات برند</td><td><code>src/config/site.ts</code></td></tr>
+  </table>
+  <p>بعد از ویرایش این فایل‌ها: <code>npm run build</code> و <code>npm start</code> (در حالت dev تغییر فوری دیده می‌شود).</p>
+
+  <h3>تصاویر</h3>
+  <p>تصاویر بهینه‌شده در <code>public/images/opt/</code> هستند و فهرست آن‌ها در <code>src/data/image-variants.json</code>. برای تصویر جدید: فایل را اضافه کنید و اسکریپت <code>node scripts/rebuild-image-manifest.mjs</code> را اجرا کنید. سلامت کامل تصاویر را با <code>scripts\verify-images.ps1</code> چک کنید.</p>
+</section>
+
+<!-- ═══════════ ۶ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۶</span>پرداخت و سفارش</h2>
+
+  <h3>درگاه‌های پشتیبانی‌شده</h3>
+  <table>
+    <tr><th>درگاه</th><th>وضعیت</th><th>فعال‌سازی</th></tr>
+    <tr><td>دیجی‌پی (DigiPay)</td><td>✔ قرارداد واقعی پیاده‌شده</td><td rowspan="3">فقط با متغیرهای محیطی فایل <code>.env</code> (کلیدها در <code>.env.example</code>) — <strong>بدون هیچ تغییر کد</strong>. در نبود کلید واقعی، شبیه‌ساز برای تست استفاده می‌شود.</td></tr>
+    <tr><td>زرین‌پال (ZarinPal)</td><td>✔ قرارداد واقعی پیاده‌شده</td></tr>
+    <tr><td>اسنپ‌پی (SnapPay)</td><td>موقتاً غیرفعال</td></tr>
+    <tr><td>شبیه‌ساز (Simulator)</td><td>تست محلی/E2E</td><td>خودکار وقتی کلید واقعی تنظیم نشده باشد</td></tr>
+  </table>
+
+  <h3>جریان خرید</h3>
+  <p>انتخاب محصول ← سبد خرید ← ورود/ثبت‌نام (OTP) ← آدرس و ارسال ← پرداخت در درگاه بانکی ← بازگشت به سایت و ثبت سفارش ← پیگیری از <code>/account</code>. هر جریان به‌صورت E2E تست شده است (اسکریپت‌های <code>scripts/qa-psp.py</code>).</p>
+
+  <div class="warn"><b>⚠ قانون طلایی</b> منطق پرداخت هرگز mock نمی‌شود و درگاه فقط با env سوییچ می‌شود. قبل از لانچ، یک پرداخت واقعی کوچک (مثلاً ۱۰,۰۰۰ ریال) انجام دهید و برگشت وجه آن را تست کنید.</div>
+</section>
+
+<!-- ═══════════ ۷ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۷</span>PWA و اپ موبایل</h2>
+
+  <p>سایت هلسا یک وب‌اپ کامل (PWA) است؛ کاربران می‌توانند آن را مثل اپ نصب کنند — بدون گوگل‌پلی و اپ‌استور:</p>
+
+  <h3>اندروید (کروم)</h3>
+  <p>پس از ۱۲ ثانیه حضور در سایت، نوار «نصب اپلیکیشن هلسا» ظاهر می‌شود و با یک ضربه نصب می‌شود. آیکون، صفحهٔ اسپلش و شورتکات‌ها (محصولات / سینی مزه / سبد خرید) از قبل پیکربندی شده‌اند.</p>
+
+  <h3>آیفون (سافاری)</h3>
+  <p>iOS رویداد نصب خودکار ندارد؛ نوار راهنمای اختصاصی نمایش داده می‌شود: «اشتراک‌گذاری ← افزودن به صفحهٔ اصلی». (این راهنما در سافاری و فقط اگر اپ نصب نشده باشد، حداکثر یک‌بار در ۳۰ روز می‌آید.)</p>
+
+  <h3>سرویس‌ورکر (نسخهٔ helsa-v3)</h3>
+  <ul class="clean">
+    <li><strong>کش هوشمند:</strong> فایل‌های ایستا از کش (سریع)، صفحات از شبکه با fallback آفلاین</li>
+    <li><strong>به‌روزرسانی:</strong> با انتشار نسخهٔ جدید، نوار «نسخهٔ جدید هلسا آماده است» ظاهر می‌شود — بدون رفرش اجباری</li>
+    <li>بستن هر نوار = سکوت ۳۰ روزه (تجربهٔ غیرمزاحم)</li>
+  </ul>
+  <div class="tip"><b>✔ بعد از انتشار تغییر بزرگ</b> اگر کاربران نسخهٔ قدیمی می‌بینند، عدد <code>VERSION</code> در <code>public/sw.js</code> را یک رقم بالا ببرید (مثلاً helsa-v4) تا کش‌های قدیمی در اولین مراجعه خودکار پاک شوند.</div>
+</section>
+
+<!-- ═══════════ ۸ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۸</span>استقرار آنلاین (دیپلوی)</h2>
+
+  <h3>مسیر توصیه‌شده: GitHub → Netlify (خودکار)</h3>
+  <ol class="clean" style="padding-right:6mm">
+    <li>پروژه را در GitHub push کنید (repo خصوصی)</li>
+    <li>در Netlify: «Add new site → Import an existing project» و repo را انتخاب کنید</li>
+    <li>فایل <code>netlify.toml</code> از قبل در پروژه است — نیازی به تنظیم بیلد نیست</li>
+    <li>متغیرهای محیطی را در Site settings → Environment variables وارد کنید (حداقل: <code>DATABASE_URL</code>، <code>NEXTAUTH_SECRET</code>، <code>NEXTAUTH_URL</code>، کلیدهای درگاه و پیامک)</li>
+    <li>از این به بعد هر push = دیپلوی خودکار</li>
+  </ol>
+
+  <h3>نکات مهم استقرار</h3>
+  <ul class="clean">
+    <li><strong>بیلد بدون دیتابیس هم موفق است</strong> (صفحات داده‌محور dynamic هستند) — ولی برای اجرای کامل، <code>DATABASE_URL</code> هاست واقعی (مثل Neon/Supabase) لازم است</li>
+    <li>دامنهٔ اختصاصی: Site settings → Domain management → دامنه را اضافه کنید؛ SSL خودکار فعال می‌شود</li>
+    <li>قبل از اتصال دامنه، <code>NEXT_PUBLIC_SITE_URL</code> و <code>NEXTAUTH_URL</code> را روی آدرس نهایی بگذارید</li>
+    <li>دیتابیس ابری را با همان فایل <code>helsa-db-backup.sql</code> پر کنید</li>
+  </ul>
+</section>
+
+<!-- ═══════════ ۹ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۹</span>امنیت و نگهداشت</h2>
+
+  <table>
+    <tr><th>قانون</th><th>توضیح</th></tr>
+    <tr><td>رازها فقط در .env</td><td>هیچ کلیدی در کد نیست؛ <code>.gitignore</code> از قبل جلوی commit شدن <code>.env</code> را می‌گیرد — دست نکنید</td></tr>
+    <tr><td>بکاپ منظم دیتابیس</td><td>حداقل هفتگی (فصل ۳) + قبل از هر تغییر ساختاری</td></tr>
+    <tr><td>گارد استارت</td><td>اسکریپت <code>scripts/serve.sh</code> قبل از استارت، سلامت DB و تعداد محصولات را چک می‌کند (در محیط توسعهٔ لینوکسی)</td></tr>
+    <tr><td>گارد تصاویر</td><td><code>scripts\verify-images.ps1</code> کامل بودن ۱۲۶۹ تصویر را تأیید می‌کند</td></tr>
+    <tr><td>پنل ادمین</td><td>فقط ایمیل‌های ADMIN_EMAILS؛ پسورد‌های قوی برای ایمیل ادمین و دیتابیس</td></tr>
+    <tr><td>به‌روزرسانی وابستگی‌ها</td><td>ماهانه <code>npm outdated</code>؛ آپدیت‌های امنیتی را با تست بیلد اعمال کنید</td></tr>
+  </table>
+
+  <div class="dang"><b>⛔ سه ممنوعه</b> (۱) <code>.env</code> هرگز در گیت/چت/اسکرین‌شات قرار نگیرد (۲) توکن‌های دسترسی (گیت‌هاب/نتلیفای) بعد از استفاده Revoke شوند (۳) بدون بکاپ، روی دیتابیس اصلی دستکاری نشود.</div>
+</section>
+
+<!-- ═══════════ ۱۰ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۱۰</span>عیب‌یابی رایج</h2>
+
+  <table>
+    <tr><th style="width:30%">مشکل</th><th style="width:32%">علت</th><th>راه‌حل</th></tr>
+    <tr>
+      <td>صفحهٔ محصولات فقط ۳ صفحه / ۳۷ محصول</td>
+      <td>دیتابیس قطع است؛ سایت به دادهٔ نمونه برگشته</td>
+      <td>سرویس PostgreSQL را روشن کنید (services.msc)؛ تست: <code>psql ... -c "SELECT count(*) FROM products;"</code> باید ۱۸۴ بدهد</td>
+    </tr>
+    <tr>
+      <td>بخش «هلسا در شبکه‌های اجتماعی» پست ندارد</td>
+      <td>DB قطع یا جدول instagram_posts خالی</td>
+      <td>مثل بالا؛ سپس بازیابی دامپ یا seed اینستاگرام از پنل</td>
+    </tr>
+    <tr>
+      <td>خطای <code>ECONNREFUSED 127.0.0.1:5432</code></td>
+      <td>پستگرس اجرا نیست</td>
+      <td>services.msc → postgresql-x64-17 → Start</td>
+    </tr>
+    <tr>
+      <td>بیلد می‌میرد (exit 137 / Killed)</td>
+      <td>کمبود RAM در حین بیلد</td>
+      <td>برنامه‌های اضافه را ببندید؛ پوشهٔ <code>.next</code> را پاک و دوباره بیلد بگیرید؛ در لینوکس: <code>NODE_OPTIONS=--max-old-space-size=1500</code></td>
+    </tr>
+    <tr>
+      <td><code>npm start</code> بلافاصله می‌میرد</td>
+      <td>بیلد ناقص است (فایل BUILD_ID نیست)</td>
+      <td>دوباره <code>npm run build</code> تا پایان موفق، بعد start</td>
+    </tr>
+    <tr>
+      <td>تغییرات جدید دیده نمی‌شود / سایت قدیمی</td>
+      <td>کش مرورگر یا سرویس‌ورکر</td>
+      <td><code>Ctrl+Shift+R</code>؛ در انتشار بزرگ، VERSION در <code>public/sw.js</code> را بالا ببرید</td>
+    </tr>
+    <tr>
+      <td>تصاویر نمایش داده نمی‌شوند</td>
+      <td>پوشهٔ public/images/opt ناقص کپی شده</td>
+      <td><code>scripts\verify-images.ps1</code> → فایل‌های کمبود را از پکیج کامل جایگزین کنید</td>
+    </tr>
+    <tr>
+      <td>ورود به /admin ممکن نیست</td>
+      <td>ایمیل در ADMIN_EMAILS نیست یا سرویس پیامک تنظیم نشده</td>
+      <td>ایمیل را در <code>.env</code> اضافه کنید؛ برای محلی، حالت تست OTP در <code>.env.example</code></td>
+    </tr>
+    <tr>
+      <td>پرداخت خطا می‌دهد</td>
+      <td>کلید درگاه نادرست/منقضی یا آدرس بازگشت</td>
+      <td>کلیدها را در env چک کنید؛ NEXT_PUBLIC_SITE_URL روی دامنهٔ نهایی باشد؛ با پرداخت تستی کوچک امتحان کنید</td>
+    </tr>
+  </table>
+</section>
+
+<!-- ═══════════ ۱۱ ═══════════ -->
+<section class="chapter">
+  <h2 class="ch"><span class="num">۱۱</span>چک‌لیست و کارت دستورات</h2>
+
+  <h3>چک‌لیست هفتگی</h3>
+  <ul class="clean">
+    <li>☐ بکاپ دیتابیس (فصل ۳) و نگهداری در دو جا</li>
+    <li>☐ بررسی سفارش‌ها و استعلام‌های پنل ادمین</li>
+    <li>☐ بررسی هشدارهای موجودی انبار</li>
+    <li>☐ به‌روزرسانی پست‌های منتخب اینستاگرام (در صورت تمایل)</li>
+  </ul>
+
+  <h3>چک‌لیست ماهانه</h3>
+  <ul class="clean">
+    <li>☐ یک خرید آزمایشی کامل + پرداخت واقعی کوچک</li>
+    <li>☐ <code>npm outdated</code> و اعمال آپدیت‌های امنیتی + تست بیلد</li>
+    <li>☐ بازبینی صفحهٔ محصولات (تعداد صفحات = ۱۶ و سلامت تصاویر)</li>
+    <li>☐ تست نصب PWA روی یک موبایل اندروید و یک آیفون</li>
+  </ul>
+
+  <h3>کارت دستورات سریع</h3>
+  <table>
+    <tr><th>کار</th><th>دستور</th></tr>
+    <tr><td>اجرای توسعه</td><td><code>npm run dev</code></td></tr>
+    <tr><td>بیلد + اجرای پروداکشن محلی</td><td><code>npm run build</code> سپس <code>npm start</code></td></tr>
+    <tr><td>بکاپ دیتابیس</td><td><code>pg_dump -U helsa -d helsa_db -f backup.sql</code></td></tr>
+    <tr><td>بازیابی دیتابیس</td><td><code>psql -U postgres -d helsa_db -f backup.sql</code></td></tr>
+    <tr><td>شمارش محصولات</td><td><code>psql -U helsa -d helsa_db -c "SELECT count(*) FROM products;"</code></td></tr>
+    <tr><td>تست کامل بودن تصاویر</td><td><code>scripts\verify-images.ps1</code></td></tr>
+    <tr><td>ساخت پکیج دانلود کامل</td><td><code>bash scripts/make-download-package.sh</code></td></tr>
+    <tr><td>پوش به گیت‌هاب</td><td><code>bash scripts/push-to-git.sh</code> (با توکن)</td></tr>
+  </table>
+
+  <h3>فهرست مستندات همراه</h3>
+  <table>
+    <tr><th>فایل</th><th>محتوا</th></tr>
+    <tr><td><code>LOCAL-RUN-GUIDE.md</code></td><td>راهنمای تفصیلی اجرای محلی ویندوز</td></tr>
+    <tr><td><code>DEPLOY-GUIDE.md</code></td><td>راهنمای دیپلوی (Netlify/GitHub)</td></tr>
+    <tr><td><code>.env.example</code></td><td>شرح کامل همهٔ متغیرهای محیطی</td></tr>
+    <tr><td><code>PREMIUM-UX-BRAND-REPORT.md</code></td><td>گزارش کامل ۲۲ بخشی پروژه و امتیازها</td></tr>
+  </table>
+
+  <div class="footer-note">کتابچهٔ راهنمای سایت هلسا ایرانیان — نسخهٔ v3 · شهریور ۱۴۰۵ · این سند با نسخهٔ v3 پروژه همگام است</div>
+</section>
+
+</body>
+</html>

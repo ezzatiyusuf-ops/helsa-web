@@ -1,0 +1,2026 @@
+{
+ "plain-candy": {
+  "slug": "plain-candy",
+  "name": "آبنبات ساده",
+  "sku": "CAT-0041",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mazafati-dates": {
+  "slug": "mazafati-dates",
+  "name": "خرما مضافتی",
+  "sku": "HLA-0002",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "khasoei-dates": {
+  "slug": "khasoei-dates",
+  "name": "خرما خاصویی",
+  "sku": "HLA-0005",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "kabkab-dates": {
+  "slug": "kabkab-dates",
+  "name": "خرما کبکاب",
+  "sku": "HLA-0003",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "filled-candy": {
+  "slug": "filled-candy",
+  "name": "آبنبات مغزدار",
+  "sku": "CAT-0044",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "fruit-candy": {
+  "slug": "fruit-candy",
+  "name": "آبنبات میوه‌ای",
+  "sku": "CAT-0043",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-syrup": {
+  "slug": "date-syrup",
+  "name": "شیره خرما",
+  "sku": "HLA-0010",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "handmade-date-chocolate": {
+  "slug": "handmade-date-chocolate",
+  "name": "شکلات دست‌ساز خرما",
+  "sku": "HLA-0007",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "premium-mixed-nuts": {
+  "slug": "premium-mixed-nuts",
+  "name": "آجیل ممتاز شب‌چره",
+  "sku": "HLA-0013",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "plain-noghl": {
+  "slug": "plain-noghl",
+  "name": "نقل ساده",
+  "sku": "CAT-0078",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "chocolate-coated-dates": {
+  "slug": "chocolate-coated-dates",
+  "name": "خرما شکلات‌پوش پسته‌ای",
+  "sku": "HLA-0012",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "party-nuts": {
+  "slug": "party-nuts",
+  "name": "آجیل پذیرایی مجلسی",
+  "sku": "HLA-0015",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "filled-noghl": {
+  "slug": "filled-noghl",
+  "name": "نقل مغزدار",
+  "sku": "CAT-0081",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "akbari-pistachios": {
+  "slug": "akbari-pistachios",
+  "name": "پسته اکبری درشت",
+  "sku": "HLA-0018",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "walnut-kernels": {
+  "slug": "walnut-kernels",
+  "name": "مغز گردوی چهارپره",
+  "sku": "HLA-0020",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "olive-oil": {
+  "slug": "olive-oil",
+  "name": "روغن زیتون",
+  "sku": "CAT-0127",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "golden-raisins": {
+  "slug": "golden-raisins",
+  "name": "کشمش سبز طلایی",
+  "sku": "HLA-0021",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-noghl": {
+  "slug": "helsa-noghl",
+  "name": "نقل ویژه هلسا",
+  "sku": "CAT-0082",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dried-apricots": {
+  "slug": "dried-apricots",
+  "name": "برگه زردآلو ملایم",
+  "sku": "HLA-0024",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dried-fruit-mix": {
+  "slug": "dried-fruit-mix",
+  "name": "میکس میوه خشک هلسا",
+  "sku": "HLA-0026",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "roasted-peanuts": {
+  "slug": "roasted-peanuts",
+  "name": "بادام زمینی بوداده",
+  "sku": "CAT-0039",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "extra-virgin-olive-oil": {
+  "slug": "extra-virgin-olive-oil",
+  "name": "روغن زیتون فرابکر",
+  "sku": "CAT-0129",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sesame-tahini": {
+  "slug": "sesame-tahini",
+  "name": "ارده کنجد",
+  "sku": "HLA-0029",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "lahijan-black-tea": {
+  "slug": "lahijan-black-tea",
+  "name": "چای سیاه لاهیجان",
+  "sku": "HLA-0031",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "four-kernel-nuts": {
+  "slug": "four-kernel-nuts",
+  "name": "آجیل چهارمغز",
+  "sku": "CAT-0002",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "pistachio-halva-tahini": {
+  "slug": "pistachio-halva-tahini",
+  "name": "حلوا ارده پسته‌ای",
+  "sku": "CAT-0115",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "plain-peanut-butter": {
+  "slug": "plain-peanut-butter",
+  "name": "کره بادام زمینی ساده",
+  "sku": "CAT-0123",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "everyday-nuts": {
+  "slug": "everyday-nuts",
+  "name": "آجیل اقتصادی",
+  "sku": "CAT-0004",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "chocolate-peanut-butter": {
+  "slug": "chocolate-peanut-butter",
+  "name": "کره بادام زمینی شکلاتی",
+  "sku": "CAT-0125",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "yalda-nuts": {
+  "slug": "yalda-nuts",
+  "name": "آجیل شب یلدا",
+  "sku": "CAT-0007",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sesame-bar": {
+  "slug": "sesame-bar",
+  "name": "بار کنجد",
+  "sku": "CAT-0146",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sesame-nut-bar": {
+  "slug": "sesame-nut-bar",
+  "name": "بار کنجد و مغزها",
+  "sku": "CAT-0148",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mung-beans": {
+  "slug": "mung-beans",
+  "name": "ماش",
+  "sku": "CAT-0092",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "milk-chocolate": {
+  "slug": "milk-chocolate",
+  "name": "شکلات شیری",
+  "sku": "CAT-0066",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sunflower-seeds": {
+  "slug": "sunflower-seeds",
+  "name": "تخمه آفتابگردان",
+  "sku": "CAT-0011",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "filled-chocolate": {
+  "slug": "filled-chocolate",
+  "name": "شکلات مغزدار",
+  "sku": "CAT-0067",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dark-chocolate": {
+  "slug": "dark-chocolate",
+  "name": "شکلات تلخ",
+  "sku": "CAT-0065",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "watermelon-seeds": {
+  "slug": "watermelon-seeds",
+  "name": "تخمه هندوانه",
+  "sku": "CAT-0013",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "piaram-dates": {
+  "slug": "piaram-dates",
+  "name": "خرما پیارم",
+  "sku": "HLA-0001",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "roasted-seeds": {
+  "slug": "roasted-seeds",
+  "name": "تخمه بوداده",
+  "sku": "CAT-0015",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "zahedi-dates": {
+  "slug": "zahedi-dates",
+  "name": "خرما زاهدی",
+  "sku": "HLA-0004",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "medjool-dates": {
+  "slug": "medjool-dates",
+  "name": "خرما مجول",
+  "sku": "HLA-0006",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-handmade-chocolate": {
+  "slug": "helsa-handmade-chocolate",
+  "name": "شکلات دست‌ساز هلسا",
+  "sku": "CAT-0068",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "hospitality-chocolate": {
+  "slug": "hospitality-chocolate",
+  "name": "شکلات پذیرایی",
+  "sku": "CAT-0070",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sidr-honey": {
+  "slug": "sidr-honey",
+  "name": "عسل کنار",
+  "sku": "CAT-0024",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-signature-honey": {
+  "slug": "helsa-signature-honey",
+  "name": "عسل ویژه هلسا",
+  "sku": "CAT-0028",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "khalilo-honey": {
+  "slug": "khalilo-honey",
+  "name": "عسل خلیلو",
+  "sku": "CAT-0026",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-rock-candy": {
+  "slug": "helsa-rock-candy",
+  "name": "نبات ویژه هلسا",
+  "sku": "CAT-0033",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "stick-rock-candy": {
+  "slug": "stick-rock-candy",
+  "name": "نبات چوبی",
+  "sku": "CAT-0031",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-premium-barberry": {
+  "slug": "helsa-premium-barberry",
+  "name": "زرشک ممتاز هلسا",
+  "sku": "CAT-0036",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "raw-peanuts": {
+  "slug": "raw-peanuts",
+  "name": "بادام زمینی خام",
+  "sku": "CAT-0038",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "saffron-candy": {
+  "slug": "saffron-candy",
+  "name": "آبنبات زعفرانی",
+  "sku": "CAT-0042",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "flavored-peanuts": {
+  "slug": "flavored-peanuts",
+  "name": "بادام زمینی طعم‌دار",
+  "sku": "CAT-0040",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "rice-spice": {
+  "slug": "rice-spice",
+  "name": "ادویه پلویی",
+  "sku": "CAT-0047",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-candy": {
+  "slug": "helsa-candy",
+  "name": "آبنبات ویژه هلسا",
+  "sku": "CAT-0045",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-spice-blend": {
+  "slug": "helsa-spice-blend",
+  "name": "ادویه مخصوص هلسا",
+  "sku": "CAT-0046",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "stew-spice": {
+  "slug": "stew-spice",
+  "name": "ادویه خورشتی",
+  "sku": "CAT-0048",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "black-pepper": {
+  "slug": "black-pepper",
+  "name": "فلفل سیاه",
+  "sku": "CAT-0051",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "chicken-spice": {
+  "slug": "chicken-spice",
+  "name": "ادویه مرغ",
+  "sku": "CAT-0049",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "meat-spice": {
+  "slug": "meat-spice",
+  "name": "ادویه گوشت",
+  "sku": "CAT-0050",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "red-pepper": {
+  "slug": "red-pepper",
+  "name": "فلفل قرمز",
+  "sku": "CAT-0052",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "golpar": {
+  "slug": "golpar",
+  "name": "گلپر",
+  "sku": "CAT-0055",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "turmeric": {
+  "slug": "turmeric",
+  "name": "زردچوبه",
+  "sku": "CAT-0053",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "cinnamon": {
+  "slug": "cinnamon",
+  "name": "دارچین",
+  "sku": "CAT-0054",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sumac": {
+  "slug": "sumac",
+  "name": "سماق",
+  "sku": "CAT-0056",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mixed-spices": {
+  "slug": "mixed-spices",
+  "name": "ادویه ترکیبی هلسا",
+  "sku": "CAT-0057",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mint-distillate": {
+  "slug": "mint-distillate",
+  "name": "عرق نعناع",
+  "sku": "CAT-0058",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "chicory-distillate": {
+  "slug": "chicory-distillate",
+  "name": "عرق کاسنی",
+  "sku": "CAT-0059",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "bidmeshk-distillate": {
+  "slug": "bidmeshk-distillate",
+  "name": "عرق بیدمشک",
+  "sku": "HLA-0033",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "rose-distillate": {
+  "slug": "rose-distillate",
+  "name": "عرق گل محمدی",
+  "sku": "CAT-0061",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "orange-blossom-distillate": {
+  "slug": "orange-blossom-distillate",
+  "name": "عرق بهارنارنج",
+  "sku": "CAT-0060",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "fumitory-distillate": {
+  "slug": "fumitory-distillate",
+  "name": "عرق شاتره",
+  "sku": "CAT-0063",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "fennel-distillate": {
+  "slug": "fennel-distillate",
+  "name": "عرق رازیانه",
+  "sku": "CAT-0064",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-signature-chocolate": {
+  "slug": "helsa-signature-chocolate",
+  "name": "شکلات ویژه هلسا",
+  "sku": "CAT-0069",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "bidmeshk-noghl": {
+  "slug": "bidmeshk-noghl",
+  "name": "نقل بیدمشکی",
+  "sku": "CAT-0080",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-nowruz-pack": {
+  "slug": "helsa-nowruz-pack",
+  "name": "پک نوروز هلسا",
+  "sku": "CAT-0074",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-hospitality-pack": {
+  "slug": "helsa-hospitality-pack",
+  "name": "پک پذیرایی هلسا",
+  "sku": "CAT-0072",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "saffron-noghl": {
+  "slug": "saffron-noghl",
+  "name": "نقل زعفرانی",
+  "sku": "CAT-0079",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-party-pack": {
+  "slug": "helsa-party-pack",
+  "name": "پک ویژه مهمانی",
+  "sku": "CAT-0077",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "grape-syrup": {
+  "slug": "grape-syrup",
+  "name": "شیره انگور",
+  "sku": "HLA-0030",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "chickpeas": {
+  "slug": "chickpeas",
+  "name": "نخود",
+  "sku": "CAT-0088",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mulberry-syrup": {
+  "slug": "mulberry-syrup",
+  "name": "شیره توت",
+  "sku": "CAT-0085",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-cheese": {
+  "slug": "helsa-cheese",
+  "name": "پنیر ویژه هلسا",
+  "sku": "CAT-0096",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "hospitality-cheese": {
+  "slug": "hospitality-cheese",
+  "name": "پنیر پذیرایی",
+  "sku": "CAT-0094",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "marinated-olives": {
+  "slug": "marinated-olives",
+  "name": "زیتون پرورده",
+  "sku": "CAT-0100",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mixed-pickles": {
+  "slug": "mixed-pickles",
+  "name": "ترشی مخلوط",
+  "sku": "CAT-0102",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-pickles": {
+  "slug": "helsa-pickles",
+  "name": "ترشی ویژه هلسا",
+  "sku": "CAT-0105",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-dry-cake": {
+  "slug": "helsa-dry-cake",
+  "name": "کیک خشک هلسا",
+  "sku": "CAT-0108",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "traditional-tahini": {
+  "slug": "traditional-tahini",
+  "name": "ارده سنتی",
+  "sku": "CAT-0111",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "plain-halva-tahini": {
+  "slug": "plain-halva-tahini",
+  "name": "حلوا ارده ساده",
+  "sku": "CAT-0114",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-halva-tahini": {
+  "slug": "helsa-halva-tahini",
+  "name": "حلوا ارده ویژه هلسا",
+  "sku": "CAT-0116",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-dry-sweets": {
+  "slug": "helsa-dry-sweets",
+  "name": "شیرینی خشک ویژه هلسا",
+  "sku": "CAT-0110",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "rose-herbal-tea": {
+  "slug": "rose-herbal-tea",
+  "name": "دمنوش گل محمدی",
+  "sku": "CAT-0117",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-herbal-blend": {
+  "slug": "helsa-herbal-blend",
+  "name": "دمنوش ترکیبی هلسا",
+  "sku": "CAT-0120",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "calm-herbal-tea": {
+  "slug": "calm-herbal-tea",
+  "name": "دمنوش آرامش",
+  "sku": "CAT-0119",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-fruit-tea": {
+  "slug": "helsa-fruit-tea",
+  "name": "دمنوش میوه‌ای هلسا",
+  "sku": "CAT-0121",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "orange-blossom-tea": {
+  "slug": "orange-blossom-tea",
+  "name": "دمنوش بهارنارنج",
+  "sku": "CAT-0118",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "crunchy-peanut-butter": {
+  "slug": "crunchy-peanut-butter",
+  "name": "کره بادام زمینی کرانچی",
+  "sku": "CAT-0124",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sesame-oil": {
+  "slug": "sesame-oil",
+  "name": "روغن کنجد",
+  "sku": "CAT-0128",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "hospitality-herbal-tea": {
+  "slug": "hospitality-herbal-tea",
+  "name": "دمنوش ویژه پذیرایی",
+  "sku": "CAT-0122",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-peanut-butter": {
+  "slug": "helsa-peanut-butter",
+  "name": "کره بادام زمینی ویژه هلسا",
+  "sku": "CAT-0126",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "rosebuds": {
+  "slug": "rosebuds",
+  "name": "غنچه گل محمدی",
+  "sku": "CAT-0131",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dried-rose": {
+  "slug": "dried-rose",
+  "name": "گل محمدی خشک",
+  "sku": "CAT-0132",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-bar": {
+  "slug": "date-bar",
+  "name": "خرما بار",
+  "sku": "CAT-0141",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "coconut-date-chocolate": {
+  "slug": "coconut-date-chocolate",
+  "name": "شکلات خرمایی نارگیلی",
+  "sku": "CAT-0138",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-chocolate": {
+  "slug": "date-chocolate",
+  "name": "شکلات خرمایی",
+  "sku": "CAT-0136",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-rosebuds": {
+  "slug": "helsa-rosebuds",
+  "name": "غنچه گل محمدی ویژه هلسا",
+  "sku": "CAT-0133",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sesame-date-chocolate": {
+  "slug": "sesame-date-chocolate",
+  "name": "شکلات خرمایی کنجدی",
+  "sku": "CAT-0139",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-sesame-bar": {
+  "slug": "date-sesame-bar",
+  "name": "بار خرما و کنجد",
+  "sku": "CAT-0143",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-signature-date-chocolate": {
+  "slug": "helsa-signature-date-chocolate",
+  "name": "شکلات خرمایی ویژه هلسا",
+  "sku": "CAT-0140",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-date-bar": {
+  "slug": "helsa-date-bar",
+  "name": "بار خرما ویژه هلسا",
+  "sku": "CAT-0145",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-chocolate-walnut": {
+  "slug": "date-chocolate-walnut",
+  "name": "شکلات خرما با مغز گردو",
+  "sku": "HLA-0008",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-sesame-bar": {
+  "slug": "helsa-sesame-bar",
+  "name": "بار کنجد ویژه هلسا",
+  "sku": "CAT-0149",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sesame-date-bar": {
+  "slug": "sesame-date-bar",
+  "name": "بار کنجد و خرما",
+  "sku": "CAT-0147",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-powder": {
+  "slug": "date-powder",
+  "name": "پودر خرما طبیعی",
+  "sku": "HLA-0011",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "four-nut-mix": {
+  "slug": "four-nut-mix",
+  "name": "آجیل چهارمغز",
+  "sku": "HLA-0014",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "economic-nuts": {
+  "slug": "economic-nuts",
+  "name": "آجیل اقتصادی روزانه",
+  "sku": "HLA-0016",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "special-yalda-nuts": {
+  "slug": "special-yalda-nuts",
+  "name": "آجیل ویژه یلدایی هلسا",
+  "sku": "HLA-0017",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dried-figs": {
+  "slug": "dried-figs",
+  "name": "انجیر خشک استهبان",
+  "sku": "HLA-0022",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dried-mulberries": {
+  "slug": "dried-mulberries",
+  "name": "توت خشک طبیعت",
+  "sku": "HLA-0023",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "tree-almonds": {
+  "slug": "tree-almonds",
+  "name": "بادام درختی سنگی",
+  "sku": "HLA-0019",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "natural-gon-honey": {
+  "slug": "natural-gon-honey",
+  "name": "عسل طبیعی گون",
+  "sku": "HLA-0027",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "dried-plums": {
+  "slug": "dried-plums",
+  "name": "آلو خشک دودی",
+  "sku": "HLA-0025",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "saffron-negin": {
+  "slug": "saffron-negin",
+  "name": "زعفران سرگل نگین",
+  "sku": "HLA-0028",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "herbal-tea-borage": {
+  "slug": "herbal-tea-borage",
+  "name": "دمنوش گل‌گاوزبان و سنبل‌الطیب",
+  "sku": "HLA-0032",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-signature-nuts": {
+  "slug": "helsa-signature-nuts",
+  "name": "آجیل ویژه هلسا",
+  "sku": "CAT-0003",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sumac-flakes": {
+  "slug": "sumac-flakes",
+  "name": "سماق پرک کوهی",
+  "sku": "HLA-0034",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-mixed-nuts": {
+  "slug": "helsa-mixed-nuts",
+  "name": "آجیل مخلوط هلسا",
+  "sku": "CAT-0001",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "party-nuts-collection": {
+  "slug": "party-nuts-collection",
+  "name": "آجیل مهمانی",
+  "sku": "CAT-0005",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "nowruz-nuts": {
+  "slug": "nowruz-nuts",
+  "name": "آجیل نوروزی",
+  "sku": "CAT-0006",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "pumpkin-seeds": {
+  "slug": "pumpkin-seeds",
+  "name": "تخمه کدو",
+  "sku": "CAT-0009",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-dried-fruit-selection": {
+  "slug": "helsa-dried-fruit-selection",
+  "name": "خشکبار ویژه هلسا",
+  "sku": "CAT-0008",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "japanese-seeds": {
+  "slug": "japanese-seeds",
+  "name": "تخمه ژاپنی",
+  "sku": "CAT-0012",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "salted-seeds": {
+  "slug": "salted-seeds",
+  "name": "تخمه شور",
+  "sku": "CAT-0014",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "meaty-pumpkin-seeds": {
+  "slug": "meaty-pumpkin-seeds",
+  "name": "تخمه کدو گوشتی",
+  "sku": "CAT-0010",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-flavored-seeds": {
+  "slug": "helsa-flavored-seeds",
+  "name": "تخمه طعم‌دار ویژه هلسا",
+  "sku": "CAT-0016",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "natural-honey": {
+  "slug": "natural-honey",
+  "name": "عسل طبیعی",
+  "sku": "CAT-0023",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "mountain-honey": {
+  "slug": "mountain-honey",
+  "name": "عسل کوهستان",
+  "sku": "CAT-0027",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "orange-blossom-honey": {
+  "slug": "orange-blossom-honey",
+  "name": "عسل بهارنارنج",
+  "sku": "CAT-0025",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-gift-pack": {
+  "slug": "helsa-gift-pack",
+  "name": "پک هدیه هلسا",
+  "sku": "CAT-0071",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "salted-peanuts": {
+  "slug": "salted-peanuts",
+  "name": "بادام زمینی شور",
+  "sku": "CAT-0037",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-yalda-pack": {
+  "slug": "helsa-yalda-pack",
+  "name": "پک یلدای هلسا",
+  "sku": "CAT-0075",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-breakfast-pack": {
+  "slug": "helsa-breakfast-pack",
+  "name": "پک صبحانه هلسا",
+  "sku": "CAT-0073",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-signature-syrup": {
+  "slug": "helsa-signature-syrup",
+  "name": "شیره ویژه هلسا",
+  "sku": "CAT-0086",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-corporate-pack": {
+  "slug": "helsa-corporate-pack",
+  "name": "پک سازمانی هلسا",
+  "sku": "CAT-0076",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "traditional-cheese": {
+  "slug": "traditional-cheese",
+  "name": "پنیر سنتی",
+  "sku": "CAT-0095",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "green-olives": {
+  "slug": "green-olives",
+  "name": "زیتون سبز",
+  "sku": "CAT-0097",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "black-olives": {
+  "slug": "black-olives",
+  "name": "زیتون سیاه",
+  "sku": "CAT-0098",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-olives": {
+  "slug": "helsa-olives",
+  "name": "زیتون ویژه هلسا",
+  "sku": "CAT-0101",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "pitted-olives": {
+  "slug": "pitted-olives",
+  "name": "زیتون بدون هسته",
+  "sku": "CAT-0099",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "liteh-pickles": {
+  "slug": "liteh-pickles",
+  "name": "ترشی لیته",
+  "sku": "CAT-0103",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "garlic-pickles": {
+  "slug": "garlic-pickles",
+  "name": "ترشی سیر",
+  "sku": "CAT-0104",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-hospitality-biscuits": {
+  "slug": "helsa-hospitality-biscuits",
+  "name": "بیسکویت پذیرایی هلسا",
+  "sku": "CAT-0106",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-biscuits": {
+  "slug": "date-biscuits",
+  "name": "بیسکویت خرمایی",
+  "sku": "CAT-0109",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-date-cake": {
+  "slug": "helsa-date-cake",
+  "name": "کیک خرمایی هلسا",
+  "sku": "CAT-0107",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-sesame-oil": {
+  "slug": "helsa-sesame-oil",
+  "name": "روغن کنجد ویژه هلسا",
+  "sku": "CAT-0130",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-tahini": {
+  "slug": "helsa-tahini",
+  "name": "ارده ویژه هلسا",
+  "sku": "CAT-0113",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "filled-date-chocolate": {
+  "slug": "filled-date-chocolate",
+  "name": "شکلات خرمایی مغزدار",
+  "sku": "CAT-0137",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-nut-bar": {
+  "slug": "date-nut-bar",
+  "name": "بار خرما و مغزها",
+  "sku": "CAT-0142",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "lentils": {
+  "slug": "lentils",
+  "name": "عدس",
+  "sku": "CAT-0087",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-chocolate-bar": {
+  "slug": "date-chocolate-bar",
+  "name": "بار خرما و شکلات",
+  "sku": "CAT-0144",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "split-peas": {
+  "slug": "split-peas",
+  "name": "لپه",
+  "sku": "CAT-0091",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "red-beans": {
+  "slug": "red-beans",
+  "name": "لوبیا قرمز",
+  "sku": "CAT-0089",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "pinto-beans": {
+  "slug": "pinto-beans",
+  "name": "لوبیا چیتی",
+  "sku": "CAT-0090",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "saffron-rock-candy": {
+  "slug": "saffron-rock-candy",
+  "name": "نبات زعفرانی",
+  "sku": "CAT-0029",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "roasted-chickpeas": {
+  "slug": "roasted-chickpeas",
+  "name": "نخودچی",
+  "sku": "CAT-0093",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "branch-rock-candy": {
+  "slug": "branch-rock-candy",
+  "name": "نبات شاخه‌ای",
+  "sku": "CAT-0032",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "plain-rock-candy": {
+  "slug": "plain-rock-candy",
+  "name": "نبات ساده",
+  "sku": "CAT-0030",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "puffy-barberry": {
+  "slug": "puffy-barberry",
+  "name": "زرشک پفکی",
+  "sku": "CAT-0034",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "pomegranate-barberry": {
+  "slug": "pomegranate-barberry",
+  "name": "زرشک دانه‌اناری",
+  "sku": "CAT-0035",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "date-sugar": {
+  "slug": "date-sugar",
+  "name": "قند خرما",
+  "sku": "HLA-0009",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "helsa-date-sugar": {
+  "slug": "helsa-date-sugar",
+  "name": "قند خرما ویژه هلسا",
+  "sku": "CAT-0135",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "belgian-chocolate-mousse": {
+  "slug": "belgian-chocolate-mousse",
+  "name": "موس شکلات بلژیکی هلسا",
+  "sku": "CAT-0152",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "tiramisu-cake": {
+  "slug": "tiramisu-cake",
+  "name": "کیک تیرامیسو هلسا",
+  "sku": "CAT-0150",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "chocolate-roulade": {
+  "slug": "chocolate-roulade",
+  "name": "رولت شکلاتی هلسا",
+  "sku": "CAT-0153",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "new-york-cheesecake": {
+  "slug": "new-york-cheesecake",
+  "name": "چیزکیک نیویورکی هلسا",
+  "sku": "CAT-0151",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "vanilla-panna-cotta": {
+  "slug": "vanilla-panna-cotta",
+  "name": "پاناکوتا وانیلی هلسا",
+  "sku": "CAT-0155",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "fudge-brownie": {
+  "slug": "fudge-brownie",
+  "name": "براونی فاج هلسا",
+  "sku": "CAT-0154",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "carrot-jam": {
+  "slug": "carrot-jam",
+  "name": "مربای هویج هلسا",
+  "sku": "CAT-0157",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "quince-jam": {
+  "slug": "quince-jam",
+  "name": "مربای به هلسا",
+  "sku": "CAT-0156",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "balang-jam": {
+  "slug": "balang-jam",
+  "name": "مربای بالنگ هلسا",
+  "sku": "CAT-0158",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "sour-cherry-jam": {
+  "slug": "sour-cherry-jam",
+  "name": "مربای آلبالو هلسا",
+  "sku": "CAT-0159",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "watermelon-rind-jam": {
+  "slug": "watermelon-rind-jam",
+  "name": "مربای هندونه هلسا",
+  "sku": "CAT-0160",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ },
+ "rose-petal-jam": {
+  "slug": "rose-petal-jam",
+  "name": "مربای گل محمدی هلسا",
+  "sku": "CAT-0161",
+  "score": 94,
+  "fails": [],
+  "warn": [
+   "qty+",
+   "related"
+  ]
+ }
+}

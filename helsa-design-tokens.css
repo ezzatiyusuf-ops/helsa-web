@@ -1,0 +1,123 @@
+/* ============================================================
+   HELSA Design Tokens — استخراج‌شده ۱:۱ از src/app/globals.css
+   (Tailwind v4 @theme). منبع یگانه: HELSA-DESIGN-DEVELOPMENT-GUIDELINES.md
+   این فایل مرجع خواندن است؛ مقادیر واقعی همچنان در globals.css زندگی می‌کنند.
+   ============================================================ */
+
+:root {
+  /* ——— فونت ——— */
+  --font-sans: "Vazirmatn", "Vazir", "Segoe UI", Tahoma, sans-serif;
+
+  /* ——— سبز برند (Primary) ——— */
+  --color-brand-50:  #f2f7f3;
+  --color-brand-100: #e0ede3;
+  --color-brand-200: #c2d9c8;
+  --color-brand-300: #97bda4;
+  --color-brand-400: #659c7c;
+  --color-brand-500: #3f7f5d;
+  --color-brand-600: #0b5f3b;  /* سبز اصلی */
+  --color-brand-700: #0a5236;  /* دکمهٔ primary / .text-price */
+  --color-brand-800: #08422c;  /* hover دکمه */
+  --color-brand-900: #063323;
+  --color-brand-950: #04241a;
+
+  /* ——— اکسنت نارنجی (تخفیف/فوریت واقعی) ——— */
+  --color-accent-300: #ffb877;
+  --color-accent-400: #ff9433;
+  --color-accent-500: #e06a00;
+  --color-accent-600: #c25c00;
+  --color-accent-700: #9d4a00;
+
+  /* ——— طلایی (پرمیوم) ——— */
+  --color-gold-50:  #faf6ea;
+  --color-gold-300: #e2cf94;
+  --color-gold-400: #cbb063;
+  --color-gold-500: #b3922f;
+  --color-gold-600: #8f7423;
+  --color-gold-700: #6d5817;
+
+  /* ——— خانواده‌های طبیعی ——— */
+  --color-olive-500: #3d7230; --color-olive-600: #2e5a23; --color-olive-700: #234619;
+  --color-brown-500: #86654c; --color-brown-600: #6b4f3a; --color-brown-700: #54402f;
+
+  /* ——— سطوح/متن معنایی (Light — پیش‌فرض) ——— */
+  --color-canvas:    #fffdf9;  /* پس‌زمینهٔ صفحه */
+  --color-surface:   #ffffff;  /* کارت/مودال */
+  --color-surface2:  #faf7f0;  /* فرم/سطح دوم */
+  --color-line:      #e6ddcb;  /* حاشیهٔ اصلی */
+  --color-line-soft: #f3eee3;
+  --color-inverse:   #fffdf9;  /* متن روی سبز/نارنجی */
+  --color-heading:   #201f1b;
+  --color-body:      #403d36;
+  --color-muted:     #6e6a60;
+  --color-faint:     #767065;  /* AA on white 4.9:1 */
+
+  /* ——— توکن‌های برند (legacy alias — هم‌ارز) ——— */
+  --brand-primary:   #0b5f3b;
+  --brand-primary-dark: #08422c;
+  --brand-secondary: #2e5a23;
+  --brand-accent:    #e06a00;
+  --brand-gold:      #b3922f;
+  --brand-cream:     #faf7f0;
+  --brand-background:#fffdf9;
+  --brand-surface:   #ffffff;
+  --brand-text:      #201f1b;
+  --brand-muted:     #6e6a60;
+  --brand-border:    #e6ddcb;
+
+  /* ——— سایه‌ها ——— */
+  --shadow-soft: 0 6px 24px -10px rgb(32 31 27 / 0.10);
+  --shadow-lift: 0 18px 44px -18px rgb(6 51 35 / 0.18);
+  --shadow-glow: 0 0 0 1px rgb(179 146 47 / 0.18), 0 14px 40px -16px rgb(6 51 35 / 0.28);
+
+  /* ——— موشن ——— */
+  --ease-helsa: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-tap: 300ms;       /* تعامل دکمه/لینک */
+  --duration-hover: 350ms;     /* hover کارت */
+  --duration-reveal: 450ms;    /* ورود محتوا */
+  --duration-crossfade: 900ms; /* کراس‌فید هیرو */
+  --toast-duration: 3800ms;
+  --hero-autoplay: 6500ms;
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-float: float 8s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+  --animate-pulse-soft: pulseSoft 3s ease-in-out infinite;
+}
+
+/* ——— دارک‌مود: طراحی‌شده، نه معکوس ——— */
+:root[data-theme="dark"] {
+  --color-canvas:    #0d1712;
+  --color-surface:   #17271f;
+  --color-surface2:  #122018;
+  --color-line:      #294136;
+  --color-line-soft: #21342a;
+  --color-inverse:   #f5f1e8;
+  --color-heading:   #f5f1e8;
+  --color-body:      #c8d0c9;
+  --color-muted:     #9daaa1;
+  --color-faint:     #7d8b82;
+}
+
+/* ——— ابعاد/چیدمان (از کامپوننت‌ها) ——— */
+:root {
+  --container-max: 82rem;          /* 1312px */
+  --container-pad: 1.25rem;        /* 20px — md+: 2.5rem */
+  --radius-pill: 9999px;           /* دکمه/بج */
+  --radius-card: 1rem;             /* rounded-2xl */
+  --radius-field: 0.75rem;         /* rounded-xl */
+  --radius-gallery: 1.75rem;
+  --btn-h-sm: 2.25rem;             /* 36 */
+  --btn-h-md: 2.75rem;             /* 44 */
+  --btn-h-lg: 3rem;                /* 48 */
+  --input-h: 2.75rem;              /* 44 */
+  --icon-sm: 0.875rem; --icon-md: 1rem; --icon-lg: 1.25rem;
+  --hero-h-lg: 30rem;              /* 480px دسکتاپ */
+  --hero-h-mobile: 15rem;          /* 240px (sm: 300px) */
+
+  /* z-index لایه‌ها */
+  --z-content: 10; --z-dropdown: 40; --z-header: 50;
+  --z-bottomnav: 70; --z-drawer: 76; --z-modal: 80; --z-toast: 85; --z-top: 90;
+}
+
+/* ——— بریک‌پوینت‌ها (Tailwind v4 پیش‌فرض — بدون override) ———
+   sm 640 · md 768 · lg 1024 · xl 1280 · 2xl 1536 (+ min-[390px] هیرو) */

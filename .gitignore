@@ -1,0 +1,55 @@
+# ── deps / build ─────────────────────────────
+node_modules/
+.next/
+out/
+netlify/functions/
+.netlify/
+
+# ── environment — هرگز commit نشود ───────────
+.env
+.env.*
+!.env.example
+
+# ── backups / local artifacts ────────────────
+backups/
+*.log
+.DS_Store
+Thumbs.db
+
+# ── visual-phase artifacts ──
+qa-shots/
+public/images/gen/
+
+# ── Cloudflare / OpenNext ────────────────────
+.wrangler/
+.open-next/
+.worker-build/
+.dev.vars
+.dev.vars.*
+
+# ── test/build artifacts ─────────────────────
+coverage/
+playwright-report/
+test-results/
+dist/
+build/
+*.tsbuildinfo
+
+# ── android: مصنوعات بیلد و امضا هرگز commit نشود ─────────
+helsa-android/keystore/
+helsa-android/local.properties
+helsa-android/releases/*.apk
+helsa-android/releases/*.aab
+helsa-android/**/build/
+helsa-android/.gradle/
+helsa-android/.idea/
+
+# ── بودجهٔ snapshot: تصاویر حجیم در گیت نمی‌آیند (بازتولید: scripts/ensure-product-images.sh + regen) ──
+public/images/opt/
+public/images/pexels/
+public/images/*.jpg
+public/images/*.jpeg
+public/images/*.png
+public/images/*.webp
+public/images/*.avif
+design-preview/

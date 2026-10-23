@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>کتابچهٔ رسمی برند و دیزاین‌سیستم هلسا</title>
+<style>
+  @font-face { font-family:"Vazirmatn"; src:url("../public/fonts/Vazirmatn-Variable.woff2") format("woff2"); font-weight:100 900; font-display:block; }
+  @page { size: A4 portrait; margin: 16mm 15mm 18mm; }
+  @page cover { margin: 0; }
+  * { box-sizing: border-box; }
+  body { font-family:"Vazirmatn",Tahoma,sans-serif; color:#201f1b; font-size:10pt; line-height:1.95; margin:0; background:#fff; }
+  /* ── جلد ── */
+  .cover { page: cover; page-break-after: always; position:relative; min-height:297mm; background:linear-gradient(165deg,#0b5f3b 0%,#08422c 52%,#06301f 100%); color:#fffdf9; padding:28mm 24mm; }
+  .cover::before { content:""; position:absolute; inset:0; opacity:.55;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='%23faf7f0' stroke-opacity='0.07' stroke-width='1'%3E%3Cpath d='M48 6l10 16 18-5-5 18 16 10-16 10 5 18-18-5-10 16-10-16-18 5 5-18-16-10 16-10-5-18 18 5z'/%3E%3Ccircle cx='48' cy='48' r='7'/%3E%3C/g%3E%3C/svg%3E"); }
+  .cover .logo-plate { position:relative; display:inline-block; background:#fffdf9; border-radius:18px; padding:10px 22px; box-shadow:0 14px 40px -16px rgba(0,0,0,.45); }
+  .cover .logo-plate img { height:22mm; display:block; }
+  .cover .brand { position:relative; margin-top:14mm; font-size:12pt; font-weight:800; letter-spacing:.35em; color:#e2cf94; }
+  .cover h1 { position:relative; font-size:27pt; font-weight:900; margin:8mm 0 4mm; line-height:1.6; }
+  .cover .sub { position:relative; font-size:11.5pt; color:#ffffffcc; max-width:150mm; line-height:2.1; }
+  .cover .rule { position:relative; width:34mm; height:2px; margin:8mm 0; background:linear-gradient(to left,transparent,#b3922f,transparent); }
+  .cover .chips { position:relative; display:flex; flex-wrap:wrap; gap:3.5mm; margin-top:10mm; }
+  .cover .chip { border:1px solid rgba(250,247,240,.35); border-radius:999px; padding:2mm 5.5mm; font-size:9pt; font-weight:700; color:#faf7f0; }
+  .cover .meta { position:absolute; bottom:16mm; right:24mm; left:24mm; display:flex; justify-content:space-between; font-size:9pt; color:#ffffffaa; border-top:1px solid rgba(250,247,240,.25); padding-top:5mm; }
+  /* ── فهرست ── */
+  .toc { page-break-after: always; }
+  .toc h2 { border:none !important; padding:0 !important; background:none !important; color:#08422c !important; }
+  .toc-grid { display:grid; grid-template-columns:1fr 1fr; gap:0 8mm; margin-top:6mm; }
+  .toc-row { display:flex; align-items:baseline; gap:3mm; padding:1.1mm 0; border-bottom:1px dotted #e6ddcb; font-size:9.5pt; }
+  .toc-num { min-width:7mm; font-weight:900; color:#b3922f; font-size:8.5pt; }
+  .toc-t { color:#403d36; }
+  /* ── محتوا ── */
+  h2 { display:flex; align-items:center; gap:3.5mm; font-size:15.5pt; font-weight:900; color:#fffdf9; background:linear-gradient(100deg,#0a5236,#0b5f3b); border-radius:14px; padding:4.5mm 6mm; margin:9mm 0 4.5mm; break-after:avoid; page-break-after:avoid; }
+  h2 .secnum { background:#b3922f; color:#fffdf9; min-width:9mm; text-align:center; border-radius:8px; font-size:10.5pt; padding:1mm 2mm; }
+  h2:first-of-type { margin-top:0; }
+  p { margin:2mm 0; text-align:justify; }
+  b { font-weight:800; }
+  code { font-family:inherit; background:#faf7f0; border:1px solid #f3eee3; border-radius:5px; padding:0 1.6mm; font-size:8.7pt; color:#0a5236; direction:ltr; display:inline-block; }
+  pre.code { direction:ltr; text-align:left; background:#faf7f0; border:1px solid #e6ddcb; border-right:3px solid #0b5f3b; border-radius:10px; padding:4mm 5mm; font-size:8.6pt; line-height:1.8; white-space:pre-wrap; break-inside:avoid; page-break-inside:avoid; margin:3.5mm 0; }
+  table { width:100%; border-collapse:collapse; margin:3.5mm 0; font-size:8.9pt; break-inside:auto; }
+  th { background:#0b5f3b; color:#fffdf9; font-weight:800; padding:2.2mm 2.8mm; text-align:right; border:1px solid #08422c; }
+  td { padding:2mm 2.8mm; border:1px solid #e6ddcb; vertical-align:top; }
+  tbody tr:nth-child(even) td { background:#faf7f0; }
+  tr { break-inside:avoid; page-break-inside:avoid; }
+  blockquote { background:#faf7f0; border-right:3px solid #b3922f; border-radius:10px; padding:3.5mm 5mm; margin:3.5mm 0; font-weight:700; color:#08422c; break-inside:avoid; }
+  .li { margin:1.2mm 0; padding-right:2mm; }
+  .li.n { font-weight:700; }
+  hr.sep { border:none; border-top:1px solid #e6ddcb; margin:6mm 0; }
+  a { color:#0a5236; text-decoration:none; }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="logo-plate"><img src="../public/brand/helsa-logo.png" alt="لوگوی هلسا ایرانیان"></div>
+  <div class="brand">H E L S A</div>
+  <h1>کتابچهٔ رسمی برند، UI/UX<br>و دیزاین‌سیستم هلسا</h1>
+  <div class="sub">منبع یگانهٔ حقیقت (Single Source of Truth) برای هویت بصری، رفتار رابط کاربری، الگوهای تجربهٔ کاربر و استانداردهای توسعهٔ فرانت‌اند — تمامی مقادیر این سند از کد واقعی پروژه استخراج و راستی‌آزمایی شده است.</div>
+  <div class="rule"></div>
+  <div class="chips">
+    <span class="chip">۵۱ سکشن</span>
+    <span class="chip">۵۷ کامپوننت</span>
+    <span class="chip">۱۱۰+ توکن دیزاین</span>
+    <span class="chip">راستی‌آزمایی‌شده با کد</span>
+    <span class="chip">نسخهٔ ۱.۰</span>
+  </div>
+  <div class="meta">
+    <span>بازرگانی هلسا ایرانیان · واحد محصول و طراحی</span>
+    <span>نسخهٔ ۱.۰ — شهریور ۱۴۰۵ / سپتامبر ۲۰۲۶</span>
+  </div>
+</div>
+<div class="toc">
+  <h2>فهرست سکشن‌ها</h2>
+  <div class="toc-grid"><div class="toc-row"><span class="toc-num">01</span><span class="toc-t">نمای کلی برند هلسا</span></div><div class="toc-row"><span class="toc-num">02</span><span class="toc-t">شخصیت برند (به زبان طراحی)</span></div><div class="toc-row"><span class="toc-num">03</span><span class="toc-t">دستورالعمل لوگو</span></div><div class="toc-row"><span class="toc-num">04</span><span class="toc-t">سیستم رنگ (مقادیر واقعی از globals.css)</span></div><div class="toc-row"><span class="toc-num">05</span><span class="toc-t">تایپوگرافی</span></div><div class="toc-row"><span class="toc-num">06</span><span class="toc-t">قواعد RTL و فارسی</span></div><div class="toc-row"><span class="toc-num">07</span><span class="toc-t">سیستم فاصله‌گذاری</span></div><div class="toc-row"><span class="toc-num">08</span><span class="toc-t">سیستم گرید</span></div><div class="toc-row"><span class="toc-num">09</span><span class="toc-t">سیستم ریسپانسیو (breakpoints واقعی = پیش‌فرض Tailwind v4)</span></div><div class="toc-row"><span class="toc-num">10</span><span class="toc-t">قواعد چیدمان</span></div><div class="toc-row"><span class="toc-num">11</span><span class="toc-t">دکمه‌ها (کامپوننت `Button`/`LinkButton` — primitives.tsx)</span></div><div class="toc-row"><span class="toc-num">12</span><span class="toc-t">فرم‌ها (`src/components/ui/controls.tsx`)</span></div><div class="toc-row"><span class="toc-num">13</span><span class="toc-t">کارت‌ها</span></div><div class="toc-row"><span class="toc-num">14</span><span class="toc-t">کارت محصول (`ProductCard.tsx` — مرجع فروش)</span></div><div class="toc-row"><span class="toc-num">15</span><span class="toc-t">صفحهٔ محصول (`ProductDetailClient` + `ProductGallery`)</span></div><div class="toc-row"><span class="toc-num">16</span><span class="toc-t">ناوبری</span></div><div class="toc-row"><span class="toc-num">17</span><span class="toc-t">هدر (`layout/Header.tsx` — 719 خط)</span></div><div class="toc-row"><span class="toc-num">18</span><span class="toc-t">فوتر (`layout/Footer.tsx`)</span></div><div class="toc-row"><span class="toc-num">19</span><span class="toc-t">آیکون‌ها</span></div><div class="toc-row"><span class="toc-num">20</span><span class="toc-t">بج‌ها و وضعیت‌ها</span></div><div class="toc-row"><span class="toc-num">21</span><span class="toc-t">مودال‌ها / دراورها (`ui/controls.tsx`)</span></div><div class="toc-row"><span class="toc-num">22</span><span class="toc-t">نوتیفیکیشن‌ها (Toast — `ui/Toast.tsx`)</span></div><div class="toc-row"><span class="toc-num">23</span><span class="toc-t">حالت‌های بارگذاری</span></div><div class="toc-row"><span class="toc-num">24</span><span class="toc-t">حالت‌های خالی (`EmptyState` در controls.tsx)</span></div><div class="toc-row"><span class="toc-num">25</span><span class="toc-t">حالت‌های خطا</span></div><div class="toc-row"><span class="toc-num">26</span><span class="toc-t">سیستم ای‌کامرس</span></div><div class="toc-row"><span class="toc-num">27</span><span class="toc-t">سیستم B2B</span></div><div class="toc-row"><span class="toc-num">28</span><span class="toc-t">خرید عمده (`/wholesale`)</span></div><div class="toc-row"><span class="toc-num">29</span><span class="toc-t">هدایای سازمانی و شخصی (`/gifts`)</span></div><div class="toc-row"><span class="toc-num">30</span><span class="toc-t">سازندهٔ سینی مزه (`/mazeh-trays/build` — TrayBuilderClient 766 خط)</span></div><div class="toc-row"><span class="toc-num">31</span><span class="toc-t">داشبوردها (`account/`)</span></div><div class="toc-row"><span class="toc-num">32</span><span class="toc-t">ادمین (`/admin` — AdminShell)</span></div><div class="toc-row"><span class="toc-num">33</span><span class="toc-t">تصاویر و رسانه</span></div><div class="toc-row"><span class="toc-num">34</span><span class="toc-t">هیرو اسلایدر / کاروسل (فروش‌محور — `home/Hero.tsx`)</span></div><div class="toc-row"><span class="toc-num">35</span><span class="toc-t">طراحی فروش و تبدیل (CRO rules)</span></div><div class="toc-row"><span class="toc-num">36</span><span class="toc-t">موشن و انیمیشن</span></div><div class="toc-row"><span class="toc-num">37</span><span class="toc-t">دسترس‌پذیری (WCAG 2.1 AA — الزامی)</span></div><div class="toc-row"><span class="toc-num">38</span><span class="toc-t">سئو / AEO / GEO (الزامات UI)</span></div><div class="toc-row"><span class="toc-num">39</span><span class="toc-t">کارایی (قواعد/frontend)</span></div><div class="toc-row"><span class="toc-num">40</span><span class="toc-t">امنیت UI</span></div><div class="toc-row"><span class="toc-num">41</span><span class="toc-t">استانداردهای توسعه</span></div><div class="toc-row"><span class="toc-num">42</span><span class="toc-t">توکن‌های دیزاین (مرجع کامل — هم‌ارز `helsa-design-tokens.css`)</span></div><div class="toc-row"><span class="toc-num">43</span><span class="toc-t">فهرست کامپوننت‌ها</span></div><div class="toc-row"><span class="toc-num">44</span><span class="toc-t">نقشهٔ صفحه‌به‌صفحه (خلاصهٔ الزامات)</span></div><div class="toc-row"><span class="toc-num">45</span><span class="toc-t">اصول UX هلسا (۱۲ اصل)</span></div><div class="toc-row"><span class="toc-num">46</span><span class="toc-t">انجام بده / نکن</span></div><div class="toc-row"><span class="toc-num">47</span><span class="toc-t">قواعد توسعهٔ آینده (چک‌لیست صفحهٔ جدید)</span></div><div class="toc-row"><span class="toc-num">48</span><span class="toc-t">مرجع سریع توسعه‌دهنده</span></div><div class="toc-row"><span class="toc-num">49</span><span class="toc-t">ناسازگاری‌های فعلی و پیشنهادها</span></div><div class="toc-row"><span class="toc-num">50</span><span class="toc-t">بلوغ دیزاین‌سیستم</span></div><div class="toc-row"><span class="toc-num">51</span><span class="toc-t">توصیه‌های نهایی</span></div></div>
+</div>
+<blockquote><b>این سند منبع یگانهٔ حقیقت (Single Source of Truth) برای هویت بصری هلسا، رفتار UI، الگوهای UX، استانداردهای پیاده‌سازی فرانت‌اند و تصمیم‌های طراحی آینده است.</b></blockquote>
+<blockquote>هر توسعه‌دهنده یا ایجنت هوش مصنوعی <b>باید</b> پیش از هر تغییری در وب‌سایت، این سند را بخواند. نسخهٔ فشرده: <code>HELSA-DESIGN-QUICK-REFERENCE.md</code> · توکن‌ها: <code>helsa-design-tokens.css</code> · فهرست کامپوننت‌ها: <code>HELSA-COMPONENT-INVENTORY.md</code> · ممیزی: <code>HELSA-DESIGN-AUDIT.md</code></blockquote>
+<table><thead><tr><th>مشخصات فنی پروژه (واقعی — از package.json)</th><th></th></tr></thead><tbody><tr><td>فریم‌ورک</td><td><b>Next.js 16.2.6</b> (App Router, React 19.2.6)</td></tr><tr><td>استایل</td><td><b>Tailwind CSS 4.1.17</b> — بدون فایل کانفیگ؛ همهٔ توکن‌ها در <code>src/app/globals.css</code> بلاک <code>@theme</code></td></tr><tr><td>انیمیشن</td><td>framer-motion 13.1.1</td></tr><tr><td>آیکون</td><td>lucide-react 1.38 (تنها کتابخانهٔ مجاز)</td></tr><tr><td>حالت</td><td>zustand 5 (سبد/علاقه/مقایسه/کاربر)</td></tr><tr><td>دیتا</td><td>PostgreSQL + drizzle-orm 0.45.2 · اعتبارسنجی: zod 4 · احراز هویت: jose (JWT)</td></tr><tr><td>تصویر</td><td>sharp (خط تولید AVIF/WebP/JPEG) · Playwright برای QA</td></tr><tr><td>زبان/جهت</td><td><code>lang="fa" dir="rtl"</code> — فارسی‌اول، RTL بومی</td></tr></tbody></table>
+<hr class="sep">
+<h2><span class="secnum">01</span>نمای کلی برند هلسا</h2>
+<div class="li">• <b>نام برند:</b> HELSA / هلسا — نام قانونی: «بازرگانی هلسا ایرانیان» (Helsa Iranian). دامنهٔ برند در محتوا: هلسا مارکت.</div>
+<div class="li">• <b>ماهیت کسب‌وکار:</b> فروشگاه آنلاین پرمیوم محصولات طبیعی ایرانی (خرما، خشکبار، عسل، زعفران، شکلات، فرآورده‌های خرما) + پلتفرم B2B (خرید عمده) + هدایای سازمانی و شخصی + سازندهٔ سینی مزه + مجلهٔ سلامت.</div>
+<div class="li">• <b>جایگاه‌بندی:</b> پرمیوم اما عملی؛ طبیعی و سالم؛ اصالت ایرانی؛ قابل‌اعتماد با دادهٔ واقعی (NO FAKE DATA).</div>
+<div class="li">• <b>مخاطبان:</b> مصرف‌کنندهٔ خانگی لوکس‌گرا · خرده‌فروش/رستوران/کافه/سازمان (B2B) · خریدار هدیهٔ سازمانی.</div>
+<div class="li">• <b>قاعدهٔ بنیادین برند:</b> هر عدد/بج/امتیاز/شمارش‌معکوس/موجودی که به کاربر نمایش داده می‌شود باید از دادهٔ واقعی برنامه باشد. نمایش دادهٔ جعلی = نقض هویت برند.</div>
+<h2><span class="secnum">02</span>شخصیت برند (به زبان طراحی)</h2>
+<table><thead><tr><th>ویژگی</th><th>ترجمهٔ عملی در UI</th></tr></thead><tbody><tr><td>پرمیوم</td><td>فضای سفید سخاوتمند، سایه‌های ملایم، حاشیه‌های ظریف (hairline)، هرگز شلوغ</td></tr><tr><td>قابل‌اعتماد</td><td>قیمت واقعی با ارقام فارسی، موجودی صادقانه، بج «موجودی محدود» فقط از stock واقعی</td></tr><tr><td>ایرانی</td><td>الگوی <code>pattern-persian</code>، پالت سبز/طلایی، تایپوگرافی وزیرمتن، کپی‌رایتینگ فارسی درست</td></tr><tr><td>طبیعی/سالم</td><td>پالت کرم/سبز ارگانیک، تصاویر طبیعی بدون گرادیان‌های مصنوعی</td></tr><tr><td>مدرن</td><td>فریم‌ورک مدرن، LQIP، AVIF، دارک‌مود طراحی‌شده (نه معکوس‌شده)</td></tr><tr><td>گرم</td><td>متن‌های محاورهٔ محترمانه («شما»)، آیکون‌های خطی نرم lucide</td></tr></tbody></table>
+<p><b>کلیدواژه‌های برند:</b> طعم طبیعت · هنر پذیرایی ایرانی · کیفیت ممتاز مواد اولیه.</p>
+<h2><span class="secnum">03</span>دستورالعمل لوگو</h2>
+<div class="li">• <b>فایل‌های رسمی:</b> <code>public/brand/helsa-logo.png</code> (سبز روی شفاف، نسبت ~۱:۱، ابعاد ذاتی ۷۲۶×۷۳۶) + <b><code>public/brand/helsa-logo.svg</code></b> (وکتور رسمی — ترسیم‌شده از ماسک لوگوی اصلی، تک‌path، رنگ #3e8701، ۶KB).</div>
+<div class="li">• <b>ست favicon کامل</b> (همگی بازسازی‌شده از لوگوی رسمی): <code>public/icons/</code> — favicon-16/32/48.png · favicon.ico (چندسایز) · favicon.svg · apple-touch-icon.png (۱۸۰، پلیت کرم) · icon-192/512.png · icon-512-maskable.png (پلیت سبز، ناحیهٔ امن ۲۴٪). منیفست PWA: <code>src/app/manifest.ts</code> (مسیر <code>/manifest.webmanifest</code>).</div>
+<div class="li">• <b>رندر:</b> فقط از کامپوننت <code><HelsaLogo></code> در <code>src/components/ui/primitives.tsx</code> — <code><img></code> با <code>object-contain</code> و حفظ نسبت؛ هرگز دستکاری مستقیم نکنید.</div>
+<div class="li">• <b>نسخه‌ها:</b> عادی (سبز روی روشن) · <code>light</code> (پلیت کرم <code>bg-surface</code> دور علامت برای پس‌زمینهٔ تیره). رنگ مرجع سبز لوگو: <code>#3e8701</code> (<code>LOGO_GREEN</code>).</div>
+<div class="li">• <b>اندازهٔ استاندارد:</b> <code>h-10</code> (هدر)؛ حداقل ارتفاع قابل‌قبول <code>h-8</code>.</div>
+<div class="li">• <b>ممنوع:</b> کشیدگی/چرخش/تغییر رنگ/افزودن افکت سایه یا گرادیان به لوگو · بازنویسی <code><img></code> خام به‌جای کامپوننت.</div>
+<div class="li">• آلت لوگو: «هلسا ایرانیان — محصولات ارگانیک».</div>
+<div class="li">• ✅ وکتور رسمی تأمین شد (helsa-logo.svg) — اگر فایل طراح اصلی (ایلاستریتور) در آینده ارائه شود، جایگزینی trace فعلی توصیه می‌شود.</div>
+<h2><span class="secnum">04</span>سیستم رنگ (مقادیر واقعی از globals.css)</h2>
+<p>### سبز برند (Primary) — از لوگو</p>
+<table><thead><tr><th>توکن</th><th>HEX</th><th>کاربرد</th></tr></thead><tbody><tr><td><code>brand-50</code></td><td><code>#f2f7f3</code></td><td>پس‌زمینهٔ hover روشن</td></tr><tr><td><code>brand-100</code></td><td><code>#e0ede3</code></td><td>بج/سطح روشن سبز</td></tr><tr><td><code>brand-200</code></td><td><code>#c2d9c8</code></td><td>حاشیهٔ فعال نقطهٔ اسلایدر</td></tr><tr><td><code>brand-300</code></td><td><code>#97bda4</code></td><td>thumb اسکرول‌بار · لینک دارک‌مود</td></tr><tr><td><code>brand-400</code></td><td><code>#659c7c</code></td><td>—</td></tr><tr><td><code>brand-500</code></td><td><code>#3f7f5d</code></td><td>focus فرم‌ها</td></tr><tr><td><code>brand-600</code></td><td><code>#0b5f3b</code></td><td><b>سبز اصلی</b> (<code>--brand-primary</code>) · focus-visible · selection</td></tr><tr><td><code>brand-700</code></td><td><code>#0a5236</code></td><td>دکمهٔ primary · <code>.text-price</code> روشن</td></tr><tr><td><code>brand-800</code></td><td><code>#08422c</code></td><td>hover دکمهٔ primary</td></tr><tr><td><code>brand-900/950</code></td><td><code>#063323</code>/<code>#04241a</code></td><td>سطوح عمیق</td></tr></tbody></table>
+<p>### نارنجی اکسنت (تخفیف/فوریت)</p>
+<p><code>accent-300 #ffb877</code> · <code>accent-400 #ff9433</code> · <code>accent-500 #e06a00</code> (اصلی، <code>--brand-accent</code>) · <code>accent-600 #c25c00</code> (hover) · <code>accent-700 #9d4a00</code></p>
+<p>→ فقط برای تخفیف واقعی، بج CRO و اعداد فروش. متن روی accent-500: <code>#331a04</code>.</p>
+<p>### طلایی (لوکس/آیکون ستاره/کیکر)</p>
+<p><code>gold-50 #faf6ea</code> · <code>gold-300 #e2cf94</code> · <code>gold-400 #cbb063</code> · <code>gold-500 #b3922f</code> (<code>--brand-gold</code>) · <code>gold-600 #8f7423</code> (کیکرها) · <code>gold-700 #6d5817</code></p>
+<p>+ کلاس‌های ویژه: <code>.rule-gold</code> (خط افقی گرادیانی) و <code>.text-gradient-gold</code>.</p>
+<p>### خانواده‌های کمکی</p>
+<p><code>olive-500/600/700</code> (<code>#3d7230/#2e5a23/#234619</code>) و <code>brown-500/600/700</code> (<code>#86654c/#6b4f3a/#54402f</code>) — سطوح ثانویهٔ طبیعی.</p>
+<p>### رنگ‌های معنایی سطوح/متن (Light — پیش‌فرض)</p>
+<table><thead><tr><th>توکن</th><th>HEX</th><th>نقش</th></tr></thead><tbody><tr><td><code>canvas</code></td><td><code>#fffdf9</code></td><td>پس‌زمینهٔ صفحه (<code>--brand-background</code>)</td></tr><tr><td><code>surface</code></td><td><code>#ffffff</code></td><td>کارت/مودال/دکمهٔ cream</td></tr><tr><td><code>surface2</code></td><td><code>#faf7f0</code></td><td>ورودی فرم/سطح دوم (<code>--brand-cream</code>)</td></tr><tr><td><code>line</code></td><td><code>#e6ddcb</code></td><td>حاشیهٔ اصلی (<code>--brand-border</code>)</td></tr><tr><td><code>line-soft</code></td><td><code>#f3eee3</code></td><td>حاشیهٔ ظریف کارت تصویر</td></tr><tr><td><code>inverse</code></td><td><code>#fffdf9</code></td><td>متن روی سبز/نارنجی</td></tr><tr><td><code>heading</code></td><td><code>#201f1b</code></td><td>تیترها (<code>--brand-text</code>)</td></tr><tr><td><code>body</code></td><td><code>#403d36</code></td><td>متن بدنه</td></tr><tr><td><code>muted</code></td><td><code>#6e6a60</code></td><td>متن ثانویه (<code>--brand-muted</code>)</td></tr><tr><td><code>faint</code></td><td><code>#767065</code></td><td>متن کم‌اهمیت — AA روی سفید (4.9:1)</td></tr><tr><td><code>.text-price</code></td><td><code>#0a5236</code> روشن / <code>#6bd598</code> تاریک</td><td>قیمت‌ها — همیشه متمایز از تیتر</td></tr></tbody></table>
+<p>### دارک‌مود (<code>data-theme="dark"</code>) — «طراحی‌شده، نه معکوس»</p>
+<p><code>canvas #0d1712</code> · <code>surface #17271f</code> · <code>surface2 #122018</code> · <code>line #294136</code> · <code>line-soft #21342a</code> · متن <code>#f5f1e8</code> · بدنه <code>#c8d0c9</code> · muted <code>#9daaa1</code> · faint <code>#7d8b82</code>.</p>
+<p>توکن‌های معنایی theme-aware هستند — یعنی کامپوننت‌ها <b>هیچ رنگی را hardcode نکنند</b> و در دارک‌مود خودکار درست می‌شوند.</p>
+<p>### رنگ‌های وضعیت (semantic mapping)</p>
+<table><thead><tr><th>مفهوم</th><th>توکن عملی</th><th>کاربرد</th></tr></thead><tbody><tr><td>موفقیت</td><td><code>brand-600/700</code> + آیکون Check</td><td>افزودن به سبد، پرداخت موفق</td></tr><tr><td>خطا/تخفیف</td><td><code>accent-500/600</code></td><td>بج تخفیف واقعی، خطای فرم</td></tr><tr><td>هشدار</td><td><code>gold-600</code></td><td>موجودی محدود واقعی</td></tr><tr><td>اطلاع</td><td><code>brand-500</code></td><td>توست info</td></tr></tbody></table>
+<h2><span class="secnum">05</span>تایپوگرافی</h2>
+<div class="li">• <b>فونت:</b> <b>Vazirmatn</b> (وزن متغیر) — سلف‌هاست از <code>/fonts/Vazirmatn-Variable.woff2</code> با <code>preload</code> در <code>layout.tsx</code>. هیچ فونت خارجی/CDN مجاز نیست.</div>
+<div class="li">• <b>Fallback:</b> <code>"Vazirmatn", "Vazir", "Segoe UI", Tahoma, sans-serif</code>.</div>
+<div class="li">• <b>استراتژی بارگذاری:</b> فونت متغیر محلی + <code>font-display</code> از طریق <code>fonts.css</code> — بدون FOUT قابل‌توجه و بدون درخواست شبکهٔ خارجی.</div>
+<p>### مقیاس تایپوگرافی (استخراج‌شده از کد)</p>
+<table><thead><tr><th>سطح</th><th>کلاس representative</th><th>کاربرد</th></tr></thead><tbody><tr><td>Display/H1 هیرو</td><td><code>text-[26px] min-[390px]:text-[29px] md:text-[38px] lg:text-[40px] font-black leading-[1.45]</code></td><td>تیتر اسلایدهای هیرو</td></tr><tr><td>H2 سکشن</td><td><code>text-xl md:text-2xl font-black</code></td><td>تیتر سکشن‌ها (SectionHead)</td></tr><tr><td>H3</td><td><code>text-base md:text-lg font-extrabold</code></td><td>تیتر کارت/بلوک</td></tr><tr><td>H4</td><td><code>text-[15px] font-extrabold</code></td><td>زیرتیتر</td></tr><tr><td>Body</td><td><code>text-sm md:text-[15px] leading-7</code></td><td>متن توضیح</td></tr><tr><td>Body Small</td><td><code>text-[13px] leading-6</code></td><td>متن کارت</td></tr><tr><td>Caption</td><td><code>text-xs text-muted</code></td><td>توضیح زیر تیتر</td></tr><tr><td>Label ریز</td><td><code>text-[11px] text-muted</code></td><td>لیست اعتماد، فراداده</td></tr><tr><td>کیکر</td><td><code>text-[11px] font-bold tracking-[0.25em] text-gold-600</code></td><td>بالای تیترها (حروف فاصله‌دار)</td></tr><tr><td>دکمه</td><td><code>text-xs/sm font-bold</code> (h-9/11/12)</td><td>—</td></tr><tr><td>قیمت</td><td><code>text-[15/17/22px] font-black tabular-nums .text-price</code> + «تومان» <code>text-[10/11px]</code></td><td>قیمت اصلی</td></tr><tr><td>قیمت قبلی</td><td><code>text-[11px] line-through text-faint tabular-nums</code></td><td>فقط وقتی <code>oldPrice > price</code></td></tr><tr><td>بج</td><td><code>text-[10.5px] font-bold</code></td><td>Badge</td></tr><tr><td>اعداد</td><td><code>tabular-nums</code> + ارقام فارسی</td><td>قیمت/تعداد/تاریخ</td></tr></tbody></table>
+<p><b>قواعد:</b> <code>font-black/extrabold</code> فقط تیتر؛ بدنه هرگز bold نمی‌شود مگر CTA؛ <code>leading-[1.45]–[1.75]</code> برای فارسی (کشیده‌تر از لاتین)؛ موبایل = همان سلسله‌مراتب با ۱ پله کوچک‌تر (کلاس‌های responsive موجود).</p>
+<h2><span class="secnum">06</span>قواعد RTL و فارسی</h2>
+<div class="li">• <code>dir="rtl"</code> روی <code><html></code> — همهٔ چیدمان‌ها با <b>پراپرتی‌های منطقی</b>: <code>ps-/pe-/ms-/me-/start-/end-</code> (نه left/right). استثناها فقط گرادیان/انیمیشن با کامنت «RTL».</div>
+<div class="li">• <b>ارقام:</b> همهٔ اعداد کاربر-محور فارسی — توابع <code>faDigits</code>، <code>formatToman</code>، <code>formatPriceShort</code>، <code>faDate</code> از <code>src/lib/format.ts</code>. اعداد لاتین فقط در کدهای فنی (SKU) و <code>tabular-nums</code> برای ستون‌شدن.</div>
+<div class="li">• <b>قیمت:</b> <code>formatPriceShort(price) + «تومان»</code> — جداکنندهٔ هزارگان فارسی.</div>
+<div class="li">• <b>تاریخ:</b> <code>faDate</code> (تقویم شمسی). </div>
+<div class="li">• <b>متن دوجهته:</b> انگلیسی داخل جملهٔ فارسی نیازمند فاصلهٔ درست و <code>normalizeFa</code> برای ورودی‌های جستجو (ی/ي، ک/ك).</div>
+<div class="li">• <b>ممنوع:</b> <code>dir="ltr"</code> غافلگیرانه بدون نیاز؛ علائم <code>!</code> لاتین در انتهای جملهٔ فارسی (استفاده از ؛ و ، فارسی).</div>
+<div class="li">• توضیحات کد و UI-کپی فارسی؛ نام فایل/متغیر انگلیسی kebab/camel.</div>
+<h2><span class="secnum">07</span>سیستم فاصله‌گذاری</h2>
+<p>پروژه از <b>مقیاس پیش‌فرض Tailwind</b> استفاده می‌کند (4px پایه: 1=4, 1.5=6, 2=8, 3=12, 4=16, 5=20, 6=24, 8=32, 10=40, 12=48, 16=64). الگوهای غالب واقعی:</p>
+<table><thead><tr><th>جا</th><th>مقدار غالب</th></tr></thead><tbody><tr><td>پدینگ صفحه (container-x)</td><td><code>px-5</code> موبایل → <code>px-10</code> (md+)</td></tr><tr><td>فاصلهٔ سکشن</td><td><code>py-12 md:py-16</code> (گاهی <code>py-14 md:py-20</code>)</td></tr><tr><td>پدینگ کارت</td><td><code>p-5</code>/<code>p-6</code></td></tr><tr><td>gap گرید محصولات</td><td><code>gap-4 md:gap-6</code></td></tr><tr><td>فاصلهٔ عناصر داخل کارت</td><td><code>mt-2/3/4</code></td></tr><tr><td>فاصلهٔ CTA از توضیح</td><td><code>mt-5</code></td></tr><tr><td>فاصلهٔ سطرهای فرم</td><td><code>space-y-4/5</code></td></tr><tr><td>حاشیهٔ امن موبایل</td><td><code>px-4/6</code></td></tr></tbody></table>
+<p><b>قاعده:</b> فقط کلاس‌های Tailwind (فاصلهٔ ۴px-مبنا)؛ فاصلهٔ arbitrary (<code>mt-[13px]</code>) ممنوع مگر با کامنت دلیل.</p>
+<h2><span class="secnum">08</span>سیستم گرید</h2>
+<div class="li">• <b>کانتینر اصلی:</b> کلاس <code>.container-x</code> — <code>max-width: 82rem</code> (1312px) · <code>margin-inline:auto</code> · پدینگ ۲۰/۴۰px. تمام محتوای صفحه داخل آن.</div>
+<div class="li">• <b>گرید هیرو:</b> <code>grid lg:grid-cols-12</code> — ستون متن ۵ / تصویر ۷ · ارتفاع <code>lg:h-[480px]</code> · موبایل تصویر <code>h-[240px]/sm:h-[300px]</code>.</div>
+<div class="li">• <b>گرید محصول:</b> <code>grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6</code> (کارت موبایل ~۱۶۰px).</div>
+<div class="li">• <b>کارت در نوار افقی (CarouselRow):</b> عرض ثابت <code>w-[68vw] → sm:w-[292px] lg:w-[268px]</code> + <code>shrink-0 snap-start</code>.</div>
+<div class="li">• <b>فوتر:</b> <code>grid-cols-2 md:grid-cols-5 gap-10</code>.</div>
+<div class="li">• سکشن‌های full-bleed (هیرو/فلش) بدون container؛ متن‌ها داخل container-x.</div>
+<div class="li">• <b>تصمیم‌گیری صفحهٔ جدید:</b> آیا سکشن full-bleed است یا contained؟ → contained یعنی <code>.container-x</code>؛ سپس گرید ۱۲ ستونه یا گرید کارت؛ هرگز عرض‌های اختصاصی نگذارید.</div>
+<h2><span class="secnum">09</span>سیستم ریسپانسیو (breakpoints واقعی = پیش‌فرض Tailwind v4)</h2>
+<p><code>sm 640</code> · <code>md 768</code> · <code>lg 1024</code> · <code>xl 1280</code> · <code>2xl 1536</code> — و یک بازهٔ سفارشی پرکاربرد: <code>min-[390px]</code> برای تیتر هیروی موبایل.</p>
+<table><thead><tr><th>ناحیه</th><th>موبایل <768</th><th>دسکتاپ ≥1024</th></tr></thead><tbody><tr><td>هدر</td><td>drawer تمام‌صفحه از <b>راست</b> (RTL صحیح) + <b>نویگیشن پایین fixed</b> (<code>z-[70]</code>)</td><td>نوار دسته‌ها + مگامنو «سینی مزه» + جستجوی inline</td></tr><tr><td>هیرو</td><td>تصویر بالا (h-240/300) + متن پایین با feather گرادیانی</td><td>split-grid ۵/۷</td></tr><tr><td>نوار محصولات</td><td>CarouselRow اسکرول افقی snap + <code>no-scrollbar</code></td><td>همان نوار (کارت ۲۶۸px)</td></tr><tr><td>گرید محصول</td><td>۲ ستون</td><td>۴ ستون (xl)</td></tr><tr><td>جدول‌های B2B/ادمین</td><td>اسکرول افقی یا کارت‌شدن</td><td>جدول کامل</td></tr><tr><td>Quick-add کارت</td><td>همیشه نمایان</td><td>روی hover ظاهر می‌شود</td></tr></tbody></table>
+<p><b>قاعده:</b> mobile-first — کلاس پایه = موبایل، سپس <code>sm/md/lg/xl</code>. هر کامپوننت جدید باید در 375/768/1024/1440 تست شود (سرریز افقی = 0 الزامی).</p>
+<h2><span class="secnum">10</span>قواعد چیدمان</h2>
+<div class="li n">1. سلسله‌مراتب صفحهٔ فروشگاهی (ثابت‌شده): هیرو → محصولات ویژه/تب‌ها → نوار پیشنهاد فلش → دسته‌ها → مسیرهای ویژه (سینی/هدیه/B2B) → مجله/برند.</div>
+<div class="li n">2. هر سکشن یک <code>SectionHead</code> (کیکر طلایی + تیتر + توضیح) — حداکثر یک زینت (rule-gold یا pattern).</div>
+<div class="li n">3. تراکم: هیرو کم‌متن (۲ خط تیتر + ۲ خط توضیح + CTA)؛ صفحات B2B متراکم‌تر مجاز.</div>
+<div class="li n">4. z-index لایه‌بندی واقعی: <code>z-10</code> محتوای ساده · <code>z-40</code> dropdown · <code>z-50</code> هدر استیکی · <code>z-[70]</code> نویگیشن پایین · <code>z-[76–90]</code> drawer/مودال/توست · <code>z-[80/85]</code> consent · <code>z-[90]</code> بالاترین.</div>
+<div class="li n">5. هدر: <code>sticky top-[34px]</code> (زیر نوار اعلان ۳۴px) · backdrop-blur.</div>
+<hr class="sep">
+<h2><span class="secnum">11</span>دکمه‌ها (کامپوننت <code>Button</code>/<code>LinkButton</code> — primitives.tsx)</h2>
+<p><b>ساختار:</b> <code>inline-flex items-center justify-center font-bold transition-all duration-300 active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none</code> + <code>rounded-full</code> (همهٔ دکمه‌ها pill).</p>
+<table><thead><tr><th>Variant</th><th>استایل</th><th>کاربرد</th></tr></thead><tbody><tr><td><code>primary</code></td><td><code>bg-brand-700 text-inverse hover:bg-brand-800</code></td><td>CTA اصلی (خرید، مشاهده محصول)</td></tr><tr><td><code>accent</code></td><td><code>bg-accent-500 text-inverse hover:bg-accent-600</code></td><td>CRO/تخفیف</td></tr><tr><td><code>gold</code></td><td><code>bg-gold-500 text-inverse hover:bg-gold-600</code></td><td>ویژه/پرمیوم</td></tr><tr><td><code>outline</code></td><td><code>border border-brand-700/40 text-heading hover:border-brand-700 hover:bg-brand-50</code></td><td>CTA ثانویه</td></tr><tr><td><code>cream</code></td><td><code>bg-surface border-line text-heading hover:bg-surface2</code></td><td>روی سطوح رنگی</td></tr><tr><td><code>ghost</code></td><td><code>text-heading hover:bg-brand-50</code></td><td>اکشن کم‌اهمیت</td></tr></tbody></table>
+<table><thead><tr><th>Size</th><th>ارتفاع</th><th>پدینگ</th><th>فونت</th></tr></thead><tbody><tr><td><code>sm</code></td><td>h-9 (36px)</td><td>px-4</td><td>text-xs</td></tr><tr><td><code>md</code></td><td>h-11 (44px)</td><td>px-6</td><td>text-sm</td></tr><tr><td><code>lg</code></td><td>h-12 (48px)</td><td>px-8</td><td>text-sm</td></tr></tbody></table>
+<div class="li">• <b>آیکون در دکمه:</b> از lucide، <code>size-4</code>، در RTL با فلش <code>ArrowLeft</code> به‌معنی «ادامه» (جهت پیشروی در RTL).</div>
+<div class="li">• <b>حالت loading:</b> متن + <code>disabled</code> (یا اسپینر اسپارتی در فرم‌های طولانی)؛ حالت focus از قاعدهٔ سراسری <code>*:focus-visible</code> (outline 2px brand-600، offset 3px).</div>
+<div class="li">• <b>CTAهای خاص:</b> افزودن به سبد = <code>primary</code> + آیکون ShoppingBag · سفارش عمده/RFQ = <code>outline</code> یا <code>cream</code> روی سطوح سبز · هدایای سازمانی = <code>primary</code>. <b>هرگز دکمهٔ سبز تیرهٔ جدید با کد رنگ متفاوت نسازید — از کامپوننت استفاده کنید.</b></div>
+<div class="li">• قاعدهٔ CTA در صفحه: فقط <b>یک</b> CTA primary غالب در هر ویو.</div>
+<h2><span class="secnum">12</span>فرم‌ها (<code>src/components/ui/controls.tsx</code>)</h2>
+<div class="li">• <b>Input/Select/TextArea:</b> پایهٔ مشترک <code>w-full rounded-xl border border-line bg-surface2 px-4 text-sm h-11 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/25</code>.</div>
+<div class="li">• <b>FieldLabel:</b> لیبل بالای فیلد (نه placeholder جایگزین لیبل).</div>
+<div class="li">• حالت خطا: متن قرمز زیر فیلد با <code>role="alert"</code>/aria — المان خطا همیشه نزدیک فیلد.</div>
+<div class="li">• <b>QtyPicker:</b> pill با دکمه‌های ± (h-10، آیکون + آیکون، aria-label فارسی، عدد فارسی وسط، <code>clampQty</code> سقف ۹۹ و سقف موجودی).</div>
+<div class="li">• OTP/کد تأیید: ورودی‌های تک‌رقمی با جهت LTR داخلی و ارقام فارسی در نمایش.</div>
+<div class="li">• حالت‌های الزامی: علامت <code>*</code> + aria-required. placeholder فقط مثال، نه جایگزین لیبل.</div>
+<h2><span class="secnum">13</span>کارت‌ها</h2>
+<div class="li">• <b>پایه:</b> <code>rounded-2xl border border-line bg-surface overflow-hidden</code> + یکی از رفتارهای hover:</div>
+<p>  - <code>.prem-card</code> — پرمیوم: <code>translateY(-6px)</code> + <code>shadow-lift</code> (کارت محصول)</p>
+<p>  - <code>.card-hover</code> — ملایم: <code>translateY(-4px)</code> + <code>shadow-soft</code></p>
+<p>  - <code>.ring-hover</code> — hairline: فقط حلقهٔ ظریف (لیست‌ها)</p>
+<div class="li">• پدینگ داخلی کارت متن: <code>p-5</code>. تصویر کارت: نسبت واقعی از کامپوننت (محصول ۴:۵).</div>
+<h2><span class="secnum">14</span>کارت محصول (<code>ProductCard.tsx</code> — مرجع فروش)</h2>
+<p>اجزای <b>الزامی:</b> تصویر (aspect 4:5، bg گرادیانی surface2→surface3، <code>.img-zoom</code> hover) · نام (۲ خط <code>line-clamp-2-fa</code>) · قیمت واقعی (<code>Price</code>) · موجودی (فقط واقعی) · CTA افزودن به سبد.</p>
+<p><b>اختیاری (فقط با دادهٔ واقعی):</b> بج تخفیف (accent) · oldPrice خط‌خورده · امتیاز <code>Stars</code> (rating/reviews از DB) · بج ویژه · حالت «ناموجود» (دکمه غیرفعال + متن صادقانه).</p>
+<p><b>اکشن‌های ثانویه:</b> علاقه (قلب) · مقایسه · Quick View (مودال <code>aspect-[4/3] sm:aspect-auto</code>).</p>
+<p><b>قاعدهٔ NO FAKE DATA:</b> نمایش هر بج/امتیاز/تخفیف/موجودی بدون رکورد واقعی DB = باگ برند، نه سلیقه.</p>
+<h2><span class="secnum">15</span>صفحهٔ محصول (<code>ProductDetailClient</code> + <code>ProductGallery</code>)</h2>
+<p>ساختار: breadcrumb → گرید (گالری ۴:۵→مربع در sm | ستون اطلاعات: عنوان، امتیاز، قیمت بزرگ <code>Price lg</code>، QtyPicker، افزودن به سبد، علاقه/اشتراک، آکاردئون‌های <code>.acc-panel</code> برای توضیح/مشخصات/ارسال) → محصولات مرتبط (CarouselRow) → FrequentlyBought → اعتماد×۴.</p>
+<div class="li">• گالری: <code>rounded-[1.75rem]</code>، کلیدهای جهت‌دار، چند تصویر از <code>gallery</code> (همیشه هم‌تراز با <code>image</code> — تضمین‌شده در QA).</div>
+<div class="li">• SEO: <code>generateMetadata</code> یکتا + JSON-LD Product + BreadcrumbList (<code>src/components/seo/JsonLd.tsx</code>).</div>
+<h2><span class="secnum">16</span>ناوبری</h2>
+<div class="li">• ناوبری سراسری فقط از <code>Header.tsx</code>/<code>Footer.tsx</code> — افزودن مسیر = افزودن به آرایه‌های NAV موجود.</div>
+<div class="li">• الگوی فعال: لینک مسیر فعلی با کلاس/زیرخط سبز.</div>
+<div class="li">• نویگیشن پایین موبایل: حداکثر ۵ مقصد پرکاربرد (خانه/دسته‌ها/سینی/سبد/حساب) — آیکون + لیبل ۱۰px.</div>
+<hr class="sep">
+<h2><span class="secnum">17</span>هدر (<code>layout/Header.tsx</code> — 719 خط)</h2>
+<p><b>ترکیب دسکتاپ (بالا به پایین):</b></p>
+<div class="li n">1. <b>AnnouncementBar</b> — نوار اعلان بالای هدر (34px؛ هدر <code>sticky top-[34px]</code> زیر آن).</div>
+<div class="li n">2. ردیف اصلی: لوگو (<code>HelsaLogo h-10</code>) | جستجوی inline (19 ارجاع جستجو؛ placeholder فارسی، normalizeFa) | آیکون‌های: پشتیبانی، حساب کاربر، علاقه‌مندی، مقایسه · سبد با شمارندهٔ فارسی.</div>
+<div class="li n">3. نوار دسته‌ها + <b>مگامنوی «سینی مزه»</b> (تصویری).</div>
+<p><b>موبایل:</b> آیکون منو → drawer تمام‌صفحه از <b>راست</b> (جهت صحیح RTL) با دسته‌های تصویری · نویگیشن پایین fixed (<code>lg:hidden</code>, <code>z-[70]</code>, backdrop-blur).</p>
+<p><b>سبد:</b> Cart drawer (از سمت درست) با بروزرسانی فوری و upsell.</p>
+<p><b>رفتار:</b> backdrop-blur روی اسکرول، انتقال <code>duration-500</code>.</p>
+<h2><span class="secnum">18</span>فوتر (<code>layout/Footer.tsx</code>)</h2>
+<div class="li">• <code>py-16 grid grid-cols-2 md:grid-cols-5 gap-10</code> روی سطح تیرهٔ برند — لینک‌ها <code>text-xs text-inverse/75 hover:text-inverse</code>.</div>
+<div class="li">• ستون‌ها: مجله/راهنما · خدمات (سینی، هدیه، عمده) · اطلاعات شرکت · پشتیبانی · نمادهای اعتماد.</div>
+<div class="li">• پایین: کپی‌رایت + لینک‌های حقوقی (privacy/terms/refund/shipping).</div>
+<div class="li">• Newsletter جدا در <code>NewsletterSection.tsx</code> (بالای فوتر).</div>
+<div class="li">• قاعده: افزودن لینک فقط در آرایه‌ها؛ ترتیب ستون‌ها ثابت.</div>
+<h2><span class="secnum">19</span>آیکون‌ها</h2>
+<div class="li">• <b>کتابخانهٔ مجاز و یگانه: lucide-react</b> (<code>size-3.5/4/5</code> = 14/16/20px، stroke پیش‌فرض 2).</div>
+<div class="li">• آیکون تزئینی → <code>aria-hidden</code>؛ آیکون دکمهٔ icon-only → <code>aria-label</code> فارسی الزامی.</div>
+<div class="li">• جهت‌ها در RTL معکوس می‌شوند (بعدی/قبلی با ChevronLeft/Right متناسب RTL).</div>
+<div class="li">• آیکون‌های سفارشی هلسا فقط در <code>src/components/ui/icons.tsx</code> (۴۱ خط — SVG دستی مینیمال).</div>
+<div class="li">• <b>ممنوع:</b> Font Awesome، آیکون‌پک دوم، ایموجی به‌جای آیکون در UI.</div>
+<h2><span class="secnum">20</span>بج‌ها و وضعیت‌ها</h2>
+<p>کامپوننت <code>Badge</code> — <code>rounded-full px-3 py-1 text-[10.5px] font-bold</code> با ۴ tone: <code>brand</code> (وضعیت مثبت/برند) · <code>accent</code> (تخفیف واقعی؛ متن <code>#331a04</code>) · <code>gold</code> (ویژه/پرمیوم) · <code>ink</code> (خنثی/اطلاع).</p>
+<table><thead><tr><th>وضعیت</th><th>tone</th><th>منبع داده</th></tr></thead><tbody><tr><td>٪تخفیف</td><td>accent</td><td><code>discount</code> واقعی محصول</td></tr><tr><td>پرفروش</td><td>gold</td><td>رتبهٔ rating×reviews واقعی</td></tr><tr><td>ویژه/پیشنهاد هلسا</td><td>brand</td><td>فلگ merchandising واقعی</td></tr><tr><td>موجودی محدود</td><td>gold/accent</td><td><code>stock</code> واقعی (آستانهٔ پایین)</td></tr><tr><td>ناموجود</td><td>ink + دکمه غیرفعال</td><td><code>stock=0</code></td></tr><tr><td>وضعیت سفارش (پردازش/ارسال/تحویل/لغو/مرجوع)</td><td>brand→gold→ink در داشبورد</td><td>وضعیت واقعی سفارش</td></tr></tbody></table>
+<p><b>ممنوع:</b> بج «جدید» بدون فیلد واقعی تاریخچهٔ عرضه · بج «پرفروش» بدون متریک · شمارش معکوس بدون <code>endDate</code> واقعی.</p>
+<h2><span class="secnum">21</span>مودال‌ها / دراورها (<code>ui/controls.tsx</code>)</h2>
+<div class="li">• <b>Modal:</b> <code>w-[min(96vw, 30rem)]</code> (عادی) / <code>52rem</code> (wide) · <code>rounded-2xl bg-surface border-line shadow-lift</code> · <code>max-h-[88vh]</code> با اسکرول داخلی · دکمهٔ بستن <code>end-4 top-4</code> (پیل 32px) · overlay تیره با کلیک‌بستن · ورود/خروج با framer-motion (scale/fade ملایم).</div>
+<div class="li">• <b>Drawer:</b> سبد و منوی موبایل از <b>راست</b> (RTL) — slide + overlay · <code>z-[80+]</code>.</div>
+<div class="li">• <b>Bottom-sheet:</b> الگوی موبایل برای فیلترها/اکشن‌ها (در صورت نیاز — همان زبان مودال).</div>
+<div class="li">• <b>تأیید مخرب:</b> همیشه مودال تأیید با دکمهٔ accent + توضیح عاقبت.</div>
+<h2><span class="secnum">22</span>نوتیفیکیشن‌ها (Toast — <code>ui/Toast.tsx</code>)</h2>
+<div class="li">• توست پایین‌صفحه، سه نوع <code>success | error | info</code> + آیکون · <b>مدت 3800ms</b> · حداکثر چندتوست پشته‌ای.</div>
+<div class="li">• متن‌ها فارسی کوتاه و عملیاتی: «به سبد خرید اضافه شد».</div>
+<div class="li">• aria-live برای اعلام به صفحه‌خوان. ممنوع: alert() صفحه‌ای.</div>
+<h2><span class="secnum">23</span>حالت‌های بارگذاری</h2>
+<div class="li">• <b>اسکلتون (اصلی):</b> کلاس <code>.skeleton</code> (shimmer 1.6s) + <code>Skeleton</code>/<code>CardSkeleton</code> (نسبت 4:3) — برای گرید/لیست/داشبورد.</div>
+<div class="li">• <b>هیرو/تصویر:</b> LQIP بلور از <code>image-blur.json</code> (بدون CLS؛ width/height صریح).</div>
+<div class="li">• <b>دکمه:</b> disabled + متن حالت («در حال ثبت…»)؛ اسپینر فقط در فرم‌های طولانی.</div>
+<div class="li">• قاعده: اسپینر تمام‌صفحه ممنوع؛ navigationهای کلاینت با skeleton.</div>
+<h2><span class="secnum">24</span>حالت‌های خالی (<code>EmptyState</code> در controls.tsx)</h2>
+<p><code>rounded-2xl border border-line bg-surface px-6 py-16 text-center</code> + آیکون در دایرهٔ <code>size-16</code> + عنوان + توضیح + <b>همیشه CTA اقدام بعدی</b> (دکمهٔ primary h-11).</p>
+<p>نمونه‌های الزامی: سبد خالی (پیشنهاد محصولات واقعی <code>EmptyCartSuggestions</code>) · علاقه/مقایسه/جستجو بدون نتیجه/بدون سفارش/بدون RFQ. متن فارسی صادقانه بدون «متأسفیم» اضافی.</p>
+<h2><span class="secnum">25</span>حالت‌های خطا</h2>
+<div class="li">• <b>404 واقعی UI:</b> در همهٔ صفحات داینامیک برای slug نامعتبر، صفحهٔ ۴۰۴ برند رندر می‌شود (رفتار HTTP فعلی: استاتوس ۲۰۰ به‌دلیل streaming SSR — محدودیت شناخته‌شده، در HELSA-DESIGN-AUDIT).</div>
+<div class="li">• خطای فرم: زیر فیلد، متن accent + focus خودکار به اولین فیلد خطادار.</div>
+<div class="li">• خطای پرداخت: صفحهٔ <code>/payment/failed</code> با دکمهٔ تلاش مجدد و شمارهٔ پیگیری.</div>
+<div class="li">• خطای شبکه/سرور: EmptyState با CTA «تلاش دوباره». متن‌ها فارسی روان؛ هرگز stack trace یا کد انگلیسی خام به کاربر.</div>
+<h2><span class="secnum">26</span>سیستم ای‌کامرس</h2>
+<div class="li">• <b>سبد:</b> zustand + persist · Cart drawer · آپدیت فوری شمارندهٔ هدر (ارقام فارسی) · <code>CartUpsell</code> پیشنهاد واقعی.</div>
+<div class="li">• <b>Checkout:</b> فرم آدرس/ارسال → پرداخت (درگاه‌های دیجی‌پی/زرین‌پال از <code>src/lib/payments/</code> + سیمولاتور توسعه) → <code>/payment/success|failed</code>.</div>
+<div class="li">• <b>پیگیری سفارش:</b> <code>/track</code> و <code>/account/orders/[id]</code> با وضعیت واقعی.</div>
+<div class="li">• <b>جستجو/فیلتر/مرتب‌سازی:</b> <code>ProductsExplorer</code> — فیلتر دسته/قیمت/ویژگی از دیتای واقعی.</div>
+<div class="li">• <b>صفحه‌بندی:</b> <code>Pagination.tsx</code> — <b>فشرده و پنجره‌ای با ellipsis هوشمند</b> («قبلی ۱ … ۴ ۵ ۶ … ۱۴ بعدی»)، چیپ‌های pill h-10 — هرگز لیست کامل صفحات.</div>
+<div class="li">• <b>مقایسه:</b> <code>/compare</code> حداکثر چند محصول؛ <b>علاقه‌مندی:</b> <code>/wishlist</code>.</div>
+<h2><span class="secnum">27</span>سیستم B2B</h2>
+<div class="li">• هویت: همان زبان هلسا؛ متراکم‌تر؛ جداول با سطرهای راحت‌خوان.</div>
+<div class="li">• <b>Buyer:</b> داشبورد <code>/wholesale/dashboard</code> (WholesaleDashboardClient) — سفارش‌های عمده، قیمت پلکانی واقعی، وضعیت تأیید.</div>
+<div class="li">• <b>Supplier/Admin:</b> <code>/admin/wholesale</code> — مدیریت درخواست‌ها، قیمت‌گذاری، موجودی.</div>
+<div class="li">• <b>RFQ/درخواست عمده:</b> فرم <code>WholesaleRegisterClient</code> — لیبل‌های واضح «نه پیش‌فاکتور» (الگوی CorporateCalculator: برآورد صادقانه).</div>
+<div class="li">• جدول‌ها: <code>text-sm</code>، ستون‌های زبرا ملایم، اعداد <code>tabular-nums</code> فارسی، وضعیت با Badge، اکشن‌های سطری icon-only با aria-label.</div>
+<div class="li">• <b>تفاوت بصری B2B:</b> فشرده‌تر و داده‌محورتر است اما همان پالت/فونت/شعاع — هیچ مینی‌دیزاین‌سیستم جداگانه‌ای مجاز نیست (قاعدهٔ §62 پرامپت اصلی).</div>
+<h2><span class="secnum">28</span>خرید عمده (<code>/wholesale</code>)</h2>
+<p>صفحهٔ فرود: هیرو (<code>/images/hero-helsa.jpg</code>) · مزایا (قیمت پلکانی، اسناد رسمی، تحویل منظم) · فرم ثبت درخواست · داشبورد خریدار. CTAها: «سفارش عمده» primary · «ثبت درخواست» outline. هیروی اسلاید ۵ صفحهٔ اصلی = <code>wholesale-b2b.jpg</code> (کانتکست B2B: کارتن/کافه/فروشگاه).</p>
+<h2><span class="secnum">29</span>هدایای سازمانی و شخصی (<code>/gifts</code>)</h2>
+<div class="li">• <code>GiftFinder</code> (موتور پیشنهاد واقعی occasion×مخاطب×بودجه) · صفحهٔ سازمانی با <code>CorporateCalculator</code> (برآورد qty×perPack — صریحاً «نه پیش‌فاکتور») · فرم استعلام <code>CorporateInquiryClient</code> · هدایای شخصی <code>PersonalGiftClient</code>.</div>
+<div class="li">• کارت هدیه: تصویر واقعی بسته از DB، قیمت واقعی، CTA «مشاهده هدیه».</div>
+<div class="li">• سلسله‌مراتب: هیرو → Finder → سازمانی → FAQ×۱۰ → CTA. رنگ/کارت/دکمه = کامپوننت‌های عمومی.</div>
+<h2><span class="secnum">30</span>سازندهٔ سینی مزه (<code>/mazeh-trays/build</code> — TrayBuilderClient 766 خط)</h2>
+<div class="li">• جریان: انتخاب اندازه → انتخاب مزه‌ها (کارت‌های انتخاب با شمارنده) → تزئینات → بسته‌بندی → گیرنده → پیش‌نمایش قیمت زنده → افزودن به سبد (آیتم kind=tray).</div>
+<div class="li">• قیمت‌گذاری زنده از API واقعی (<code>/api/trays</code>) — هیچ قیمت نمایشی.</div>
+<div class="li">• موبایل: مراحل تک‌ستونه با چسبیدن خلاصهٔ قیمت پایین صفحه.</div>
+<div class="li">• تصویرسازی: تصویر واقعی سینی/مزه‌ها از کتابخانه؛ پیش‌نمایش متنی-بصری بدون عکس جعلی سینیِ «ساخته‌شده».</div>
+<h2><span class="secnum">31</span>داشبوردها (<code>account/</code>)</h2>
+<div class="li">• <code>AccountDashboard</code> (431 خط) + <code>account/shared.tsx</code>: سایدبار راست (RTL) · KPI کارت · جدول سفارش‌ها · آدرس‌ها · نوتیف‌ها · تنظیمات.</div>
+<div class="li">• KPI widget: عدد بزرگ <code>font-black tabular-nums</code> + لیبل <code>text-xs muted</code> + آیکون کم‌رنگ.</div>
+<div class="li">• ریسپانسیو: سایدبار → تب افقی موبایل.</div>
+<h2><span class="secnum">32</span>ادمین (<code>/admin</code> — AdminShell)</h2>
+<div class="li">• اصول: عملکردی و متراکم؛ همان پالت اما <code>AdminShell</code> با نوار کنار ثابت.</div>
+<div class="li">• ماژول‌های موجود: محصولات (لیست/ویرایش <code>[id]</code>/جدید) · موجودی · سفارش‌ها · مشتریان · دسته‌ها · استعلام‌ها · سینی‌ها · عمده · حسابداری · اینستاگرام · جستجو · تنظیمات.</div>
+<div class="li">• جدول‌های ادمین: فشرده، عملیات‌های گروهی (bulk) با تأیید مودال، ویرایش inline جایی که ایمن است.</div>
+<div class="li">• قاعده: هیچ فیلد ویرایشی بدون اعتبارسنجی zod و state loading.</div>
+<h2><span class="secnum">33</span>تصاویر و رسانه</h2>
+<div class="li">• <b>خط تولید (آزموده):</b> منبع <code>public/images/gen/*.jpg</code> → <code>node scripts/optimize-new-images.mjs</code> → خروجی <code>public/images/opt/{name}.jpg</code> (1400w q82) + <code>{name}-{480,768,1080}.{webp,avif}</code> + بازتولید <code>src/data/image-variants.json</code> → بازتولید LQIP در <code>src/data/image-blur.json</code> (16px webp base64).</div>
+<div class="li">• <b>رندر:</b> فقط <code>SmartImage</code> — <code><picture></code> AVIF→WebP→JPEG + srcset + sizes + LQIP بلور + <code>draggable=false</code>؛ <code>priority</code> فقط برای اولین تصویر هیرو.</div>
+<div class="li">• نسبت‌ها: کارت محصول ۴:۵ · گالری ۴:۵→مربع(sm) · QuickView ۴:۳ · هیرو عریض سینمایی (58vw).</div>
+<div class="li">• <b>نام‌گذاری (قاعدهٔ موجود):</b> kebab-case انگلیسی توصیفی = همان نام محصول: <code>mazafati-premium.jpg</code>، <code>saffron-threads.jpg</code>، <code>hero-cinematic-1.jpg</code>، <code>wholesale-b2b.jpg</code>. ممنوع: <code>IMG_1234</code>، <code>final2</code>، فاصله/حروف بزرگ.</div>
+<div class="li">• <b>alt:</b> از <code>image_alt</code> واقعی DB — توصیف دقیق محصول همان عکس (نه اسم صفحه). alt بدون تصویر درست = باگ.</div>
+<div class="li">• هر عکس باید <b>دقیقاً</b> متنوع‌محصول خودش را نشان دهد (تفکیک واریته‌ها؛ ممیزی کامل: بخش ۲۵ گزارش CRO).</div>
+<div class="li">• ساختار پوشه‌ها: <code>public/{brand,fonts,icons,images/{gen,opt},…}</code> — تصاویر محصول فقط از <code>/images/opt/</code>.</div>
+<hr class="sep">
+<hr class="sep">
+<h2><span class="secnum">34</span>هیرو اسلایدر / کاروسل (فروش‌محور — <code>home/Hero.tsx</code>)</h2>
+<p><b>فلسفه:</b> هیرو = ویترین فروش، نه معرفی شرکت. هر اسلاید باید در ~۳ ثانیه بگوید «چه چیزی، چرا، حالا چه کنم».</p>
+<p><b>۵ اسلاید تجاری داینامیک</b> (ساخته‌شده از کاتالوگ واقعی توسط <code>buildSlides</code>):</p>
+<div class="li n">1. پرفروش‌ترین (رتبهٔ rating×reviews واقعی) + قیمت واقعی + بج تخفیف + «مشاهده محصول» + <b>افزودن به سبد از هیرو</b></div>
+<div class="li n">2. پیشنهاد ویژه (بیشترین تخفیف واقعی کاتالوگ) + CTA «خرید کنید»</div>
+<div class="li n">3. سینی مزه → <code>/mazeh-trays/build</code> · 4. هدایای سازمانی → <code>/gifts/corporate</code> · 5. خرید عمده (تصویر B2B) → <code>/wholesale</code></div>
+<div class="li">• <b>ساختار:</b> split-grid متن ۵ / تصویر ۷ · ارتفاع lg:480px (موبایل 240/300 — هرگز تمام‌صفحه).</div>
+<div class="li">• <b>تصویر:</b> کراس‌فید 900ms با opacity (بدون CLS) · بج تخفیف accent روی تصویر · feather گرادیانی به متن.</div>
+<div class="li">• <b>متن per-slide:</b> کیکر طلایی tracking-wide → تیتر ۲ خط font-black → rule-gold → توضیح ≤۲ خط → قیمت (محصولی) → CTA.</div>
+<div class="li">• <b>کنترل‌ها:</b> سوایپ لمسی (آستانه 48px، جهت RTL) · فلش‌های شیشه‌ای دسکتاپ · نقطه‌های tablist با aria-selected · شمارندهٔ «۱ / ۵» فارسی aria-live · کیبورد ArrowLeft/Right (RTL) · autoplay 6500ms فقط با visibility — توقف در hover/focus/تب مخفی.</div>
+<div class="li">• <b>داده/ادمین:</b> هر اسلاید id/active دارد — آمادهٔ کنترل پنل (هیچ عنوان/قیمت هاردکد جعلی).</div>
+<div class="li">• <b>آنالیتیکس:</b> hero_slide_view (هر تغییر) · hero_slide_click · hero_quick_add.</div>
+<div class="li">• <b>نوار افقی محصولات (CarouselRow):</b> اسکرول snap + no-scrollbar + فلش دسکتاپ — الگوی استاندارد ردیف محصولات/کراس‌سل.</div>
+<h2><span class="secnum">35</span>طراحی فروش و تبدیل (CRO rules)</h2>
+<div class="li">• <b>سلسله‌مراتب قیمت:</b> عدد بزرگ <code>text-price</code> سبز + «تومان» کوچک + قیمت قبلی line-through فقط وقتی oldPrice>price واقعی. اعداد همیشه فارسی/tabular.</div>
+<div class="li">• <b>بج تخفیف:</b> فقط از <code>discount</code> واقعی محصول — هرگز از فیلد تشریفاتی کمپین که در سبد اعمال نمی‌شود.</div>
+<div class="li">• <b>CTA:</b> در هر ویو یک primary غالب؛ افزودن سریع بدون ناوبری اضافه (Quick Add + توست + شمارندهٔ سبد).</div>
+<div class="li">• <b>شاخص‌های اجتماعی واقعی:</b> «پرفروش» = متریک واقعی · «ویژه» = فلگ merchandising · امتیاز فقط با rating/reviews از DB.</div>
+<div class="li">• <b>کمبود/فوریت صادقانه:</b> «موجودی محدود» فقط با stock واقعی پایین · شمارش معکوس فقط با endDate واقعی کمپین · کمپین غیرفعال/گذشته هرگز فعال‌نما نیست (آرشیو خاموش: grayscale + بدون بج).</div>
+<div class="li">• <b>حالت خالی صادقانه:</b> «به‌زودی» بدون تاریخ ساختگی، فقط متن و CTA به ویترین.</div>
+<div class="li">• <b>ممنوع مطلق:</b> countdown/نقد/موجودی/فروش جعلی · pre-checked upsell · مسیر لغو سخت · قیمت نمایشی که در سبد نیست.</div>
+<hr class="sep">
+<h2><span class="secnum">36</span>موشن و انیمیشن</h2>
+<div class="li">• <b>منحنی امضای هلسا:</b> <code>cubic-bezier(0.22, 1, 0.36, 1)</code> (ثابت <code>ease</code> در کامپوننت‌ها) — حس نرم و پرمیوم.</div>
+<div class="li">• <b>مدت‌ها:</b> 300ms (تعامل) · 350–500ms (hover کارت) · 450–900ms (ورود محتوا/کراس‌فید هیرو) · autoplay هیرو 6500ms با توقف در hover/focus/تب مخفی.</div>
+<div class="li">• <b>ورود محتوا:</b> <code>Reveal</code> (فریم‌موت) — فقط یک‌بار، y کوچک (12–18px)، بدون bounce.</div>
+<div class="li">• <b>میکرو:</b> <code>active:scale-[0.98/0.95]</code> روی دکمه/چیپ · <code>.img-zoom</code> scale(1.03) · <code>.prem-card</code> بالا‌رفتن 6px + سایه.</div>
+<div class="li">• <b>حالت‌های ویژه CSS:</b> <code>.acc-panel</code> (آکاردئون با grid-rows بدون JS) · <code>.skeleton</code> shimmer.</div>
+<div class="li">• <b>احترام به دسترس‌پذیری:</b> globals.css خط 229/243 — <code>@media (prefers-reduced-motion: no-preference)</code> گیت ورود انیمیشن‌ها و <code>prefers-reduced-motion: reduce</code> آن‌ها را خنثی می‌کند. هر انیمیشن جدید باید داخل همین الگو باشد.</div>
+<div class="li">• <b>ممنوع:</b> پارالکس سنگین، bounce، انیمیشن بی‌هدف، marquee سریع (نوار 40s فقط برای استوری‌ها).</div>
+<h2><span class="secnum">37</span>دسترس‌پذیری (WCAG 2.1 AA — الزامی)</h2>
+<div class="li n">1. <b>کنتراست:</b> پالت روی سطوح خودش AA است (<code>--color-faint</code> انتخاب‌شده 4.9:1؛ <code>.text-brand-link</code> با متغیر دارک). هر رنگ متن جدید باید AA اثبات شود.</div>
+<div class="li n">2. <b>فوکوس:</b> سراسری <code>*:focus-visible { outline: 2px solid brand-600; offset 3px }</code> — هرگز <code>outline:none</code> بدون جایگزین.</div>
+<div class="li n">3. <b>کلیboard:</b> اسلایدر هیرو با ArrowLeft/Right (RTL) · مودال با Esc · tablistها با role/aria-selected.</div>
+<div class="li n">4. <b>نام‌گذاری:</b> هر دکمهٔ icon-only <code>aria-label</code> فارسی · هر آیکون تزئینی <code>aria-hidden</code> · تصاویر alt واقعی.</div>
+<div class="li n">5. <b>فرم:</b> لیبل + خطای متنی (نه فقط رنگ) + <code>role="alert"</code>.</div>
+<div class="li n">6. <b>لمس:</b> هدف‌های لمسی ≥ 36px (h-9) — اکثراً 44px (h-11).</div>
+<div class="li n">7. <b>اعلان:</b> toast با aria-live؛ تغییر شمارندهٔ سبد <code>aria-live="polite"</code>.</div>
+<div class="li n">8. نوار consent نباید با پشتیبانی رقابت کند (قاعدهٔ <code>data-consent-open</code> در globals).</div>
+<h2><span class="secnum">38</span>سئو / AEO / GEO (الزامات UI)</h2>
+<div class="li">• <code><h1></code> یکتا در هر صفحه · سلسله‌مراتب h1→h2→h3 بدون پرش.</div>
+<div class="li">• <b>Breadcrumb</b> بصری + BreadcrumbList JSON-LD (<code>seo/JsonLd.tsx</code>) — در همهٔ صفحات عمق‌دار.</div>
+<div class="li">• متادیتای یکتا per صفحه با <code>generateMetadata</code> (products/blog/campaigns/gifts) · metadataBase از siteUrl · openGraph و twitter در layout و صفحات محتوایی.</div>
+<div class="li">• <b>sitemap.ts داینامیک</b> (محصولات+بلاگ+جشنواره‌ها) · robots.</div>
+<div class="li">• متن محصول واقعی و پاسخ‌گفتنی (AEO): بخش پرسش/FAQ با محتوای واقعی (مثال gifts FAQ×۱۰ با اسکیما).</div>
+<div class="li">• لینک‌سازی داخلی واقعی (کراس‌سل/مرتبط‌ها) — نه لینک مرده.</div>
+<div class="li">• تصویر: alt دقیق + dimensions (CLS صفر) — خودش سیگنال سئو.</div>
+<h2><span class="secnum">39</span>کارایی (قواعد/frontend)</h2>
+<div class="li n">1. تصویر فقط با SmartImage (AVIF/WebP + srcset + LQIP + lazy) · priority فقط هیرو.</div>
+<div class="li n">2. بدون فونت/اسکریپت خارجی (CDN ممنوع) · فونت متغیر تک‌فایل preload.</div>
+<div class="li n">3. <code>motion.div</code> فقط جایی که ارزش دارد؛ انیمیشن‌های CSS (acc/skeleton) ارجح‌ترند.</div>
+<div class="li n">4. کامپوننت سرور به‌طور پیش‌فرض؛ <code>"use client"</code> فقط برای تعامل — <b>هرگز سرویس DB در کلاینت import نشود</b> (درس آموخته: خطای dns/fs/net در بیلد).</div>
+<div class="li n">5. CLS: ابعاد صریح تصویر/نسبت‌های ثابت · بدون درج محتوای دیرهنگام بدون رزرو فضا.</div>
+<div class="li n">6. بیلد سبز + tsc پاک پیش از هر تحویل · QA پلی‌رایت (سرریز 0، کنسول 0).</div>
+<div class="li n">7. Core Web Vitals هدف: LCP<2.5s، CLS≈0 — طرح LQIP/AVIF دقیقاً برای همین است.</div>
+<h2><span class="secnum">40</span>امنیت UI</h2>
+<div class="li">• ورودی‌های حساس: <code>type="password"</code> · هرگز مقدان رمز/توکن در state قابل‌render یا console.</div>
+<div class="li">• XSS: رندر متن React (بدون dangerouslySetInnerHTML مگر با پاکسازی تأییدشده).</div>
+<div class="li">• اکشن‌های مخرب (حذف/مرجوعی): مودال تأیید + متن عاقبت.</div>
+<div class="li">• فرم‌ها: zod سمت سرور (UI فقط بازخورد) · CSRF گارد در مسیرهای حساس (الگوی موجود).</div>
+<div class="li">• آپلود (ادمین): پسوند/mime مجاز + پیام خطای فارسی؛ نمایش پیش‌نمایش قبل از ثبت.</div>
+<div class="li">• پرداخت: هیچ دادهٔ کارت در UI ذخیره/لو نمی‌رود؛ فقط توکن/رفرنس درگاه.</div>
+<div class="li">• وضعیت مجوز: منوهای ادمین فقط با نقش واقعی؛ رندر مخفی ≠ امنیت (سرور مجوز را اعمال می‌کند).</div>
+<h2><span class="secnum">41</span>استانداردهای توسعه</h2>
+<div class="li">• <b>نام فایل:</b> کامپوننت PascalCase.tsx · اسکریپت‌ها kebab-case · صفحات = page.tsx کنوانسیون App Router.</div>
+<div class="li">• <b>نام‌گذاری:</b> کامپوننت‌های عمومی در <code>ui/</code> (Button, Modal, Toast, SmartImage, CarouselRow) · تخصصی در پوشهٔ دامنه (product/, gifts/, mazeh/, campaigns/…) · helperها در <code>lib/</code>.</div>
+<div class="li">• <b>CSS:</b> فقط Tailwind کلاس‌ها + کلاس‌های امضایی globals.css؛ استایل inline ممنوع مگر مقدار داینامیک واقعی.</div>
+<div class="li">• <b>توکن‌ها:</b> رنگ/سایه/فونت فقط از توکن‌ها — هر <code>#hex</code> خام در TSX باید کامنت دلیل داشته باشد (استثناهای موجود: لوگو، متن روی accent).</div>
+<div class="li">• <b>داده:</b> کامپوننت سرور ← services/ (drizzle) · کلاینت ← fetch از /api موجود.</div>
+<div class="li">• <b>استفادهٔ مجدد:</b> پیش از ساخت کامپوننت جدید، <code>HELSA-COMPONENT-INVENTORY.md</code> را ببینید — نسخهٔ دوم از چیز موجود نسازید.</div>
+<div class="li">• <b>خطا/بارگذاری:</b> هر ویو داده‌محور باید سه حالت داشته باشد: loading (skeleton) / empty (EmptyState+CTA) / error.</div>
+<div class="li">• <b>قاعدهٔ تغییر:</b> تغییر توکن برند (سبز/طلایی/فونت/شعاع pill) = تغییر هویت = نیازمند تأیید صریح مالک برند.</div>
+<h2><span class="secnum">42</span>توکن‌های دیزاین (مرجع کامل — هم‌ارز <code>helsa-design-tokens.css</code>)</h2>
+<pre class="code">/* رنگ */ brand-700 #0a5236 · brand-600 #0b5f3b · brand-800 #08422c
+accent-500 #e06a00 · gold-500 #b3922f · gold-600 #8f7423
+canvas #fffdf9 · surface #ffffff · surface2 #faf7f0 · line #e6ddcb
+heading #201f1b · body #403d36 · muted #6e6a60 · faint #767065
+/* سایه */ --shadow-soft: 0 6px 24px -10px rgb(32 31 27/.10)
+--shadow-lift: 0 18px 44px -18px rgb(6 51 35/.18)
+--shadow-glow: 0 0 0 1px rgb(179 146 47/.18), 0 14px 40px -16px rgb(6 51 35/.28)
+/* فونت */ Vazirmatn Variable · fallback: Vazir, Segoe UI, Tahoma
+/* کانتینر */ 82rem (1312px) · پدینگ 20/40px
+/* شعاع */ full(دکمه/بج) · 2xl=16px(کارت/مودال) · xl=12px(فرم/تصویر کارت) · [1.75rem](گالری)
+/* ارتفاع */ دکمه 36/44/48 · فرم 44 (h-11) · چیپ تب 40
+/* بریک‌پوینت */ sm 640 · md 768 · lg 1024 · xl 1280 · 2xl 1536 (+min-[390px])
+/* z-index */ 10 محتوا · 40 dropdown · 50 هدر · 70 ناوبری پایین · 76–90 دراور/مودال/توست · 90 بالاترین
+/* موشن */ ease(0.22,1,0.36,1) · 300/500ms · skeleton shimmer 1.6s · toast 3800ms · autoplay هیرو 6500ms
+/* آیکون */ lucide · 14/16/20px · stroke 2</pre>
+<h2><span class="secnum">43</span>فهرست کامپوننت‌ها</h2>
+<p>کامل در <b><code>HELSA-COMPONENT-INVENTORY.md</code></b> (۵۷ کامپوننت با مسیر/نقش/پراپس/وضعیت‌ها) — خلاصهٔ ساختار: <code>ui/</code> (۱۰ پایه) · <code>layout/</code> (۷) · <code>home/</code> (۱۲) · <code>product/</code> (۸) · <code>mazeh/</code> (۵) · <code>gifts/</code> (۵) · <code>cart/</code> (۲) · <code>account/</code> (۴) · <code>admin/</code> (۴) · <code>wholesale/</code> (۲) · <code>blog/</code> (۲) · <code>campaigns/</code> (۱) · <code>consent/</code>+<code>pwa/</code>+<code>theme/</code>+<code>seo/</code> (۶).</p>
+<h2><span class="secnum">44</span>نقشهٔ صفحه‌به‌صفحه (خلاصهٔ الزامات)</h2>
+<table><thead><tr><th>صفحه</th><th>الگو/سکشن‌های کلیدی</th></tr></thead><tbody><tr><td>خانه <code>/</code></td><td>هیرو فروش‌محور ۵ اسلاید (§۳۴) → FeaturedTabs (پرفروش/پیشنهاد/تخفیف‌دار) → FlashOfferStrip → دسته‌ها → مسیرهای ویژه → مجله → خبرنامه</td></tr><tr><td>محصولات <code>/products</code></td><td>CategoryHero + Explorer (فیلتر/سورت/صفحه‌بندی فشرده) + FirstPurchaseBanner</td></tr><tr><td>محصول <code>/products/[slug]</code></td><td>بخش ۱۵</td></tr><tr><td>جشنواره‌ها <code>/campaigns</code></td><td>اسپات‌لایت فعال + شمارش معکوس واقعی + آرشیو خاموش + لندینگ <code>[slug]</code></td></tr><tr><td>سینی‌ها <code>/mazeh-trays</code></td><td>گرید سینی + سازندهٔ <code>/build</code></td></tr><tr><td>هدایا <code>/gifts</code></td><td>Finder + سازمانی + شخصی + FAQ×۱۰</td></tr><tr><td>عمده <code>/wholesale</code></td><td>فرود B2B + ثبت + داشبورد</td></tr><tr><td>سبد/تسویه</td><td>دراور سبد → checkout → payment success/failed</td></tr><tr><td>حساب <code>/account/*</code></td><td>داشبورد ۶ ساب‌صفحه</td></tr><tr><td>ادمین <code>/admin/*</code></td><td>پوسته + ۱۲ ماژول</td></tr><tr><td>محتوا <code>/blog /health-center /guides /podcast /videocast</code></td><td>ArticleLayout با ReadingEnhancements</td></tr><tr><td>ثابت</td><td>about/founder/experience/faq/contact/track/privacy/terms/refund/shipping/offers/compare/wishlist/instagram/offline</td></tr></tbody></table>
+<p>هر صفحهٔ جدید: metadata یکتا + h1 یکتا + breadcrumb + EmptyState برای حالت بی‌داده + تست 375/768/1440.</p>
+<h2><span class="secnum">45</span>اصول UX هلسا (۱۲ اصل)</h2>
+<div class="li n">1. شفافیت محصول مقدم بر زیبایی · 2. اعتماد مقدم بر ترغیب (NO FAKE DATA) · 3. ناوبری ساده · 4. خرید سریع (Quick Add/Quick View) · 5. قیمت شفاف فارسی · 6. موجودی صادقانه · 7. اصطکاک حداقلی · 8. موبایل‌اول · 9. بهره‌وری B2B · 10. پرمیوم اما عملی · 11. pertinence فرهنگی ایرانی · 12. بدون UX فریبنده — هرگز countdown/نقد/موجودی جعلی.</div>
+<h2><span class="secnum">46</span>انجام بده / نکن</h2>
+<p><b>✅ انجام بده:</b> توکن‌ها · کامپوننت موجود · فارسی درست با ارقام فارسی · تصویر واقعی همان محصول · RTL منطقی · دسترس‌پذیری AA · skeleton/empty/error سه‌گانه · صفحه‌بندی فشرده · متن کوتاه پرمیوم.</p>
+<p><b>❌ نکن:</b> رنگ خارج پالت · فونت دوم · بج/امتیاز جعلی · فاصله‌های arbitrary بی‌دلیل · اسکرول افقی صفحه · تصویر بی‌ربط به عنوان · مینی‌دیزاین‌سیستم برای فیچر جدید · لوگو را دستکاری · توکن برند را بدون تأیید تغییر بده.</p>
+<h2><span class="secnum">47</span>قواعد توسعهٔ آینده (چک‌لیست صفحهٔ جدید)</h2>
+<p><code>layout</code> (container-x + گرید موجود) → <code>تایپوگرافی</code> (SectionHead/مقیاس §05) → <code>رنگ</code> (فقط توکن) → <code>فاصله</code> (§07) → <code>کامپوننت</code> (از inventory) → <code>ریسپانسیو</code> (375/768/1440، سرریز 0) → <code>a11y</code> (aria/کنتراست/فوکوس) → <code>SEO</code> (metadata/h1/breadcrumb/alt) → <code>کارایی</code> (SmartImage/کلاینت حداقلی) → <code>امنیت</code> (zod/CSRF/مجوز) → <code>محتوا</code> (فارسی درست، بدون دادهٔ ساختگی) → <code>CTA</code> (یک primary غالب) → <code>تست</code> (tsc + build + Playwright QA + کنسول 0).</p>
+<h2><span class="secnum">48</span>مرجع سریع توسعه‌دهنده</h2>
+<p>→ فایل مستقل: <b><code>HELSA-DESIGN-QUICK-REFERENCE.md</code></b> (مقادیر اصلی در یک نگاه).</p>
+<h2><span class="secnum">49</span>ناسازگاری‌های فعلی و پیشنهادها</h2>
+<p>→ جدول کامل با اولویت در <b><code>HELSA-DESIGN-AUDIT.md</code></b> (از جمله: استاتوس ۲۰۰ اسلاگ نامعتبر، تصاویر خانواده‌های هم‌نوع، لوگوی PNG بدون وکتور).</p>
+<h2><span class="secnum">50</span>بلوغ دیزاین‌سیستم</h2>
+<p>→ امتیازدهی ۱۳ محور در <b><code>HELSA-DESIGN-AUDIT.md</code></b>.</p>
+<h2><span class="secnum">51</span>توصیه‌های نهایی</h2>
+<div class="li n">۱. تأمین لوگوی وکتور رسمی + فavicon ست کامل · ۲. اعمال تخفیف کمپین در موتور قیمت سبد · ۳. پنل ادمین جشنواره/اسلاید هیرو (ساختار buildSlides آماده است) · ۴. ISR یا existence-check برای ۴۰۴ واقعی HTTP · ۵. تکمیل تدریجی تصاویر اختصاصی خانواده‌های هم‌نوع · ۶. نصب GTM (dataLayer آماده است) · ۷. Storybook/کاتالوگ بصری کامپوننت‌ها (اختیاری، ارزش بالا).</div>
+</body>
+</html>

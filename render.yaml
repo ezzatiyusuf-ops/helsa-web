@@ -1,0 +1,67 @@
+# Blueprint استقرار روی Render — HELSA
+#
+# استفاده: این فایل را در ریشهٔ مخزن بگذارید و در Render → New → Blueprint انتخابش کنید.
+# مقادیر `sync: false` را هنگام ساخت سرویس، دستی در داشبورد وارد می‌کنید.
+# هیچ رازی در این فایل نوشته نشده است.
+
+services:
+  - type: web
+    name: helsa-web
+    runtime: node
+    plan: starter
+    region: frankfurt
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start -- -H 0.0.0.0 -p $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      # ── الزامی ──────────────────────────────────────────
+      - key: DATABASE_URL          # Render Postgres داخلی یا هر PG مدیریت‌شده
+        fromDatabase:
+          name: helsa-db
+          property: connectionString
+      - key: AUTH_SECRET           # openssl rand -base64 48 — حداقل ۳۲ نویسه
+        generateValue: true
+      - key: NEXT_PUBLIC_SITE_URL
+        value: https://helsairanian.ir
+      - key: ALLOW_INDEXING        # بدون این، robots = Disallow: / و sitemap خالی
+        value: "1"
+      - key: NODE_ENV
+        value: production
+      # ── کارت‌به‌کارت (الزامی برای مسیر پرداخت) ─────────────
+      - key: CARD_TRANSFER_NUMBER
+        sync: false
+      - key: CARD_TRANSFER_HOLDER
+        sync: false
+      - key: CARD_TRANSFER_BANK
+        sync: false
+      # ── ادمین ───────────────────────────────────────────
+      - key: ADMIN_EMAILS
+        sync: false
+      # ── اختیاری (خالی = قابلیت خاموش) ─────────────────────
+      - key: PAYMENTS_SANDBOX
+        value: "1"
+      - key: IDENTITY_PROVIDER
+        value: simulation
+      - key: SMS_PROVIDER
+        sync: false
+      - key: SMS_API_KEY
+        sync: false
+      - key: NEXT_PUBLIC_GTM_ID
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: APPLE_CLIENT_ID
+        sync: false
+      - key: APPLE_CLIENT_SECRET
+        sync: false
+
+databases:
+  - name: helsa-db
+    databaseName: helsa_db
+    user: helsa
+    plan: basic-256mb
+    region: frankfurt

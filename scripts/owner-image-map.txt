@@ -1,0 +1,22 @@
+# نگاشت رسمی عکس‌های مالک — منبع حقیقت مشترک (heal-images.sh + push-to-git.sh)
+# ─────────────────────────────────────────────────────────────────────────────
+# هر خط: <نام-خروجی>  <فایل-مستر در helsa-photo-edits/final-v2>
+# ترتیب داخل هر محصول: خط اول = تصویر اصلی، بقیه = گالری.
+# ⚠️ فقط محتوای واقعی عکس‌ها؛ هیچ محصولی عکسِ محصول دیگر نمی‌گیرد.
+#   (بازبینی ۲۰۲۶-۱۰-۱۹: ۰۱ تا ۰۵ شکلات خرما · ۰۶/۰۸/۰۹ گردو · ۰۷ انجیر ·
+#    ۱۰/۱۱ کشمش · ۱۲ تا ۱۵ چای — پیش‌تر ۰۶/۱۳/۱۵ اشتباهاً به «خرما بار» رفته بود)
+handmade-date-chocolate 01-IMG_3596
+handmade-date-chocolate-2 02-IMG_3598
+handmade-date-chocolate-3 03-IMG_3599
+handmade-date-chocolate-4 05-IMG_3602
+date-chocolate-walnut 04-IMG_3601
+walnut-kernels 09-4
+walnut-kernels-2 08-3
+walnut-kernels-3 06-1
+golden-raisins 10-7
+golden-raisins-2 11-8
+dried-figs 07-2
+lahijan-black-tea 12-IMG_3467
+lahijan-black-tea-2 13-tg1
+lahijan-black-tea-3 14-tg2
+lahijan-black-tea-4 15-tg3

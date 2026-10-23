@@ -1,0 +1,3536 @@
+{
+ "summary": {
+  "pass": 44,
+  "improve": 128,
+  "high": 0,
+  "blocker": 0,
+  "avg": 94,
+  "total": 172
+ },
+ "rows": [
+  {
+   "slug": "bidmeshk-distillate",
+   "name": "عرق بیدمشک",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "bidmeshk-noghl",
+   "name": "نقل بیدمشکی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "black-olives",
+   "name": "زیتون سیاه",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "branch-rock-candy",
+   "name": "نبات شاخه‌ای",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "calm-herbal-tea",
+   "name": "دمنوش آرامش",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "chicken-spice",
+   "name": "ادویه مرغ",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "chicory-distillate",
+   "name": "عرق کاسنی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "chocolate-peanut-butter",
+   "name": "کره بادام زمینی شکلاتی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "coconut-date-chocolate",
+   "name": "شکلات خرمایی نارگیلی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "crunchy-peanut-butter",
+   "name": "کره بادام زمینی کرانچی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "dark-chocolate",
+   "name": "شکلات تلخ",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-bar",
+   "name": "خرما بار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-biscuits",
+   "name": "بیسکویت خرمایی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-chocolate",
+   "name": "شکلات خرمایی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-chocolate-bar",
+   "name": "بار خرما و شکلات",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-nut-bar",
+   "name": "بار خرما و مغزها",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-sesame-bar",
+   "name": "بار خرما و کنجد",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-sugar",
+   "name": "قند خرما",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "date-syrup",
+   "name": "شیره خرما",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "dried-rose",
+   "name": "گل محمدی خشک",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "everyday-nuts",
+   "name": "آجیل اقتصادی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "extra-virgin-olive-oil",
+   "name": "روغن زیتون فرابکر",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "fennel-distillate",
+   "name": "عرق رازیانه",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "filled-candy",
+   "name": "آبنبات مغزدار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "filled-chocolate",
+   "name": "شکلات مغزدار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "filled-date-chocolate",
+   "name": "شکلات خرمایی مغزدار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "filled-noghl",
+   "name": "نقل مغزدار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "flavored-peanuts",
+   "name": "بادام زمینی طعم‌دار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "four-kernel-nuts",
+   "name": "آجیل چهارمغز",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "fruit-candy",
+   "name": "آبنبات میوه‌ای",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "fumitory-distillate",
+   "name": "عرق شاتره",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "garlic-pickles",
+   "name": "ترشی سیر",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "green-olives",
+   "name": "زیتون سبز",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-breakfast-pack",
+   "name": "پک صبحانه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-candy",
+   "name": "آبنبات ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-cheese",
+   "name": "پنیر ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-corporate-pack",
+   "name": "پک سازمانی هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-date-bar",
+   "name": "بار خرما ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-date-cake",
+   "name": "کیک خرمایی هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-date-sugar",
+   "name": "قند خرما ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-dried-fruit-selection",
+   "name": "خشکبار ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-dry-cake",
+   "name": "کیک خشک هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-dry-sweets",
+   "name": "شیرینی خشک ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-flavored-seeds",
+   "name": "تخمه طعم‌دار ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-gift-pack",
+   "name": "پک هدیه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-halva-tahini",
+   "name": "حلوا ارده ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-handmade-chocolate",
+   "name": "شکلات دست‌ساز هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-herbal-blend",
+   "name": "دمنوش ترکیبی هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-hospitality-biscuits",
+   "name": "بیسکویت پذیرایی هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-hospitality-pack",
+   "name": "پک پذیرایی هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-mixed-nuts",
+   "name": "آجیل مخلوط هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-noghl",
+   "name": "نقل ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-nowruz-pack",
+   "name": "پک نوروز هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-olives",
+   "name": "زیتون ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-party-pack",
+   "name": "پک ویژه مهمانی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-peanut-butter",
+   "name": "کره بادام زمینی ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-pickles",
+   "name": "ترشی ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-premium-barberry",
+   "name": "زرشک ممتاز هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-rock-candy",
+   "name": "نبات ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-rosebuds",
+   "name": "غنچه گل محمدی ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-sesame-bar",
+   "name": "بار کنجد ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-sesame-oil",
+   "name": "روغن کنجد ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-signature-chocolate",
+   "name": "شکلات ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-signature-date-chocolate",
+   "name": "شکلات خرمایی ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-signature-honey",
+   "name": "عسل ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-signature-nuts",
+   "name": "آجیل ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-signature-syrup",
+   "name": "شیره ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-spice-blend",
+   "name": "ادویه مخصوص هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-tahini",
+   "name": "ارده ویژه هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "helsa-yalda-pack",
+   "name": "پک یلدای هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "hospitality-cheese",
+   "name": "پنیر پذیرایی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "hospitality-chocolate",
+   "name": "شکلات پذیرایی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "hospitality-herbal-tea",
+   "name": "دمنوش ویژه پذیرایی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "japanese-seeds",
+   "name": "تخمه ژاپنی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "khalilo-honey",
+   "name": "عسل خلیلو",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "liteh-pickles",
+   "name": "ترشی لیته",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "marinated-olives",
+   "name": "زیتون پرورده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "mazafati-dates",
+   "name": "خرما مضافتی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "meat-spice",
+   "name": "ادویه گوشت",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "meaty-pumpkin-seeds",
+   "name": "تخمه کدو گوشتی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "medjool-dates",
+   "name": "خرما مجول",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "milk-chocolate",
+   "name": "شکلات شیری",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "mint-distillate",
+   "name": "عرق نعناع",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "mixed-pickles",
+   "name": "ترشی مخلوط",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "mixed-spices",
+   "name": "ادویه ترکیبی هلسا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "mountain-honey",
+   "name": "عسل کوهستان",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "natural-honey",
+   "name": "عسل طبیعی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "nowruz-nuts",
+   "name": "آجیل نوروزی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "olive-oil",
+   "name": "روغن زیتون",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "orange-blossom-distillate",
+   "name": "عرق بهارنارنج",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "orange-blossom-honey",
+   "name": "عسل بهارنارنج",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "orange-blossom-tea",
+   "name": "دمنوش بهارنارنج",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "party-nuts-collection",
+   "name": "آجیل مهمانی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "piaram-dates",
+   "name": "خرما پیارم",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "pistachio-halva-tahini",
+   "name": "حلوا ارده پسته‌ای",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "pitted-olives",
+   "name": "زیتون بدون هسته",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "plain-candy",
+   "name": "آبنبات ساده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "plain-halva-tahini",
+   "name": "حلوا ارده ساده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "plain-noghl",
+   "name": "نقل ساده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "plain-peanut-butter",
+   "name": "کره بادام زمینی ساده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "plain-rock-candy",
+   "name": "نبات ساده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "pomegranate-barberry",
+   "name": "زرشک دانه‌اناری",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "premium-mixed-nuts",
+   "name": "آجیل ممتاز شب‌چره",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "puffy-barberry",
+   "name": "زرشک پفکی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "pumpkin-seeds",
+   "name": "تخمه کدو",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "rice-spice",
+   "name": "ادویه پلویی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "roasted-peanuts",
+   "name": "بادام زمینی بوداده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "roasted-seeds",
+   "name": "تخمه بوداده",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "rose-distillate",
+   "name": "عرق گل محمدی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "rose-herbal-tea",
+   "name": "دمنوش گل محمدی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "rosebuds",
+   "name": "غنچه گل محمدی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "saffron-candy",
+   "name": "آبنبات زعفرانی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "saffron-noghl",
+   "name": "نقل زعفرانی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "salted-peanuts",
+   "name": "بادام زمینی شور",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "salted-seeds",
+   "name": "تخمه شور",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sesame-bar",
+   "name": "بار کنجد",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sesame-date-bar",
+   "name": "بار کنجد و خرما",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sesame-date-chocolate",
+   "name": "شکلات خرمایی کنجدی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sesame-nut-bar",
+   "name": "بار کنجد و مغزها",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sesame-oil",
+   "name": "روغن کنجد",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sesame-tahini",
+   "name": "ارده کنجد",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sidr-honey",
+   "name": "عسل کنار",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "stew-spice",
+   "name": "ادویه خورشتی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "stick-rock-candy",
+   "name": "نبات چوبی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "sunflower-seeds",
+   "name": "تخمه آفتابگردان",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "traditional-cheese",
+   "name": "پنیر سنتی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "traditional-tahini",
+   "name": "ارده سنتی",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "yalda-nuts",
+   "name": "آجیل شب یلدا",
+   "score": 93,
+   "status": "🟡 NEEDS IMPROVEMENT",
+   "parts": {
+    "visual": 16,
+    "image": 12,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": [
+    "تصویر اختصاصی‌تر برای متمایز شدن از هم‌خانواده"
+   ]
+  },
+  {
+   "slug": "akbari-pistachios",
+   "name": "پسته اکبری درشت",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "black-pepper",
+   "name": "فلفل سیاه",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "chickpeas",
+   "name": "نخود",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "chocolate-coated-dates",
+   "name": "خرما شکلات‌پوش پسته‌ای",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "cinnamon",
+   "name": "دارچین",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "date-chocolate-walnut",
+   "name": "شکلات خرما با مغز گردو",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "date-powder",
+   "name": "پودر خرما طبیعی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "dried-apricots",
+   "name": "برگه زردآلو ملایم",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "dried-figs",
+   "name": "انجیر خشک استهبان",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "dried-fruit-mix",
+   "name": "میکس میوه خشک هلسا",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "dried-mulberries",
+   "name": "توت خشک طبیعت",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "dried-plums",
+   "name": "آلو خشک دودی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "economic-nuts",
+   "name": "آجیل اقتصادی روزانه",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "four-nut-mix",
+   "name": "آجیل چهارمغز",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "golden-raisins",
+   "name": "کشمش سبز طلایی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "golpar",
+   "name": "گلپر",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "grape-syrup",
+   "name": "شیره انگور",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "handmade-date-chocolate",
+   "name": "شکلات دست‌ساز خرما",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "helsa-fruit-tea",
+   "name": "دمنوش میوه‌ای هلسا",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "herbal-tea-borage",
+   "name": "دمنوش گل‌گاوزبان و سنبل‌الطیب",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "kabkab-dates",
+   "name": "خرما کبکاب",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "khasoei-dates",
+   "name": "خرما خاصویی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "lahijan-black-tea",
+   "name": "چای سیاه لاهیجان",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "lentils",
+   "name": "عدس",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "mulberry-syrup",
+   "name": "شیره توت",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "mung-beans",
+   "name": "ماش",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "natural-gon-honey",
+   "name": "عسل طبیعی گون",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "party-nuts",
+   "name": "آجیل پذیرایی مجلسی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "pinto-beans",
+   "name": "لوبیا چیتی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "raw-peanuts",
+   "name": "بادام زمینی خام",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "red-beans",
+   "name": "لوبیا قرمز",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "red-pepper",
+   "name": "فلفل قرمز",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "roasted-chickpeas",
+   "name": "نخودچی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "saffron-negin",
+   "name": "زعفران سرگل نگین",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "saffron-rock-candy",
+   "name": "نبات زعفرانی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "special-yalda-nuts",
+   "name": "آجیل ویژه یلدایی هلسا",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "split-peas",
+   "name": "لپه",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "sumac",
+   "name": "سماق",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "sumac-flakes",
+   "name": "سماق پرک کوهی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "tree-almonds",
+   "name": "بادام درختی سنگی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "turmeric",
+   "name": "زردچوبه",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "walnut-kernels",
+   "name": "مغز گردوی چهارپره",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "watermelon-seeds",
+   "name": "تخمه هندوانه",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  },
+  {
+   "slug": "zahedi-dates",
+   "name": "خرما زاهدی",
+   "score": 96,
+   "status": "🟢 PASS",
+   "parts": {
+    "visual": 16,
+    "image": 15,
+    "data": 15,
+    "responsive": 15,
+    "detail": 10,
+    "price": 10,
+    "ux": 5,
+    "seo": 5,
+    "tech": 5
+   },
+   "problems": [],
+   "fix": []
+  }
+ ]
+}

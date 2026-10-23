@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">هلسا</string>
+    <string name="app_name_latin">HELSA</string>
+    <string name="app_subtitle">HELSA Organic Products</string>
+    <string name="slogan">چون شما لایق بهترین‌ها هستید…</string>
+    <string name="nav_home">خانه</string>
+    <string name="nav_products">محصولات</string>
+    <string name="nav_categories">دسته‌بندی</string>
+    <string name="nav_cart">سبد خرید</string>
+    <string name="nav_account">حساب من</string>
+    <string name="retry">تلاش دوباره</string>
+    <string name="offline_banner">اتصال اینترنت برقرار نیست</string>
+    <string name="error_generic">در دریافت اطلاعات مشکلی پیش آمد. دوباره تلاش کنید.</string>
+    <string name="empty_generic">موردی برای نمایش نیست</string>
+    <string name="toman">تومان</string>
+    <string name="add_to_cart">افزودن به سبد</string>
+    <string name="out_of_stock">ناموجود</string>
+    <string name="low_stock">موجودی کم</string>
+</resources>
